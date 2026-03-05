@@ -1,0 +1,26 @@
+{
+    "id": "D88ACD20",
+    "path": "~/WPH/Panama/bayesian_panama.R",
+    "project_path": "bayesian_panama.R",
+    "type": "r_source",
+    "hash": "351679850",
+    "contents": "",
+    "dirty": false,
+    "created": 1768314878487.0,
+    "source_on_save": false,
+    "relative_order": 1,
+    "properties": {
+        "source_window_id": "",
+        "Source": "Source",
+        "cursorPosition": "223,0",
+        "scrollLine": "204"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1768699009,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1768699009405,
+    "read_only": false,
+    "read_only_alternatives": []
+}

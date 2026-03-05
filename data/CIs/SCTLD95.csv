@@ -1,0 +1,7 @@
+#s done,actual,2.50%,97.5%,trend,overlap 0?,color
+"[ ,1,1]",OFRA intercept,-9.125,0.466,,Y,
+"[ ,1,2]",OFRA prop exo,-0.657,0.697,,Y,
+"[ ,1,3]",OFRA gastro,-1.095,0.571,,Y,
+"[ ,1,4]",OFRA symb vac,-0.353,1.278,,Y,
+"[ ,1,5]",OFRA avg symb,-0.03,1.556,,Y,
+"[ ,1,6]",OFRA degr symb,1.176,65.967,,N,

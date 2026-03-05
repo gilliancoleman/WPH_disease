@@ -1,0 +1,28 @@
+{
+    "id": "12DF4B79",
+    "path": null,
+    "project_path": null,
+    "type": "object_explorer",
+    "hash": "0",
+    "contents": "",
+    "dirty": false,
+    "created": 1768397685023.0,
+    "source_on_save": false,
+    "relative_order": 5,
+    "properties": {
+        "id": "e527f0aaf35f4efcbf9272c64be47f79",
+        "name": "df6$Species",
+        "title": "df6$Species",
+        "language": "R",
+        "source_window_id": "",
+        "Source": "Source"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 0,
+    "encoding": "",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1768397685023,
+    "read_only": false,
+    "read_only_alternatives": []
+}

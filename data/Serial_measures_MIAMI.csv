@@ -1,0 +1,1667 @@
+Individual,Site_Name,worded_health,species,TRUE_sample_health,Sample_Distance,photo,measurement,value
+OFRA_SH_07_B,seahorse,HD,OFRA,SHD,B,1,gastro,1
+OFRA_SH_07_B,seahorse,HD,OFRA,SHD,B,,prop_exo,0
+OFRA_SH_07_B,seahorse,HD,OFRA,SHD,B,,degr_symb,1
+OFRA_SH_07_B,seahorse,HD,OFRA,SHD,B,2,gastro,1
+OFRA_SH_07_B,seahorse,HD,OFRA,SHD,B,,prop_exo,0.555555556
+OFRA_SH_07_B,seahorse,HD,OFRA,SHD,B,,degr_symb,1
+OFRA_SH_07_B,seahorse,HD,OFRA,SHD,B,3,gastro,1
+OFRA_SH_07_B,seahorse,HD,OFRA,SHD,B,,prop_exo,0.166666667
+OFRA_SH_07_B,seahorse,HD,OFRA,SHD,B,,degr_symb,1
+OFRA_SH_07_B,seahorse,HD,OFRA,SHD,B,4,gastro,1
+OFRA_SH_07_B,seahorse,HD,OFRA,SHD,B,,prop_exo,0.2
+OFRA_SH_07_B,seahorse,HD,OFRA,SHD,B,,degr_symb,1
+OFRA_SH_07_B,seahorse,HD,OFRA,SHD,B,5,gastro,1
+OFRA_SH_07_B,seahorse,HD,OFRA,SHD,B,,prop_exo,0.1875
+OFRA_SH_07_B,seahorse,HD,OFRA,SHD,B,,degr_symb,1
+OFRA_SH_07_B,seahorse,HD,OFRA,SHD,B,,symb_vac,0.40887933
+OFRA_SH_07_B,seahorse,HD,OFRA,SHD,B,,symb_vac,0.312598773
+OFRA_SH_07_B,seahorse,HD,OFRA,SHD,B,,symb_vac,0.450132327
+OFRA_SH_07_B,seahorse,HD,OFRA,SHD,B,,symb_vac,0.462352958
+OFRA_SH_07_B,seahorse,HD,OFRA,SHD,B,,symb_vac,0.508155552
+OFRA_SH_07_B,seahorse,HD,OFRA,SHD,B,,symb_vac,0.556877928
+OFRA_SH_07_B,seahorse,HD,OFRA,SHD,B,,symb_vac,0.531639628
+OFRA_SH_07_B,seahorse,HD,OFRA,SHD,B,,symb_vac,0.368428662
+OFRA_SH_07_B,seahorse,HD,OFRA,SHD,B,,symb_vac,0.468805009
+OFRA_SH_07_B,seahorse,HD,OFRA,SHD,B,,symb_vac,0.551788288
+OFRA_SH_07_B,seahorse,HD,OFRA,SHD,B,,symb_vac,0.483431822
+OFRA_SH_07_B,seahorse,HD,OFRA,SHD,B,,symb_vac,0.509186073
+OFRA_SH_07_B,seahorse,HD,OFRA,SHD,B,,symb_vac,0.539887446
+OFRA_SH_07_B,seahorse,HD,OFRA,SHD,B,,symb_vac,0.529049184
+OFRA_SH_07_B,seahorse,HD,OFRA,SHD,B,,symb_vac,0.463216739
+OFRA_SH_07_B,seahorse,HD,OFRA,SHD,B,,min_symb,25.482
+OFRA_SH_07_B,seahorse,HD,OFRA,SHD,B,,max_vac,132.983
+OFRA_SH_07_B,seahorse,HD,OFRA,SHD,B,,avg_symb,41.01693333
+OFRA_SH_07_B,seahorse,HD,OFRA,SHD,B,,avg_vac,87.60826667
+OFRA_SH_08_A,seahorse,HH,OFRA,SHH,A,1,gastro,1
+OFRA_SH_08_A,seahorse,HH,OFRA,SHH,A,,prop_exo,0.222222222
+OFRA_SH_08_A,seahorse,HH,OFRA,SHH,A,,degr_symb,1
+OFRA_SH_08_A,seahorse,HH,OFRA,SHH,A,2,gastro,1
+OFRA_SH_08_A,seahorse,HH,OFRA,SHH,A,,prop_exo,0
+OFRA_SH_08_A,seahorse,HH,OFRA,SHH,A,,degr_symb,1
+OFRA_SH_08_A,seahorse,HH,OFRA,SHH,A,3,gastro,1
+OFRA_SH_08_A,seahorse,HH,OFRA,SHH,A,,prop_exo,0
+OFRA_SH_08_A,seahorse,HH,OFRA,SHH,A,,degr_symb,1
+OFRA_SH_08_A,seahorse,HH,OFRA,SHH,A,4,gastro,1
+OFRA_SH_08_A,seahorse,HH,OFRA,SHH,A,,prop_exo,0.238095238
+OFRA_SH_08_A,seahorse,HH,OFRA,SHH,A,,degr_symb,1
+OFRA_SH_08_A,seahorse,HH,OFRA,SHH,A,5,gastro,1
+OFRA_SH_08_A,seahorse,HH,OFRA,SHH,A,,prop_exo,0.333333333
+OFRA_SH_08_A,seahorse,HH,OFRA,SHH,A,,degr_symb,1
+OFRA_SH_08_A,seahorse,HH,OFRA,SHH,A,,symb_vac,0.5040561
+OFRA_SH_08_A,seahorse,HH,OFRA,SHH,A,,symb_vac,0.715770083
+OFRA_SH_08_A,seahorse,HH,OFRA,SHH,A,,symb_vac,0.468886782
+OFRA_SH_08_A,seahorse,HH,OFRA,SHH,A,,symb_vac,0.393312299
+OFRA_SH_08_A,seahorse,HH,OFRA,SHH,A,,symb_vac,0.537601206
+OFRA_SH_08_A,seahorse,HH,OFRA,SHH,A,,symb_vac,0.454425466
+OFRA_SH_08_A,seahorse,HH,OFRA,SHH,A,,symb_vac,0.407687316
+OFRA_SH_08_A,seahorse,HH,OFRA,SHH,A,,symb_vac,0.482113965
+OFRA_SH_08_A,seahorse,HH,OFRA,SHH,A,,symb_vac,0.432955957
+OFRA_SH_08_A,seahorse,HH,OFRA,SHH,A,,symb_vac,0.502036471
+OFRA_SH_08_A,seahorse,HH,OFRA,SHH,A,,symb_vac,0.575681179
+OFRA_SH_08_A,seahorse,HH,OFRA,SHH,A,,symb_vac,0.515680507
+OFRA_SH_08_A,seahorse,HH,OFRA,SHH,A,,symb_vac,0.484971679
+OFRA_SH_08_A,seahorse,HH,OFRA,SHH,A,,symb_vac,0.49461618
+OFRA_SH_08_A,seahorse,HH,OFRA,SHH,A,,symb_vac,0.509796365
+OFRA_SH_08_A,seahorse,HH,OFRA,SHH,A,,min_symb,23.412
+OFRA_SH_08_A,seahorse,HH,OFRA,SHH,A,,max_vac,77.291
+OFRA_SH_08_A,seahorse,HH,OFRA,SHH,A,,avg_symb,31.71293333
+OFRA_SH_08_A,seahorse,HH,OFRA,SHH,A,,avg_vac,63.71213333
+OFRA_SH_08_B,seahorse,HH,OFRA,SHH,B,1,gastro,0
+OFRA_SH_08_B,seahorse,HH,OFRA,SHH,B,,prop_exo,0.111111111
+OFRA_SH_08_B,seahorse,HH,OFRA,SHH,B,,degr_symb,1
+OFRA_SH_08_B,seahorse,HH,OFRA,SHH,B,2,gastro,1
+OFRA_SH_08_B,seahorse,HH,OFRA,SHH,B,,prop_exo,0.307692308
+OFRA_SH_08_B,seahorse,HH,OFRA,SHH,B,,degr_symb,1
+OFRA_SH_08_B,seahorse,HH,OFRA,SHH,B,3,gastro,1
+OFRA_SH_08_B,seahorse,HH,OFRA,SHH,B,,prop_exo,0.333333333
+OFRA_SH_08_B,seahorse,HH,OFRA,SHH,B,,degr_symb,1
+OFRA_SH_08_B,seahorse,HH,OFRA,SHH,B,4,gastro,1
+OFRA_SH_08_B,seahorse,HH,OFRA,SHH,B,,prop_exo,0
+OFRA_SH_08_B,seahorse,HH,OFRA,SHH,B,,degr_symb,1
+OFRA_SH_08_B,seahorse,HH,OFRA,SHH,B,5,gastro,1
+OFRA_SH_08_B,seahorse,HH,OFRA,SHH,B,,prop_exo,0
+OFRA_SH_08_B,seahorse,HH,OFRA,SHH,B,,degr_symb,1
+OFRA_SH_08_B,seahorse,HH,OFRA,SHH,B,,symb_vac,0.453578022
+OFRA_SH_08_B,seahorse,HH,OFRA,SHH,B,,symb_vac,0.546995181
+OFRA_SH_08_B,seahorse,HH,OFRA,SHH,B,,symb_vac,0.544473211
+OFRA_SH_08_B,seahorse,HH,OFRA,SHH,B,,symb_vac,0.43301191
+OFRA_SH_08_B,seahorse,HH,OFRA,SHH,B,,symb_vac,0.594970572
+OFRA_SH_08_B,seahorse,HH,OFRA,SHH,B,,symb_vac,0.418331547
+OFRA_SH_08_B,seahorse,HH,OFRA,SHH,B,,symb_vac,0.404231863
+OFRA_SH_08_B,seahorse,HH,OFRA,SHH,B,,symb_vac,0.510952116
+OFRA_SH_08_B,seahorse,HH,OFRA,SHH,B,,symb_vac,0.485886169
+OFRA_SH_08_B,seahorse,HH,OFRA,SHH,B,,symb_vac,0.577905726
+OFRA_SH_08_B,seahorse,HH,OFRA,SHH,B,,symb_vac,0.462811702
+OFRA_SH_08_B,seahorse,HH,OFRA,SHH,B,,symb_vac,0.545125929
+OFRA_SH_08_B,seahorse,HH,OFRA,SHH,B,,symb_vac,0.470043694
+OFRA_SH_08_B,seahorse,HH,OFRA,SHH,B,,symb_vac,0.50515099
+OFRA_SH_08_B,seahorse,HH,OFRA,SHH,B,,symb_vac,0.482893192
+OFRA_SH_08_B,seahorse,HH,OFRA,SHH,B,,min_symb,23.571
+OFRA_SH_08_B,seahorse,HH,OFRA,SHH,B,,max_vac,103.406
+OFRA_SH_08_B,seahorse,HH,OFRA,SHH,B,,avg_symb,37.8478
+OFRA_SH_08_B,seahorse,HH,OFRA,SHH,B,,avg_vac,77.13566667
+OFRA_SH_09_A,seahorse,HH,OFRA,SHH,A,1,gastro,0
+OFRA_SH_09_A,seahorse,HH,OFRA,SHH,A,,prop_exo,0.25
+OFRA_SH_09_A,seahorse,HH,OFRA,SHH,A,,degr_symb,1
+OFRA_SH_09_A,seahorse,HH,OFRA,SHH,A,2,gastro,0
+OFRA_SH_09_A,seahorse,HH,OFRA,SHH,A,,prop_exo,0.357142857
+OFRA_SH_09_A,seahorse,HH,OFRA,SHH,A,,degr_symb,1
+OFRA_SH_09_A,seahorse,HH,OFRA,SHH,A,3,gastro,1
+OFRA_SH_09_A,seahorse,HH,OFRA,SHH,A,,prop_exo,0.4
+OFRA_SH_09_A,seahorse,HH,OFRA,SHH,A,,degr_symb,1
+OFRA_SH_09_A,seahorse,HH,OFRA,SHH,A,4,gastro,0
+OFRA_SH_09_A,seahorse,HH,OFRA,SHH,A,,prop_exo,0.0625
+OFRA_SH_09_A,seahorse,HH,OFRA,SHH,A,,degr_symb,1
+OFRA_SH_09_A,seahorse,HH,OFRA,SHH,A,5,gastro,1
+OFRA_SH_09_A,seahorse,HH,OFRA,SHH,A,,prop_exo,0.137931034
+OFRA_SH_09_A,seahorse,HH,OFRA,SHH,A,,degr_symb,1
+OFRA_SH_09_A,seahorse,HH,OFRA,SHH,A,,symb_vac,0.347519928
+OFRA_SH_09_A,seahorse,HH,OFRA,SHH,A,,symb_vac,0.457835861
+OFRA_SH_09_A,seahorse,HH,OFRA,SHH,A,,symb_vac,0.43835237
+OFRA_SH_09_A,seahorse,HH,OFRA,SHH,A,,symb_vac,0.530790775
+OFRA_SH_09_A,seahorse,HH,OFRA,SHH,A,,symb_vac,0.674622429
+OFRA_SH_09_A,seahorse,HH,OFRA,SHH,A,,symb_vac,0.521390296
+OFRA_SH_09_A,seahorse,HH,OFRA,SHH,A,,symb_vac,0.432090427
+OFRA_SH_09_A,seahorse,HH,OFRA,SHH,A,,symb_vac,0.560503478
+OFRA_SH_09_A,seahorse,HH,OFRA,SHH,A,,symb_vac,0.515059413
+OFRA_SH_09_A,seahorse,HH,OFRA,SHH,A,,symb_vac,0.445180557
+OFRA_SH_09_A,seahorse,HH,OFRA,SHH,A,,symb_vac,0.570339875
+OFRA_SH_09_A,seahorse,HH,OFRA,SHH,A,,symb_vac,0.393635337
+OFRA_SH_09_A,seahorse,HH,OFRA,SHH,A,,symb_vac,0.510841568
+OFRA_SH_09_A,seahorse,HH,OFRA,SHH,A,,symb_vac,0.500502025
+OFRA_SH_09_A,seahorse,HH,OFRA,SHH,A,,symb_vac,0.476757972
+OFRA_SH_09_A,seahorse,HH,OFRA,SHH,A,,min_symb,25.539
+OFRA_SH_09_A,seahorse,HH,OFRA,SHH,A,,max_vac,93.856
+OFRA_SH_09_A,seahorse,HH,OFRA,SHH,A,,avg_symb,36.4196
+OFRA_SH_09_A,seahorse,HH,OFRA,SHH,A,,avg_vac,74.3126
+OFRA_SH_09_B,seahorse,HH,OFRA,SHH,B,1,gastro,0
+OFRA_SH_09_B,seahorse,HH,OFRA,SHH,B,,prop_exo,0.2
+OFRA_SH_09_B,seahorse,HH,OFRA,SHH,B,,degr_symb,1
+OFRA_SH_09_B,seahorse,HH,OFRA,SHH,B,2,gastro,1
+OFRA_SH_09_B,seahorse,HH,OFRA,SHH,B,,prop_exo,0.285714286
+OFRA_SH_09_B,seahorse,HH,OFRA,SHH,B,,degr_symb,1
+OFRA_SH_09_B,seahorse,HH,OFRA,SHH,B,3,gastro,1
+OFRA_SH_09_B,seahorse,HH,OFRA,SHH,B,,prop_exo,0
+OFRA_SH_09_B,seahorse,HH,OFRA,SHH,B,,degr_symb,1
+OFRA_SH_09_B,seahorse,HH,OFRA,SHH,B,4,gastro,1
+OFRA_SH_09_B,seahorse,HH,OFRA,SHH,B,,prop_exo,0.571428571
+OFRA_SH_09_B,seahorse,HH,OFRA,SHH,B,,degr_symb,1
+OFRA_SH_09_B,seahorse,HH,OFRA,SHH,B,5,gastro,1
+OFRA_SH_09_B,seahorse,HH,OFRA,SHH,B,,prop_exo,0.25
+OFRA_SH_09_B,seahorse,HH,OFRA,SHH,B,,degr_symb,1
+OFRA_SH_09_B,seahorse,HH,OFRA,SHH,B,,symb_vac,0.614781393
+OFRA_SH_09_B,seahorse,HH,OFRA,SHH,B,,symb_vac,0.448075156
+OFRA_SH_09_B,seahorse,HH,OFRA,SHH,B,,symb_vac,0.538423597
+OFRA_SH_09_B,seahorse,HH,OFRA,SHH,B,,symb_vac,0.604455213
+OFRA_SH_09_B,seahorse,HH,OFRA,SHH,B,,symb_vac,0.49220539
+OFRA_SH_09_B,seahorse,HH,OFRA,SHH,B,,symb_vac,0.544452452
+OFRA_SH_09_B,seahorse,HH,OFRA,SHH,B,,symb_vac,0.485473672
+OFRA_SH_09_B,seahorse,HH,OFRA,SHH,B,,symb_vac,0.435713627
+OFRA_SH_09_B,seahorse,HH,OFRA,SHH,B,,symb_vac,0.533350886
+OFRA_SH_09_B,seahorse,HH,OFRA,SHH,B,,symb_vac,0.369660059
+OFRA_SH_09_B,seahorse,HH,OFRA,SHH,B,,symb_vac,0.751665904
+OFRA_SH_09_B,seahorse,HH,OFRA,SHH,B,,symb_vac,0.384315477
+OFRA_SH_09_B,seahorse,HH,OFRA,SHH,B,,symb_vac,0.51808853
+OFRA_SH_09_B,seahorse,HH,OFRA,SHH,B,,symb_vac,0.436477161
+OFRA_SH_09_B,seahorse,HH,OFRA,SHH,B,,symb_vac,0.568433977
+OFRA_SH_09_B,seahorse,HH,OFRA,SHH,B,,min_symb,22.376
+OFRA_SH_09_B,seahorse,HH,OFRA,SHH,B,,max_vac,108.39
+OFRA_SH_09_B,seahorse,HH,OFRA,SHH,B,,avg_symb,39.6652
+OFRA_SH_09_B,seahorse,HH,OFRA,SHH,B,,avg_vac,78.3282
+OFRA_SR_10_A,sail rock,DD,OFRA,SDD,A,1,gastro,1
+OFRA_SR_10_A,sail rock,DD,OFRA,SDD,A,,prop_exo,0.222222222
+OFRA_SR_10_A,sail rock,DD,OFRA,SDD,A,,degr_symb,1
+OFRA_SR_10_A,sail rock,DD,OFRA,SDD,A,2,gastro,1
+OFRA_SR_10_A,sail rock,DD,OFRA,SDD,A,,prop_exo,0.166666667
+OFRA_SR_10_A,sail rock,DD,OFRA,SDD,A,,degr_symb,1
+OFRA_SR_10_A,sail rock,DD,OFRA,SDD,A,3,gastro,1
+OFRA_SR_10_A,sail rock,DD,OFRA,SDD,A,,prop_exo,0.2
+OFRA_SR_10_A,sail rock,DD,OFRA,SDD,A,,degr_symb,1
+OFRA_SR_10_A,sail rock,DD,OFRA,SDD,A,4,gastro,0
+OFRA_SR_10_A,sail rock,DD,OFRA,SDD,A,,prop_exo,0
+OFRA_SR_10_A,sail rock,DD,OFRA,SDD,A,,degr_symb,1
+OFRA_SR_10_A,sail rock,DD,OFRA,SDD,A,5,gastro,1
+OFRA_SR_10_A,sail rock,DD,OFRA,SDD,A,,prop_exo,0.444444444
+OFRA_SR_10_A,sail rock,DD,OFRA,SDD,A,,degr_symb,1
+OFRA_SR_10_A,sail rock,DD,OFRA,SDD,A,,symb_vac,0.41136849
+OFRA_SR_10_A,sail rock,DD,OFRA,SDD,A,,symb_vac,0.456258967
+OFRA_SR_10_A,sail rock,DD,OFRA,SDD,A,,symb_vac,0.41261311
+OFRA_SR_10_A,sail rock,DD,OFRA,SDD,A,,symb_vac,0.482594544
+OFRA_SR_10_A,sail rock,DD,OFRA,SDD,A,,symb_vac,0.4850963
+OFRA_SR_10_A,sail rock,DD,OFRA,SDD,A,,symb_vac,0.385844995
+OFRA_SR_10_A,sail rock,DD,OFRA,SDD,A,,symb_vac,0.499406934
+OFRA_SR_10_A,sail rock,DD,OFRA,SDD,A,,symb_vac,0.496392897
+OFRA_SR_10_A,sail rock,DD,OFRA,SDD,A,,symb_vac,0.361155258
+OFRA_SR_10_A,sail rock,DD,OFRA,SDD,A,,symb_vac,0.468465859
+OFRA_SR_10_A,sail rock,DD,OFRA,SDD,A,,symb_vac,0.426449893
+OFRA_SR_10_A,sail rock,DD,OFRA,SDD,A,,symb_vac,0.501772008
+OFRA_SR_10_A,sail rock,DD,OFRA,SDD,A,,symb_vac,0.489686077
+OFRA_SR_10_A,sail rock,DD,OFRA,SDD,A,,symb_vac,0.398434205
+OFRA_SR_10_A,sail rock,DD,OFRA,SDD,A,,symb_vac,0.413632476
+OFRA_SR_10_A,sail rock,DD,OFRA,SDD,A,,min_symb,19.77
+OFRA_SR_10_A,sail rock,DD,OFRA,SDD,A,,max_vac,82.122
+OFRA_SR_10_A,sail rock,DD,OFRA,SDD,A,,avg_symb,28.46313333
+OFRA_SR_10_A,sail rock,DD,OFRA,SDD,A,,avg_vac,63.68733333
+OFRA_SC_01_A,south capella,HH,OFRA,SHH,A,1,gastro,1
+OFRA_SC_01_A,south capella,HH,OFRA,SHH,A,,prop_exo,0.333333333
+OFRA_SC_01_A,south capella,HH,OFRA,SHH,A,,degr_symb,1
+OFRA_SC_01_A,south capella,HH,OFRA,SHH,A,2,gastro,1
+OFRA_SC_01_A,south capella,HH,OFRA,SHH,A,,prop_exo,0.142857143
+OFRA_SC_01_A,south capella,HH,OFRA,SHH,A,,degr_symb,1
+OFRA_SC_01_A,south capella,HH,OFRA,SHH,A,3,gastro,1
+OFRA_SC_01_A,south capella,HH,OFRA,SHH,A,,prop_exo,0.111111111
+OFRA_SC_01_A,south capella,HH,OFRA,SHH,A,,degr_symb,1
+OFRA_SC_01_A,south capella,HH,OFRA,SHH,A,4,gastro,1
+OFRA_SC_01_A,south capella,HH,OFRA,SHH,A,,prop_exo,0.416666667
+OFRA_SC_01_A,south capella,HH,OFRA,SHH,A,,degr_symb,1
+OFRA_SC_01_A,south capella,HH,OFRA,SHH,A,5,gastro,1
+OFRA_SC_01_A,south capella,HH,OFRA,SHH,A,,prop_exo,0.444444444
+OFRA_SC_01_A,south capella,HH,OFRA,SHH,A,,degr_symb,1
+OFRA_SC_01_A,south capella,HH,OFRA,SHH,A,,symb_vac,0.460313309
+OFRA_SC_01_A,south capella,HH,OFRA,SHH,A,,symb_vac,0.445906105
+OFRA_SC_01_A,south capella,HH,OFRA,SHH,A,,symb_vac,0.40947796
+OFRA_SC_01_A,south capella,HH,OFRA,SHH,A,,symb_vac,0.56231751
+OFRA_SC_01_A,south capella,HH,OFRA,SHH,A,,symb_vac,0.534725868
+OFRA_SC_01_A,south capella,HH,OFRA,SHH,A,,symb_vac,0.391094713
+OFRA_SC_01_A,south capella,HH,OFRA,SHH,A,,symb_vac,0.59981248
+OFRA_SC_01_A,south capella,HH,OFRA,SHH,A,,symb_vac,0.381774219
+OFRA_SC_01_A,south capella,HH,OFRA,SHH,A,,symb_vac,0.489938828
+OFRA_SC_01_A,south capella,HH,OFRA,SHH,A,,symb_vac,0.487262278
+OFRA_SC_01_A,south capella,HH,OFRA,SHH,A,,symb_vac,0.438063987
+OFRA_SC_01_A,south capella,HH,OFRA,SHH,A,,symb_vac,0.442780821
+OFRA_SC_01_A,south capella,HH,OFRA,SHH,A,,symb_vac,0.533394861
+OFRA_SC_01_A,south capella,HH,OFRA,SHH,A,,symb_vac,0.669803385
+OFRA_SC_01_A,south capella,HH,OFRA,SHH,A,,symb_vac,0.483120876
+OFRA_SC_01_A,south capella,HH,OFRA,SHH,A,,min_symb,17.21
+OFRA_SC_01_A,south capella,HH,OFRA,SHH,A,,max_vac,73.679
+OFRA_SC_01_A,south capella,HH,OFRA,SHH,A,,avg_symb,28.595
+OFRA_SC_01_A,south capella,HH,OFRA,SHH,A,,avg_vac,58.45653333
+OFRA_SC_01_B,south capella,HH,OFRA,SHH,B,1,gastro,0
+OFRA_SC_01_B,south capella,HH,OFRA,SHH,B,,prop_exo,0
+OFRA_SC_01_B,south capella,HH,OFRA,SHH,B,,degr_symb,1
+OFRA_SC_01_B,south capella,HH,OFRA,SHH,B,2,gastro,1
+OFRA_SC_01_B,south capella,HH,OFRA,SHH,B,,prop_exo,0.25
+OFRA_SC_01_B,south capella,HH,OFRA,SHH,B,,degr_symb,1
+OFRA_SC_01_B,south capella,HH,OFRA,SHH,B,3,gastro,1
+OFRA_SC_01_B,south capella,HH,OFRA,SHH,B,,prop_exo,0.3
+OFRA_SC_01_B,south capella,HH,OFRA,SHH,B,,degr_symb,1
+OFRA_SC_01_B,south capella,HH,OFRA,SHH,B,4,gastro,1
+OFRA_SC_01_B,south capella,HH,OFRA,SHH,B,,prop_exo,0.2
+OFRA_SC_01_B,south capella,HH,OFRA,SHH,B,,degr_symb,1
+OFRA_SC_01_B,south capella,HH,OFRA,SHH,B,5,gastro,1
+OFRA_SC_01_B,south capella,HH,OFRA,SHH,B,,prop_exo,0.111111111
+OFRA_SC_01_B,south capella,HH,OFRA,SHH,B,,degr_symb,1
+OFRA_SC_01_B,south capella,HH,OFRA,SHH,B,,symb_vac,0.464570314
+OFRA_SC_01_B,south capella,HH,OFRA,SHH,B,,symb_vac,0.528430711
+OFRA_SC_01_B,south capella,HH,OFRA,SHH,B,,symb_vac,0.480905771
+OFRA_SC_01_B,south capella,HH,OFRA,SHH,B,,symb_vac,0.548157754
+OFRA_SC_01_B,south capella,HH,OFRA,SHH,B,,symb_vac,0.431128162
+OFRA_SC_01_B,south capella,HH,OFRA,SHH,B,,symb_vac,0.452415951
+OFRA_SC_01_B,south capella,HH,OFRA,SHH,B,,symb_vac,0.490803642
+OFRA_SC_01_B,south capella,HH,OFRA,SHH,B,,symb_vac,0.43782714
+OFRA_SC_01_B,south capella,HH,OFRA,SHH,B,,symb_vac,0.50125414
+OFRA_SC_01_B,south capella,HH,OFRA,SHH,B,,symb_vac,0.42537346
+OFRA_SC_01_B,south capella,HH,OFRA,SHH,B,,symb_vac,0.527336312
+OFRA_SC_01_B,south capella,HH,OFRA,SHH,B,,symb_vac,0.518156542
+OFRA_SC_01_B,south capella,HH,OFRA,SHH,B,,symb_vac,0.501505589
+OFRA_SC_01_B,south capella,HH,OFRA,SHH,B,,symb_vac,0.481029034
+OFRA_SC_01_B,south capella,HH,OFRA,SHH,B,,symb_vac,0.366717746
+OFRA_SC_01_B,south capella,HH,OFRA,SHH,B,,min_symb,16.034
+OFRA_SC_01_B,south capella,HH,OFRA,SHH,B,,max_vac,109.232
+OFRA_SC_01_B,south capella,HH,OFRA,SHH,B,,avg_symb,31.77746667
+OFRA_SC_01_B,south capella,HH,OFRA,SHH,B,,avg_vac,66.10226667
+OFRA_SC_03_A,south capella,DD,OFRA,SDD,A,1,gastro,1
+OFRA_SC_03_A,south capella,DD,OFRA,SDD,A,,prop_exo,0
+OFRA_SC_03_A,south capella,DD,OFRA,SDD,A,,degr_symb,1
+OFRA_SC_03_A,south capella,DD,OFRA,SDD,A,2,gastro,1
+OFRA_SC_03_A,south capella,DD,OFRA,SDD,A,,prop_exo,0.533333333
+OFRA_SC_03_A,south capella,DD,OFRA,SDD,A,,degr_symb,1
+OFRA_SC_03_A,south capella,DD,OFRA,SDD,A,3,gastro,0
+OFRA_SC_03_A,south capella,DD,OFRA,SDD,A,,prop_exo,0.176470588
+OFRA_SC_03_A,south capella,DD,OFRA,SDD,A,,degr_symb,1
+OFRA_SC_03_A,south capella,DD,OFRA,SDD,A,4,gastro,0
+OFRA_SC_03_A,south capella,DD,OFRA,SDD,A,,prop_exo,0.2
+OFRA_SC_03_A,south capella,DD,OFRA,SDD,A,,degr_symb,1
+OFRA_SC_03_A,south capella,DD,OFRA,SDD,A,5,gastro,1
+OFRA_SC_03_A,south capella,DD,OFRA,SDD,A,,prop_exo,0.363636364
+OFRA_SC_03_A,south capella,DD,OFRA,SDD,A,,degr_symb,1
+OFRA_SC_03_A,south capella,DD,OFRA,SDD,A,,symb_vac,0.494603916
+OFRA_SC_03_A,south capella,DD,OFRA,SDD,A,,symb_vac,0.576747496
+OFRA_SC_03_A,south capella,DD,OFRA,SDD,A,,symb_vac,0.454825369
+OFRA_SC_03_A,south capella,DD,OFRA,SDD,A,,symb_vac,0.454997059
+OFRA_SC_03_A,south capella,DD,OFRA,SDD,A,,symb_vac,0.448611983
+OFRA_SC_03_A,south capella,DD,OFRA,SDD,A,,symb_vac,0.58374637
+OFRA_SC_03_A,south capella,DD,OFRA,SDD,A,,symb_vac,0.521893192
+OFRA_SC_03_A,south capella,DD,OFRA,SDD,A,,symb_vac,0.52348639
+OFRA_SC_03_A,south capella,DD,OFRA,SDD,A,,symb_vac,0.401858962
+OFRA_SC_03_A,south capella,DD,OFRA,SDD,A,,symb_vac,0.54388478
+OFRA_SC_03_A,south capella,DD,OFRA,SDD,A,,symb_vac,0.458484217
+OFRA_SC_03_A,south capella,DD,OFRA,SDD,A,,symb_vac,0.455687554
+OFRA_SC_03_A,south capella,DD,OFRA,SDD,A,,symb_vac,0.562990204
+OFRA_SC_03_A,south capella,DD,OFRA,SDD,A,,symb_vac,0.48169231
+OFRA_SC_03_A,south capella,DD,OFRA,SDD,A,,symb_vac,0.562659102
+OFRA_SC_03_A,south capella,DD,OFRA,SDD,A,,min_symb,19.153
+OFRA_SC_03_A,south capella,DD,OFRA,SDD,A,,max_vac,76.792
+OFRA_SC_03_A,south capella,DD,OFRA,SDD,A,,avg_symb,30.8728
+OFRA_SC_03_A,south capella,DD,OFRA,SDD,A,,avg_vac,61.3262
+OFRA_SC_04_A,south capella,HH,OFRA,SHH,A,1,gastro,1
+OFRA_SC_04_A,south capella,HH,OFRA,SHH,A,,prop_exo,0.25
+OFRA_SC_04_A,south capella,HH,OFRA,SHH,A,,degr_symb,1
+OFRA_SC_04_A,south capella,HH,OFRA,SHH,A,2,gastro,1
+OFRA_SC_04_A,south capella,HH,OFRA,SHH,A,,prop_exo,0.291666667
+OFRA_SC_04_A,south capella,HH,OFRA,SHH,A,,degr_symb,1
+OFRA_SC_04_A,south capella,HH,OFRA,SHH,A,3,gastro,1
+OFRA_SC_04_A,south capella,HH,OFRA,SHH,A,,prop_exo,0.25
+OFRA_SC_04_A,south capella,HH,OFRA,SHH,A,,degr_symb,1
+OFRA_SC_04_A,south capella,HH,OFRA,SHH,A,4,gastro,1
+OFRA_SC_04_A,south capella,HH,OFRA,SHH,A,,prop_exo,0.166666667
+OFRA_SC_04_A,south capella,HH,OFRA,SHH,A,,degr_symb,1
+OFRA_SC_04_A,south capella,HH,OFRA,SHH,A,5,gastro,1
+OFRA_SC_04_A,south capella,HH,OFRA,SHH,A,,prop_exo,0.2
+OFRA_SC_04_A,south capella,HH,OFRA,SHH,A,,degr_symb,1
+OFRA_SC_04_A,south capella,HH,OFRA,SHH,A,,symb_vac,0.436435509
+OFRA_SC_04_A,south capella,HH,OFRA,SHH,A,,symb_vac,0.513275218
+OFRA_SC_04_A,south capella,HH,OFRA,SHH,A,,symb_vac,0.517949988
+OFRA_SC_04_A,south capella,HH,OFRA,SHH,A,,symb_vac,0.498484008
+OFRA_SC_04_A,south capella,HH,OFRA,SHH,A,,symb_vac,0.595667935
+OFRA_SC_04_A,south capella,HH,OFRA,SHH,A,,symb_vac,0.544997478
+OFRA_SC_04_A,south capella,HH,OFRA,SHH,A,,symb_vac,0.472419848
+OFRA_SC_04_A,south capella,HH,OFRA,SHH,A,,symb_vac,0.485097304
+OFRA_SC_04_A,south capella,HH,OFRA,SHH,A,,symb_vac,0.498377467
+OFRA_SC_04_A,south capella,HH,OFRA,SHH,A,,symb_vac,0.45406289
+OFRA_SC_04_A,south capella,HH,OFRA,SHH,A,,symb_vac,0.428524174
+OFRA_SC_04_A,south capella,HH,OFRA,SHH,A,,symb_vac,0.530056765
+OFRA_SC_04_A,south capella,HH,OFRA,SHH,A,,symb_vac,0.555598851
+OFRA_SC_04_A,south capella,HH,OFRA,SHH,A,,symb_vac,0.483725788
+OFRA_SC_04_A,south capella,HH,OFRA,SHH,A,,symb_vac,0.516196717
+OFRA_SC_04_A,south capella,HH,OFRA,SHH,A,,min_symb,23.319
+OFRA_SC_04_A,south capella,HH,OFRA,SHH,A,,max_vac,71.185
+OFRA_SC_04_A,south capella,HH,OFRA,SHH,A,,avg_symb,29.98453333
+OFRA_SC_04_A,south capella,HH,OFRA,SHH,A,,avg_vac,59.80226667
+OFRA_SC_06_B,south capella,HD,OFRA,SHD,B,1,gastro,0
+OFRA_SC_06_B,south capella,HD,OFRA,SHD,B,,prop_exo,0
+OFRA_SC_06_B,south capella,HD,OFRA,SHD,B,,degr_symb,1
+OFRA_SC_06_B,south capella,HD,OFRA,SHD,B,2,gastro,1
+OFRA_SC_06_B,south capella,HD,OFRA,SHD,B,,prop_exo,0.166666667
+OFRA_SC_06_B,south capella,HD,OFRA,SHD,B,,degr_symb,1
+OFRA_SC_06_B,south capella,HD,OFRA,SHD,B,3,gastro,1
+OFRA_SC_06_B,south capella,HD,OFRA,SHD,B,,prop_exo,0.615384615
+OFRA_SC_06_B,south capella,HD,OFRA,SHD,B,,degr_symb,1
+OFRA_SC_06_B,south capella,HD,OFRA,SHD,B,4,gastro,1
+OFRA_SC_06_B,south capella,HD,OFRA,SHD,B,,prop_exo,0.285714286
+OFRA_SC_06_B,south capella,HD,OFRA,SHD,B,,degr_symb,1
+OFRA_SC_06_B,south capella,HD,OFRA,SHD,B,5,gastro,1
+OFRA_SC_06_B,south capella,HD,OFRA,SHD,B,,prop_exo,0.133333333
+OFRA_SC_06_B,south capella,HD,OFRA,SHD,B,,degr_symb,1
+OFRA_SC_06_B,south capella,HD,OFRA,SHD,B,,symb_vac,0.363416387
+OFRA_SC_06_B,south capella,HD,OFRA,SHD,B,,symb_vac,0.471670072
+OFRA_SC_06_B,south capella,HD,OFRA,SHD,B,,symb_vac,0.477107938
+OFRA_SC_06_B,south capella,HD,OFRA,SHD,B,,symb_vac,0.434671848
+OFRA_SC_06_B,south capella,HD,OFRA,SHD,B,,symb_vac,0.51954305
+OFRA_SC_06_B,south capella,HD,OFRA,SHD,B,,symb_vac,0.451018274
+OFRA_SC_06_B,south capella,HD,OFRA,SHD,B,,symb_vac,0.449350649
+OFRA_SC_06_B,south capella,HD,OFRA,SHD,B,,symb_vac,0.434678825
+OFRA_SC_06_B,south capella,HD,OFRA,SHD,B,,symb_vac,0.485070575
+OFRA_SC_06_B,south capella,HD,OFRA,SHD,B,,symb_vac,0.369303936
+OFRA_SC_06_B,south capella,HD,OFRA,SHD,B,,symb_vac,0.405089917
+OFRA_SC_06_B,south capella,HD,OFRA,SHD,B,,symb_vac,0.381131615
+OFRA_SC_06_B,south capella,HD,OFRA,SHD,B,,symb_vac,0.463625742
+OFRA_SC_06_B,south capella,HD,OFRA,SHD,B,,symb_vac,0.3868887
+OFRA_SC_06_B,south capella,HD,OFRA,SHD,B,,symb_vac,0.545631333
+OFRA_SC_06_B,south capella,HD,OFRA,SHD,B,,min_symb,15.169
+OFRA_SC_06_B,south capella,HD,OFRA,SHD,B,,max_vac,98.302
+OFRA_SC_06_B,south capella,HD,OFRA,SHD,B,,avg_symb,27.26673333
+OFRA_SC_06_B,south capella,HD,OFRA,SHD,B,,avg_vac,61.85946667
+OFRA_SR_07_B,sail rock,HD,OFRA,SHD,B,1,gastro,0
+OFRA_SR_07_B,sail rock,HD,OFRA,SHD,B,,prop_exo,0.473684211
+OFRA_SR_07_B,sail rock,HD,OFRA,SHD,B,,degr_symb,1
+OFRA_SR_07_B,sail rock,HD,OFRA,SHD,B,2,gastro,0
+OFRA_SR_07_B,sail rock,HD,OFRA,SHD,B,,prop_exo,0.111111111
+OFRA_SR_07_B,sail rock,HD,OFRA,SHD,B,,degr_symb,1
+OFRA_SR_07_B,sail rock,HD,OFRA,SHD,B,3,gastro,1
+OFRA_SR_07_B,sail rock,HD,OFRA,SHD,B,,prop_exo,0
+OFRA_SR_07_B,sail rock,HD,OFRA,SHD,B,,degr_symb,1
+OFRA_SR_07_B,sail rock,HD,OFRA,SHD,B,4,gastro,0
+OFRA_SR_07_B,sail rock,HD,OFRA,SHD,B,,prop_exo,0
+OFRA_SR_07_B,sail rock,HD,OFRA,SHD,B,,degr_symb,1
+OFRA_SR_07_B,sail rock,HD,OFRA,SHD,B,5,gastro,1
+OFRA_SR_07_B,sail rock,HD,OFRA,SHD,B,,prop_exo,0.230769231
+OFRA_SR_07_B,sail rock,HD,OFRA,SHD,B,,degr_symb,1
+OFRA_SR_07_B,sail rock,HD,OFRA,SHD,B,,symb_vac,0.518983826
+OFRA_SR_07_B,sail rock,HD,OFRA,SHD,B,,symb_vac,0.407685797
+OFRA_SR_07_B,sail rock,HD,OFRA,SHD,B,,symb_vac,0.541800996
+OFRA_SR_07_B,sail rock,HD,OFRA,SHD,B,,symb_vac,0.385503613
+OFRA_SR_07_B,sail rock,HD,OFRA,SHD,B,,symb_vac,0.460673983
+OFRA_SR_07_B,sail rock,HD,OFRA,SHD,B,,symb_vac,0.489988453
+OFRA_SR_07_B,sail rock,HD,OFRA,SHD,B,,symb_vac,0.507412557
+OFRA_SR_07_B,sail rock,HD,OFRA,SHD,B,,symb_vac,0.376658715
+OFRA_SR_07_B,sail rock,HD,OFRA,SHD,B,,symb_vac,0.445918353
+OFRA_SR_07_B,sail rock,HD,OFRA,SHD,B,,symb_vac,0.360403757
+OFRA_SR_07_B,sail rock,HD,OFRA,SHD,B,,symb_vac,0.46833002
+OFRA_SR_07_B,sail rock,HD,OFRA,SHD,B,,symb_vac,0.448949568
+OFRA_SR_07_B,sail rock,HD,OFRA,SHD,B,,symb_vac,0.424069901
+OFRA_SR_07_B,sail rock,HD,OFRA,SHD,B,,symb_vac,0.357272577
+OFRA_SR_07_B,sail rock,HD,OFRA,SHD,B,,symb_vac,0.432833931
+OFRA_SR_07_B,sail rock,HD,OFRA,SHD,B,,min_symb,20.21
+OFRA_SR_07_B,sail rock,HD,OFRA,SHD,B,,max_vac,86.983
+OFRA_SR_07_B,sail rock,HD,OFRA,SHD,B,,avg_symb,30.26546667
+OFRA_SR_07_B,sail rock,HD,OFRA,SHD,B,,avg_vac,68.76206667
+OFRA_SR_13_A,sail rock,DD,OFRA,SDD,A,1,gastro,1
+OFRA_SR_13_A,sail rock,DD,OFRA,SDD,A,,prop_exo,0.25
+OFRA_SR_13_A,sail rock,DD,OFRA,SDD,A,,degr_symb,1
+OFRA_SR_13_A,sail rock,DD,OFRA,SDD,A,2,gastro,1
+OFRA_SR_13_A,sail rock,DD,OFRA,SDD,A,,prop_exo,0.266666667
+OFRA_SR_13_A,sail rock,DD,OFRA,SDD,A,,degr_symb,1
+OFRA_SR_13_A,sail rock,DD,OFRA,SDD,A,3,gastro,1
+OFRA_SR_13_A,sail rock,DD,OFRA,SDD,A,,prop_exo,0.8
+OFRA_SR_13_A,sail rock,DD,OFRA,SDD,A,,degr_symb,1
+OFRA_SR_13_A,sail rock,DD,OFRA,SDD,A,4,gastro,1
+OFRA_SR_13_A,sail rock,DD,OFRA,SDD,A,,prop_exo,0.25
+OFRA_SR_13_A,sail rock,DD,OFRA,SDD,A,,degr_symb,1
+OFRA_SR_13_A,sail rock,DD,OFRA,SDD,A,5,gastro,1
+OFRA_SR_13_A,sail rock,DD,OFRA,SDD,A,,prop_exo,0.25
+OFRA_SR_13_A,sail rock,DD,OFRA,SDD,A,,degr_symb,1
+OFRA_SR_13_A,sail rock,DD,OFRA,SDD,A,,symb_vac,0.542857555
+OFRA_SR_13_A,sail rock,DD,OFRA,SDD,A,,symb_vac,0.404846323
+OFRA_SR_13_A,sail rock,DD,OFRA,SDD,A,,symb_vac,0.428430117
+OFRA_SR_13_A,sail rock,DD,OFRA,SDD,A,,symb_vac,0.4170595
+OFRA_SR_13_A,sail rock,DD,OFRA,SDD,A,,symb_vac,0.461975242
+OFRA_SR_13_A,sail rock,DD,OFRA,SDD,A,,symb_vac,0.366496868
+OFRA_SR_13_A,sail rock,DD,OFRA,SDD,A,,symb_vac,0.533818939
+OFRA_SR_13_A,sail rock,DD,OFRA,SDD,A,,symb_vac,0.498746655
+OFRA_SR_13_A,sail rock,DD,OFRA,SDD,A,,symb_vac,0.427384265
+OFRA_SR_13_A,sail rock,DD,OFRA,SDD,A,,symb_vac,0.446923252
+OFRA_SR_13_A,sail rock,DD,OFRA,SDD,A,,symb_vac,0.50912198
+OFRA_SR_13_A,sail rock,DD,OFRA,SDD,A,,symb_vac,0.464116259
+OFRA_SR_13_A,sail rock,DD,OFRA,SDD,A,,symb_vac,0.44271274
+OFRA_SR_13_A,sail rock,DD,OFRA,SDD,A,,symb_vac,0.416050446
+OFRA_SR_13_A,sail rock,DD,OFRA,SDD,A,,symb_vac,0.383337655
+OFRA_SR_13_A,sail rock,DD,OFRA,SDD,A,,min_symb,19.297
+OFRA_SR_13_A,sail rock,DD,OFRA,SDD,A,,max_vac,101.019
+OFRA_SR_13_A,sail rock,DD,OFRA,SDD,A,,avg_symb,30.51366667
+OFRA_SR_13_A,sail rock,DD,OFRA,SDD,A,,avg_vac,67.728
+OFRA_SR_13_B,sail rock,HD,OFRA,SHD,B,1,gastro,1
+OFRA_SR_13_B,sail rock,HD,OFRA,SHD,B,,prop_exo,0.363636364
+OFRA_SR_13_B,sail rock,HD,OFRA,SHD,B,,degr_symb,1
+OFRA_SR_13_B,sail rock,HD,OFRA,SHD,B,2,gastro,1
+OFRA_SR_13_B,sail rock,HD,OFRA,SHD,B,,prop_exo,0.117647059
+OFRA_SR_13_B,sail rock,HD,OFRA,SHD,B,,degr_symb,1
+OFRA_SR_13_B,sail rock,HD,OFRA,SHD,B,3,gastro,1
+OFRA_SR_13_B,sail rock,HD,OFRA,SHD,B,,prop_exo,0.384615385
+OFRA_SR_13_B,sail rock,HD,OFRA,SHD,B,,degr_symb,1
+OFRA_SR_13_B,sail rock,HD,OFRA,SHD,B,4,gastro,1
+OFRA_SR_13_B,sail rock,HD,OFRA,SHD,B,,prop_exo,0
+OFRA_SR_13_B,sail rock,HD,OFRA,SHD,B,,degr_symb,1
+OFRA_SR_13_B,sail rock,HD,OFRA,SHD,B,5,gastro,1
+OFRA_SR_13_B,sail rock,HD,OFRA,SHD,B,,prop_exo,0.125
+OFRA_SR_13_B,sail rock,HD,OFRA,SHD,B,,degr_symb,1
+OFRA_SR_13_B,sail rock,HD,OFRA,SHD,B,,symb_vac,0.453364838
+OFRA_SR_13_B,sail rock,HD,OFRA,SHD,B,,symb_vac,0.433368403
+OFRA_SR_13_B,sail rock,HD,OFRA,SHD,B,,symb_vac,0.467872498
+OFRA_SR_13_B,sail rock,HD,OFRA,SHD,B,,symb_vac,0.432058489
+OFRA_SR_13_B,sail rock,HD,OFRA,SHD,B,,symb_vac,0.492515932
+OFRA_SR_13_B,sail rock,HD,OFRA,SHD,B,,symb_vac,0.555342692
+OFRA_SR_13_B,sail rock,HD,OFRA,SHD,B,,symb_vac,0.498356372
+OFRA_SR_13_B,sail rock,HD,OFRA,SHD,B,,symb_vac,0.396852901
+OFRA_SR_13_B,sail rock,HD,OFRA,SHD,B,,symb_vac,0.496491682
+OFRA_SR_13_B,sail rock,HD,OFRA,SHD,B,,symb_vac,0.568369551
+OFRA_SR_13_B,sail rock,HD,OFRA,SHD,B,,symb_vac,0.470959776
+OFRA_SR_13_B,sail rock,HD,OFRA,SHD,B,,symb_vac,0.443862912
+OFRA_SR_13_B,sail rock,HD,OFRA,SHD,B,,symb_vac,0.4059255
+OFRA_SR_13_B,sail rock,HD,OFRA,SHD,B,,symb_vac,0.370725364
+OFRA_SR_13_B,sail rock,HD,OFRA,SHD,B,,symb_vac,0.62967243
+OFRA_SR_13_B,sail rock,HD,OFRA,SHD,B,,min_symb,23.091
+OFRA_SR_13_B,sail rock,HD,OFRA,SHD,B,,max_vac,80.027
+OFRA_SR_13_B,sail rock,HD,OFRA,SHD,B,,avg_symb,29.38833333
+OFRA_SR_13_B,sail rock,HD,OFRA,SHD,B,,avg_vac,62.77553333
+OFRA_SC_04_B,south capella ,HH,OFRA,SHH,B,1,gastro,1
+OFRA_SC_04_B,south capella ,HH,OFRA,SHH,B,,prop_exo,0.3125
+OFRA_SC_04_B,south capella ,HH,OFRA,SHH,B,,degr_symb,1
+OFRA_SC_04_B,south capella ,HH,OFRA,SHH,B,2,gastro,1
+OFRA_SC_04_B,south capella ,HH,OFRA,SHH,B,,prop_exo,0
+OFRA_SC_04_B,south capella ,HH,OFRA,SHH,B,,degr_symb,1
+OFRA_SC_04_B,south capella ,HH,OFRA,SHH,B,3,gastro,0
+OFRA_SC_04_B,south capella ,HH,OFRA,SHH,B,,prop_exo,0
+OFRA_SC_04_B,south capella ,HH,OFRA,SHH,B,,degr_symb,1
+OFRA_SC_04_B,south capella ,HH,OFRA,SHH,B,4,gastro,1
+OFRA_SC_04_B,south capella ,HH,OFRA,SHH,B,,prop_exo,0
+OFRA_SC_04_B,south capella ,HH,OFRA,SHH,B,,degr_symb,1
+OFRA_SC_04_B,south capella ,HH,OFRA,SHH,B,5,gastro,0
+OFRA_SC_04_B,south capella ,HH,OFRA,SHH,B,,prop_exo,0.285714286
+OFRA_SC_04_B,south capella ,HH,OFRA,SHH,B,,degr_symb,1
+OFRA_SC_04_B,south capella ,HH,OFRA,SHH,B,,symb_vac,0.486490445
+OFRA_SC_04_B,south capella ,HH,OFRA,SHH,B,,symb_vac,0.486884234
+OFRA_SC_04_B,south capella ,HH,OFRA,SHH,B,,symb_vac,0.528506067
+OFRA_SC_04_B,south capella ,HH,OFRA,SHH,B,,symb_vac,0.443340542
+OFRA_SC_04_B,south capella ,HH,OFRA,SHH,B,,symb_vac,0.476745828
+OFRA_SC_04_B,south capella ,HH,OFRA,SHH,B,,symb_vac,0.476790841
+OFRA_SC_04_B,south capella ,HH,OFRA,SHH,B,,symb_vac,0.43353013
+OFRA_SC_04_B,south capella ,HH,OFRA,SHH,B,,symb_vac,0.481529051
+OFRA_SC_04_B,south capella ,HH,OFRA,SHH,B,,symb_vac,0.480506558
+OFRA_SC_04_B,south capella ,HH,OFRA,SHH,B,,symb_vac,0.42548614
+OFRA_SC_04_B,south capella ,HH,OFRA,SHH,B,,symb_vac,0.37558285
+OFRA_SC_04_B,south capella ,HH,OFRA,SHH,B,,symb_vac,0.357062056
+OFRA_SC_04_B,south capella ,HH,OFRA,SHH,B,,symb_vac,0.420372946
+OFRA_SC_04_B,south capella ,HH,OFRA,SHH,B,,symb_vac,0.492242801
+OFRA_SC_04_B,south capella ,HH,OFRA,SHH,B,,symb_vac,0.482436898
+OFRA_SC_04_B,south capella ,HH,OFRA,SHH,B,,min_symb,13.257
+OFRA_SC_04_B,south capella ,HH,OFRA,SHH,B,,max_vac,75.095
+OFRA_SC_04_B,south capella ,HH,OFRA,SHH,B,,avg_symb,23.85473333
+OFRA_SC_04_B,south capella ,HH,OFRA,SHH,B,,avg_vac,52.1738
+OFRA_SC_05_B,south capella ,HD,OFRA,SHD,B,1,gastro,1
+OFRA_SC_05_B,south capella ,HD,OFRA,SHD,B,,prop_exo,0.2
+OFRA_SC_05_B,south capella ,HD,OFRA,SHD,B,,degr_symb,1
+OFRA_SC_05_B,south capella ,HD,OFRA,SHD,B,2,gastro,1
+OFRA_SC_05_B,south capella ,HD,OFRA,SHD,B,,prop_exo,0.142857143
+OFRA_SC_05_B,south capella ,HD,OFRA,SHD,B,,degr_symb,1
+OFRA_SC_05_B,south capella ,HD,OFRA,SHD,B,3,gastro,1
+OFRA_SC_05_B,south capella ,HD,OFRA,SHD,B,,prop_exo,0.2
+OFRA_SC_05_B,south capella ,HD,OFRA,SHD,B,,degr_symb,1
+OFRA_SC_05_B,south capella ,HD,OFRA,SHD,B,4,gastro,1
+OFRA_SC_05_B,south capella ,HD,OFRA,SHD,B,,prop_exo,0.3125
+OFRA_SC_05_B,south capella ,HD,OFRA,SHD,B,,degr_symb,1
+OFRA_SC_05_B,south capella ,HD,OFRA,SHD,B,5,gastro,1
+OFRA_SC_05_B,south capella ,HD,OFRA,SHD,B,,prop_exo,0.166666667
+OFRA_SC_05_B,south capella ,HD,OFRA,SHD,B,,degr_symb,1
+OFRA_SC_05_B,south capella ,HD,OFRA,SHD,B,,symb_vac,0.46571296
+OFRA_SC_05_B,south capella ,HD,OFRA,SHD,B,,symb_vac,0.528969253
+OFRA_SC_05_B,south capella ,HD,OFRA,SHD,B,,symb_vac,0.393679936
+OFRA_SC_05_B,south capella ,HD,OFRA,SHD,B,,symb_vac,0.518566571
+OFRA_SC_05_B,south capella ,HD,OFRA,SHD,B,,symb_vac,0.431830006
+OFRA_SC_05_B,south capella ,HD,OFRA,SHD,B,,symb_vac,0.511258358
+OFRA_SC_05_B,south capella ,HD,OFRA,SHD,B,,symb_vac,0.57256351
+OFRA_SC_05_B,south capella ,HD,OFRA,SHD,B,,symb_vac,0.43752842
+OFRA_SC_05_B,south capella ,HD,OFRA,SHD,B,,symb_vac,0.507203426
+OFRA_SC_05_B,south capella ,HD,OFRA,SHD,B,,symb_vac,0.497745827
+OFRA_SC_05_B,south capella ,HD,OFRA,SHD,B,,symb_vac,0.475775061
+OFRA_SC_05_B,south capella ,HD,OFRA,SHD,B,,symb_vac,0.551249025
+OFRA_SC_05_B,south capella ,HD,OFRA,SHD,B,,symb_vac,0.409089488
+OFRA_SC_05_B,south capella ,HD,OFRA,SHD,B,,symb_vac,0.520944302
+OFRA_SC_05_B,south capella ,HD,OFRA,SHD,B,,symb_vac,0.496936913
+OFRA_SC_05_B,south capella ,HD,OFRA,SHD,B,,min_symb,19.077
+OFRA_SC_05_B,south capella ,HD,OFRA,SHD,B,,max_vac,79.303
+OFRA_SC_05_B,south capella ,HD,OFRA,SHD,B,,avg_symb,30.21713333
+OFRA_SC_05_B,south capella ,HD,OFRA,SHD,B,,avg_vac,62.2682
+OFRA_SC_06_A,south capella ,DD,OFRA,SDD,A,1,gastro,1
+OFRA_SC_06_A,south capella ,DD,OFRA,SDD,A,,prop_exo,0
+OFRA_SC_06_A,south capella ,DD,OFRA,SDD,A,,degr_symb,1
+OFRA_SC_06_A,south capella ,DD,OFRA,SDD,A,2,gastro,1
+OFRA_SC_06_A,south capella ,DD,OFRA,SDD,A,,prop_exo,0.166666667
+OFRA_SC_06_A,south capella ,DD,OFRA,SDD,A,,degr_symb,1
+OFRA_SC_06_A,south capella ,DD,OFRA,SDD,A,3,gastro,1
+OFRA_SC_06_A,south capella ,DD,OFRA,SDD,A,,prop_exo,0.166666667
+OFRA_SC_06_A,south capella ,DD,OFRA,SDD,A,,degr_symb,1
+OFRA_SC_06_A,south capella ,DD,OFRA,SDD,A,4,gastro,1
+OFRA_SC_06_A,south capella ,DD,OFRA,SDD,A,,prop_exo,0.1
+OFRA_SC_06_A,south capella ,DD,OFRA,SDD,A,,degr_symb,1
+OFRA_SC_06_A,south capella ,DD,OFRA,SDD,A,5,gastro,1
+OFRA_SC_06_A,south capella ,DD,OFRA,SDD,A,,prop_exo,0.076923077
+OFRA_SC_06_A,south capella ,DD,OFRA,SDD,A,,degr_symb,1
+OFRA_SC_06_A,south capella ,DD,OFRA,SDD,A,,symb_vac,0.451008493
+OFRA_SC_06_A,south capella ,DD,OFRA,SDD,A,,symb_vac,0.481551205
+OFRA_SC_06_A,south capella ,DD,OFRA,SDD,A,,symb_vac,0.582954807
+OFRA_SC_06_A,south capella ,DD,OFRA,SDD,A,,symb_vac,0.428577057
+OFRA_SC_06_A,south capella ,DD,OFRA,SDD,A,,symb_vac,0.446007769
+OFRA_SC_06_A,south capella ,DD,OFRA,SDD,A,,symb_vac,0.442814652
+OFRA_SC_06_A,south capella ,DD,OFRA,SDD,A,,symb_vac,0.498782024
+OFRA_SC_06_A,south capella ,DD,OFRA,SDD,A,,symb_vac,0.54176655
+OFRA_SC_06_A,south capella ,DD,OFRA,SDD,A,,symb_vac,0.40812119
+OFRA_SC_06_A,south capella ,DD,OFRA,SDD,A,,symb_vac,0.402262097
+OFRA_SC_06_A,south capella ,DD,OFRA,SDD,A,,symb_vac,0.453146897
+OFRA_SC_06_A,south capella ,DD,OFRA,SDD,A,,symb_vac,0.47232222
+OFRA_SC_06_A,south capella ,DD,OFRA,SDD,A,,symb_vac,0.526872614
+OFRA_SC_06_A,south capella ,DD,OFRA,SDD,A,,symb_vac,0.471699072
+OFRA_SC_06_A,south capella ,DD,OFRA,SDD,A,,symb_vac,0.393990295
+OFRA_SC_06_A,south capella ,DD,OFRA,SDD,A,,min_symb,18.212
+OFRA_SC_06_A,south capella ,DD,OFRA,SDD,A,,max_vac,81.477
+OFRA_SC_06_A,south capella ,DD,OFRA,SDD,A,,avg_symb,29.5442
+OFRA_SC_06_A,south capella ,DD,OFRA,SDD,A,,avg_vac,62.55946667
+OFRA_SR_09_A,sail rock ,HH,OFRA,SHH,A,1,gastro,1
+OFRA_SR_09_A,sail rock ,HH,OFRA,SHH,A,,prop_exo,0.2
+OFRA_SR_09_A,sail rock ,HH,OFRA,SHH,A,,degr_symb,1
+OFRA_SR_09_A,sail rock ,HH,OFRA,SHH,A,2,gastro,1
+OFRA_SR_09_A,sail rock ,HH,OFRA,SHH,A,,prop_exo,0.105263158
+OFRA_SR_09_A,sail rock ,HH,OFRA,SHH,A,,degr_symb,1
+OFRA_SR_09_A,sail rock ,HH,OFRA,SHH,A,3,gastro,1
+OFRA_SR_09_A,sail rock ,HH,OFRA,SHH,A,,prop_exo,0
+OFRA_SR_09_A,sail rock ,HH,OFRA,SHH,A,,degr_symb,1
+OFRA_SR_09_A,sail rock ,HH,OFRA,SHH,A,4,gastro,1
+OFRA_SR_09_A,sail rock ,HH,OFRA,SHH,A,,prop_exo,0.230769231
+OFRA_SR_09_A,sail rock ,HH,OFRA,SHH,A,,degr_symb,1
+OFRA_SR_09_A,sail rock ,HH,OFRA,SHH,A,5,gastro,1
+OFRA_SR_09_A,sail rock ,HH,OFRA,SHH,A,,prop_exo,0.2
+OFRA_SR_09_A,sail rock ,HH,OFRA,SHH,A,,degr_symb,1
+OFRA_SR_09_A,sail rock ,HH,OFRA,SHH,A,,symb_vac,0.720936441
+OFRA_SR_09_A,sail rock ,HH,OFRA,SHH,A,,symb_vac,0.68130827
+OFRA_SR_09_A,sail rock ,HH,OFRA,SHH,A,,symb_vac,0.792433538
+OFRA_SR_09_A,sail rock ,HH,OFRA,SHH,A,,symb_vac,0.800461972
+OFRA_SR_09_A,sail rock ,HH,OFRA,SHH,A,,symb_vac,0.681367784
+OFRA_SR_09_A,sail rock ,HH,OFRA,SHH,A,,symb_vac,0.702842301
+OFRA_SR_09_A,sail rock ,HH,OFRA,SHH,A,,symb_vac,0.673340938
+OFRA_SR_09_A,sail rock ,HH,OFRA,SHH,A,,symb_vac,0.640081119
+OFRA_SR_09_A,sail rock ,HH,OFRA,SHH,A,,symb_vac,0.589934422
+OFRA_SR_09_A,sail rock ,HH,OFRA,SHH,A,,symb_vac,0.740917495
+OFRA_SR_09_A,sail rock ,HH,OFRA,SHH,A,,symb_vac,0.76729519
+OFRA_SR_09_A,sail rock ,HH,OFRA,SHH,A,,symb_vac,0.598522692
+OFRA_SR_09_A,sail rock ,HH,OFRA,SHH,A,,symb_vac,0.550660505
+OFRA_SR_09_A,sail rock ,HH,OFRA,SHH,A,,symb_vac,0.610055938
+OFRA_SR_09_A,sail rock ,HH,OFRA,SHH,A,,symb_vac,0.576416376
+OFRA_SR_09_A,sail rock ,HH,OFRA,SHH,A,,min_symb,25.281
+OFRA_SR_09_A,sail rock ,HH,OFRA,SHH,A,,max_vac,76.608
+OFRA_SR_09_A,sail rock ,HH,OFRA,SHH,A,,avg_symb,35.1244
+OFRA_SR_09_A,sail rock ,HH,OFRA,SHH,A,,avg_vac,52.6936
+OFRA_SH_13_A,seahorse,HH,OFRA,SHH,A,1,gastro,1
+OFRA_SH_13_A,seahorse,HH,OFRA,SHH,A,,prop_exo,0.363636364
+OFRA_SH_13_A,seahorse,HH,OFRA,SHH,A,,degr_symb,1
+OFRA_SH_13_A,seahorse,HH,OFRA,SHH,A,2,gastro,1
+OFRA_SH_13_A,seahorse,HH,OFRA,SHH,A,,prop_exo,0.25
+OFRA_SH_13_A,seahorse,HH,OFRA,SHH,A,,degr_symb,1
+OFRA_SH_13_A,seahorse,HH,OFRA,SHH,A,3,gastro,1
+OFRA_SH_13_A,seahorse,HH,OFRA,SHH,A,,prop_exo,0.571428571
+OFRA_SH_13_A,seahorse,HH,OFRA,SHH,A,,degr_symb,1
+OFRA_SH_13_A,seahorse,HH,OFRA,SHH,A,4,gastro,1
+OFRA_SH_13_A,seahorse,HH,OFRA,SHH,A,,prop_exo,0.303030303
+OFRA_SH_13_A,seahorse,HH,OFRA,SHH,A,,degr_symb,1
+OFRA_SH_13_A,seahorse,HH,OFRA,SHH,A,5,gastro,1
+OFRA_SH_13_A,seahorse,HH,OFRA,SHH,A,,prop_exo,0.333333333
+OFRA_SH_13_A,seahorse,HH,OFRA,SHH,A,,degr_symb,1
+OFRA_SH_13_A,seahorse,HH,OFRA,SHH,A,,symb_vac,0.558817588
+OFRA_SH_13_A,seahorse,HH,OFRA,SHH,A,,symb_vac,0.449114067
+OFRA_SH_13_A,seahorse,HH,OFRA,SHH,A,,symb_vac,0.496439674
+OFRA_SH_13_A,seahorse,HH,OFRA,SHH,A,,symb_vac,0.608706889
+OFRA_SH_13_A,seahorse,HH,OFRA,SHH,A,,symb_vac,0.552328048
+OFRA_SH_13_A,seahorse,HH,OFRA,SHH,A,,symb_vac,0.566567164
+OFRA_SH_13_A,seahorse,HH,OFRA,SHH,A,,symb_vac,0.530415809
+OFRA_SH_13_A,seahorse,HH,OFRA,SHH,A,,symb_vac,0.462009214
+OFRA_SH_13_A,seahorse,HH,OFRA,SHH,A,,symb_vac,0.466974172
+OFRA_SH_13_A,seahorse,HH,OFRA,SHH,A,,symb_vac,0.423643722
+OFRA_SH_13_A,seahorse,HH,OFRA,SHH,A,,symb_vac,0.413313923
+OFRA_SH_13_A,seahorse,HH,OFRA,SHH,A,,symb_vac,0.437295647
+OFRA_SH_13_A,seahorse,HH,OFRA,SHH,A,,symb_vac,0.534051359
+OFRA_SH_13_A,seahorse,HH,OFRA,SHH,A,,symb_vac,0.435100548
+OFRA_SH_13_A,seahorse,HH,OFRA,SHH,A,,symb_vac,0.364545185
+OFRA_SH_13_A,seahorse,HH,OFRA,SHH,A,,min_symb,20.157
+OFRA_SH_13_A,seahorse,HH,OFRA,SHH,A,,max_vac,88.775
+OFRA_SH_13_A,seahorse,HH,OFRA,SHH,A,,avg_symb,31.71053333
+OFRA_SH_13_A,seahorse,HH,OFRA,SHH,A,,avg_vac,65.3066
+OFRA_SH_14_A,seahorse,HH,OFRA,SHH,A,1,gastro,1
+OFRA_SH_14_A,seahorse,HH,OFRA,SHH,A,,prop_exo,0
+OFRA_SH_14_A,seahorse,HH,OFRA,SHH,A,,degr_symb,1
+OFRA_SH_14_A,seahorse,HH,OFRA,SHH,A,2,gastro,1
+OFRA_SH_14_A,seahorse,HH,OFRA,SHH,A,,prop_exo,0.230769231
+OFRA_SH_14_A,seahorse,HH,OFRA,SHH,A,,degr_symb,1
+OFRA_SH_14_A,seahorse,HH,OFRA,SHH,A,3,gastro,1
+OFRA_SH_14_A,seahorse,HH,OFRA,SHH,A,,prop_exo,0.105263158
+OFRA_SH_14_A,seahorse,HH,OFRA,SHH,A,,degr_symb,1
+OFRA_SH_14_A,seahorse,HH,OFRA,SHH,A,4,gastro,1
+OFRA_SH_14_A,seahorse,HH,OFRA,SHH,A,,prop_exo,0.2
+OFRA_SH_14_A,seahorse,HH,OFRA,SHH,A,,degr_symb,1
+OFRA_SH_14_A,seahorse,HH,OFRA,SHH,A,5,gastro,1
+OFRA_SH_14_A,seahorse,HH,OFRA,SHH,A,,prop_exo,0.066666667
+OFRA_SH_14_A,seahorse,HH,OFRA,SHH,A,,degr_symb,1
+OFRA_SH_14_A,seahorse,HH,OFRA,SHH,A,,symb_vac,0.436769729
+OFRA_SH_14_A,seahorse,HH,OFRA,SHH,A,,symb_vac,0.401683312
+OFRA_SH_14_A,seahorse,HH,OFRA,SHH,A,,symb_vac,0.506783665
+OFRA_SH_14_A,seahorse,HH,OFRA,SHH,A,,symb_vac,0.479262917
+OFRA_SH_14_A,seahorse,HH,OFRA,SHH,A,,symb_vac,0.462811327
+OFRA_SH_14_A,seahorse,HH,OFRA,SHH,A,,symb_vac,0.501591056
+OFRA_SH_14_A,seahorse,HH,OFRA,SHH,A,,symb_vac,0.612654185
+OFRA_SH_14_A,seahorse,HH,OFRA,SHH,A,,symb_vac,0.444591478
+OFRA_SH_14_A,seahorse,HH,OFRA,SHH,A,,symb_vac,0.431880172
+OFRA_SH_14_A,seahorse,HH,OFRA,SHH,A,,symb_vac,0.446895092
+OFRA_SH_14_A,seahorse,HH,OFRA,SHH,A,,symb_vac,0.36323592
+OFRA_SH_14_A,seahorse,HH,OFRA,SHH,A,,symb_vac,0.50897086
+OFRA_SH_14_A,seahorse,HH,OFRA,SHH,A,,symb_vac,0.508866884
+OFRA_SH_14_A,seahorse,HH,OFRA,SHH,A,,symb_vac,0.560765287
+OFRA_SH_14_A,seahorse,HH,OFRA,SHH,A,,symb_vac,0.505878411
+OFRA_SH_14_A,seahorse,HH,OFRA,SHH,A,,min_symb,18.684
+OFRA_SH_14_A,seahorse,HH,OFRA,SHH,A,,max_vac,79.531
+OFRA_SH_14_A,seahorse,HH,OFRA,SHH,A,,avg_symb,29.65473333
+OFRA_SH_14_A,seahorse,HH,OFRA,SHH,A,,avg_vac,61.811
+OFRA_SH_05_A,seahorse,DD,OFRA,SDD,A,1,gastro,1
+OFRA_SH_05_A,seahorse,DD,OFRA,SDD,A,,prop_exo,0
+OFRA_SH_05_A,seahorse,DD,OFRA,SDD,A,,degr_symb,1
+OFRA_SH_05_A,seahorse,DD,OFRA,SDD,A,2,gastro,1
+OFRA_SH_05_A,seahorse,DD,OFRA,SDD,A,,prop_exo,0.111111111
+OFRA_SH_05_A,seahorse,DD,OFRA,SDD,A,,degr_symb,1
+OFRA_SH_05_A,seahorse,DD,OFRA,SDD,A,3,gastro,1
+OFRA_SH_05_A,seahorse,DD,OFRA,SDD,A,,prop_exo,0.375
+OFRA_SH_05_A,seahorse,DD,OFRA,SDD,A,,degr_symb,1
+OFRA_SH_05_A,seahorse,DD,OFRA,SDD,A,4,gastro,1
+OFRA_SH_05_A,seahorse,DD,OFRA,SDD,A,,prop_exo,0.4
+OFRA_SH_05_A,seahorse,DD,OFRA,SDD,A,,degr_symb,1
+OFRA_SH_05_A,seahorse,DD,OFRA,SDD,A,5,gastro,1
+OFRA_SH_05_A,seahorse,DD,OFRA,SDD,A,,prop_exo,0.454545455
+OFRA_SH_05_A,seahorse,DD,OFRA,SDD,A,,degr_symb,1
+OFRA_SH_05_A,seahorse,DD,OFRA,SDD,A,,symb_vac,0.538042042
+OFRA_SH_05_A,seahorse,DD,OFRA,SDD,A,,symb_vac,0.58681843
+OFRA_SH_05_A,seahorse,DD,OFRA,SDD,A,,symb_vac,0.422722724
+OFRA_SH_05_A,seahorse,DD,OFRA,SDD,A,,symb_vac,0.433532629
+OFRA_SH_05_A,seahorse,DD,OFRA,SDD,A,,symb_vac,0.43035906
+OFRA_SH_05_A,seahorse,DD,OFRA,SDD,A,,symb_vac,0.751317317
+OFRA_SH_05_A,seahorse,DD,OFRA,SDD,A,,symb_vac,0.482674343
+OFRA_SH_05_A,seahorse,DD,OFRA,SDD,A,,symb_vac,0.529375191
+OFRA_SH_05_A,seahorse,DD,OFRA,SDD,A,,symb_vac,0.509042345
+OFRA_SH_05_A,seahorse,DD,OFRA,SDD,A,,symb_vac,0.446453238
+OFRA_SH_05_A,seahorse,DD,OFRA,SDD,A,,symb_vac,0.523425136
+OFRA_SH_05_A,seahorse,DD,OFRA,SDD,A,,symb_vac,0.542167026
+OFRA_SH_05_A,seahorse,DD,OFRA,SDD,A,,symb_vac,0.503701469
+OFRA_SH_05_A,seahorse,DD,OFRA,SDD,A,,symb_vac,0.418155549
+OFRA_SH_05_A,seahorse,DD,OFRA,SDD,A,,symb_vac,0.582347003
+OFRA_SH_05_A,seahorse,DD,OFRA,SDD,A,,min_symb,22.396
+OFRA_SH_05_A,seahorse,DD,OFRA,SDD,A,,max_vac,85.242
+OFRA_SH_05_A,seahorse,DD,OFRA,SDD,A,,avg_symb,34.2454
+OFRA_SH_05_A,seahorse,DD,OFRA,SDD,A,,avg_vac,66.82606667
+OFRA_SH_14_B,seahorse,HH,OFRA,SHH,B,1,gastro,1
+OFRA_SH_14_B,seahorse,HH,OFRA,SHH,B,,prop_exo,0.2
+OFRA_SH_14_B,seahorse,HH,OFRA,SHH,B,,degr_symb,1
+OFRA_SH_14_B,seahorse,HH,OFRA,SHH,B,2,gastro,1
+OFRA_SH_14_B,seahorse,HH,OFRA,SHH,B,,prop_exo,0.3
+OFRA_SH_14_B,seahorse,HH,OFRA,SHH,B,,degr_symb,1
+OFRA_SH_14_B,seahorse,HH,OFRA,SHH,B,3,gastro,1
+OFRA_SH_14_B,seahorse,HH,OFRA,SHH,B,,prop_exo,0.545454545
+OFRA_SH_14_B,seahorse,HH,OFRA,SHH,B,,degr_symb,1
+OFRA_SH_14_B,seahorse,HH,OFRA,SHH,B,4,gastro,1
+OFRA_SH_14_B,seahorse,HH,OFRA,SHH,B,,prop_exo,0.5
+OFRA_SH_14_B,seahorse,HH,OFRA,SHH,B,,degr_symb,1
+OFRA_SH_14_B,seahorse,HH,OFRA,SHH,B,5,gastro,1
+OFRA_SH_14_B,seahorse,HH,OFRA,SHH,B,,prop_exo,0
+OFRA_SH_14_B,seahorse,HH,OFRA,SHH,B,,degr_symb,1
+OFRA_SH_14_B,seahorse,HH,OFRA,SHH,B,,symb_vac,0.518117765
+OFRA_SH_14_B,seahorse,HH,OFRA,SHH,B,,symb_vac,0.529740572
+OFRA_SH_14_B,seahorse,HH,OFRA,SHH,B,,symb_vac,0.445768847
+OFRA_SH_14_B,seahorse,HH,OFRA,SHH,B,,symb_vac,0.487762214
+OFRA_SH_14_B,seahorse,HH,OFRA,SHH,B,,symb_vac,0.466291666
+OFRA_SH_14_B,seahorse,HH,OFRA,SHH,B,,symb_vac,0.452559248
+OFRA_SH_14_B,seahorse,HH,OFRA,SHH,B,,symb_vac,0.50483596
+OFRA_SH_14_B,seahorse,HH,OFRA,SHH,B,,symb_vac,0.386200131
+OFRA_SH_14_B,seahorse,HH,OFRA,SHH,B,,symb_vac,0.606599584
+OFRA_SH_14_B,seahorse,HH,OFRA,SHH,B,,symb_vac,0.490697808
+OFRA_SH_14_B,seahorse,HH,OFRA,SHH,B,,symb_vac,0.437775695
+OFRA_SH_14_B,seahorse,HH,OFRA,SHH,B,,symb_vac,0.599272011
+OFRA_SH_14_B,seahorse,HH,OFRA,SHH,B,,symb_vac,0.440284527
+OFRA_SH_14_B,seahorse,HH,OFRA,SHH,B,,symb_vac,0.53429859
+OFRA_SH_14_B,seahorse,HH,OFRA,SHH,B,,symb_vac,0.494732768
+OFRA_SH_14_B,seahorse,HH,OFRA,SHH,B,,min_symb,16.136
+OFRA_SH_14_B,seahorse,HH,OFRA,SHH,B,,max_vac,110.499
+OFRA_SH_14_B,seahorse,HH,OFRA,SHH,B,,avg_symb,31.50226667
+OFRA_SH_14_B,seahorse,HH,OFRA,SHH,B,,avg_vac,64.5344
+OFRA_SH_16_B,seahorse,HD,OFRA,SHD,B,1,gastro,1
+OFRA_SH_16_B,seahorse,HD,OFRA,SHD,B,,prop_exo,0.125
+OFRA_SH_16_B,seahorse,HD,OFRA,SHD,B,,degr_symb,1
+OFRA_SH_16_B,seahorse,HD,OFRA,SHD,B,2,gastro,1
+OFRA_SH_16_B,seahorse,HD,OFRA,SHD,B,,prop_exo,0.083333333
+OFRA_SH_16_B,seahorse,HD,OFRA,SHD,B,,degr_symb,1
+OFRA_SH_16_B,seahorse,HD,OFRA,SHD,B,3,gastro,1
+OFRA_SH_16_B,seahorse,HD,OFRA,SHD,B,,prop_exo,0.5
+OFRA_SH_16_B,seahorse,HD,OFRA,SHD,B,,degr_symb,1
+OFRA_SH_16_B,seahorse,HD,OFRA,SHD,B,4,gastro,1
+OFRA_SH_16_B,seahorse,HD,OFRA,SHD,B,,prop_exo,0.333333333
+OFRA_SH_16_B,seahorse,HD,OFRA,SHD,B,,degr_symb,1
+OFRA_SH_16_B,seahorse,HD,OFRA,SHD,B,5,gastro,1
+OFRA_SH_16_B,seahorse,HD,OFRA,SHD,B,,prop_exo,0.4
+OFRA_SH_16_B,seahorse,HD,OFRA,SHD,B,,degr_symb,1
+OFRA_SH_16_B,seahorse,HD,OFRA,SHD,B,,symb_vac,0.442044038
+OFRA_SH_16_B,seahorse,HD,OFRA,SHD,B,,symb_vac,0.529911999
+OFRA_SH_16_B,seahorse,HD,OFRA,SHD,B,,symb_vac,0.301093062
+OFRA_SH_16_B,seahorse,HD,OFRA,SHD,B,,symb_vac,0.567937518
+OFRA_SH_16_B,seahorse,HD,OFRA,SHD,B,,symb_vac,0.571445017
+OFRA_SH_16_B,seahorse,HD,OFRA,SHD,B,,symb_vac,0.444697597
+OFRA_SH_16_B,seahorse,HD,OFRA,SHD,B,,symb_vac,0.448173902
+OFRA_SH_16_B,seahorse,HD,OFRA,SHD,B,,symb_vac,0.584381813
+OFRA_SH_16_B,seahorse,HD,OFRA,SHD,B,,symb_vac,0.50024645
+OFRA_SH_16_B,seahorse,HD,OFRA,SHD,B,,symb_vac,0.461799466
+OFRA_SH_16_B,seahorse,HD,OFRA,SHD,B,,symb_vac,0.478286935
+OFRA_SH_16_B,seahorse,HD,OFRA,SHD,B,,symb_vac,0.489683631
+OFRA_SH_16_B,seahorse,HD,OFRA,SHD,B,,symb_vac,0.596433695
+OFRA_SH_16_B,seahorse,HD,OFRA,SHD,B,,symb_vac,0.408240812
+OFRA_SH_16_B,seahorse,HD,OFRA,SHD,B,,symb_vac,0.445686715
+OFRA_SH_16_B,seahorse,HD,OFRA,SHD,B,,min_symb,21.313
+OFRA_SH_16_B,seahorse,HD,OFRA,SHD,B,,max_vac,88.833
+OFRA_SH_16_B,seahorse,HD,OFRA,SHD,B,,avg_symb,30.48093333
+OFRA_SH_16_B,seahorse,HD,OFRA,SHD,B,,avg_vac,63.93933333
+OFRA_SR_16_A,sail rock ,DD,OFRA,SDD,A,1,gastro,1
+OFRA_SR_16_A,sail rock ,DD,OFRA,SDD,A,,prop_exo,0.25
+OFRA_SR_16_A,sail rock ,DD,OFRA,SDD,A,,degr_symb,1
+OFRA_SR_16_A,sail rock ,DD,OFRA,SDD,A,2,gastro,1
+OFRA_SR_16_A,sail rock ,DD,OFRA,SDD,A,,prop_exo,0.315789474
+OFRA_SR_16_A,sail rock ,DD,OFRA,SDD,A,,degr_symb,1
+OFRA_SR_16_A,sail rock ,DD,OFRA,SDD,A,3,gastro,1
+OFRA_SR_16_A,sail rock ,DD,OFRA,SDD,A,,prop_exo,0.4
+OFRA_SR_16_A,sail rock ,DD,OFRA,SDD,A,,degr_symb,1
+OFRA_SR_16_A,sail rock ,DD,OFRA,SDD,A,4,gastro,1
+OFRA_SR_16_A,sail rock ,DD,OFRA,SDD,A,,prop_exo,0.263157895
+OFRA_SR_16_A,sail rock ,DD,OFRA,SDD,A,,degr_symb,1
+OFRA_SR_16_A,sail rock ,DD,OFRA,SDD,A,5,gastro,1
+OFRA_SR_16_A,sail rock ,DD,OFRA,SDD,A,,prop_exo,0
+OFRA_SR_16_A,sail rock ,DD,OFRA,SDD,A,,degr_symb,1
+OFRA_SR_16_A,sail rock ,DD,OFRA,SDD,A,,symb_vac,0.23878399
+OFRA_SR_16_A,sail rock ,DD,OFRA,SDD,A,,symb_vac,0.365362991
+OFRA_SR_16_A,sail rock ,DD,OFRA,SDD,A,,symb_vac,0.458192468
+OFRA_SR_16_A,sail rock ,DD,OFRA,SDD,A,,symb_vac,0.374203338
+OFRA_SR_16_A,sail rock ,DD,OFRA,SDD,A,,symb_vac,0.51635994
+OFRA_SR_16_A,sail rock ,DD,OFRA,SDD,A,,symb_vac,0.463745517
+OFRA_SR_16_A,sail rock ,DD,OFRA,SDD,A,,symb_vac,0.443717253
+OFRA_SR_16_A,sail rock ,DD,OFRA,SDD,A,,symb_vac,0.45086677
+OFRA_SR_16_A,sail rock ,DD,OFRA,SDD,A,,symb_vac,0.484724162
+OFRA_SR_16_A,sail rock ,DD,OFRA,SDD,A,,symb_vac,0.520110083
+OFRA_SR_16_A,sail rock ,DD,OFRA,SDD,A,,symb_vac,0.507036143
+OFRA_SR_16_A,sail rock ,DD,OFRA,SDD,A,,symb_vac,0.610456758
+OFRA_SR_16_A,sail rock ,DD,OFRA,SDD,A,,symb_vac,0.462503526
+OFRA_SR_16_A,sail rock ,DD,OFRA,SDD,A,,symb_vac,0.318548535
+OFRA_SR_16_A,sail rock ,DD,OFRA,SDD,A,,symb_vac,0.39760572
+OFRA_SR_16_A,sail rock ,DD,OFRA,SDD,A,,min_symb,17.373
+OFRA_SR_16_A,sail rock ,DD,OFRA,SDD,A,,max_vac,125.624
+OFRA_SR_16_A,sail rock ,DD,OFRA,SDD,A,,avg_symb,25.43006667
+OFRA_SR_16_A,sail rock ,DD,OFRA,SDD,A,,avg_vac,60.29593333
+OFRA_SB_07_A,stumpy bay,HH,OFRA,SHH,A,1,gastro,1
+OFRA_SB_07_A,stumpy bay,HH,OFRA,SHH,A,,prop_exo,0.2
+OFRA_SB_07_A,stumpy bay,HH,OFRA,SHH,A,,degr_symb,1
+OFRA_SB_07_A,stumpy bay,HH,OFRA,SHH,A,2,gastro,1
+OFRA_SB_07_A,stumpy bay,HH,OFRA,SHH,A,,prop_exo,0.625
+OFRA_SB_07_A,stumpy bay,HH,OFRA,SHH,A,,degr_symb,1
+OFRA_SB_07_A,stumpy bay,HH,OFRA,SHH,A,3,gastro,1
+OFRA_SB_07_A,stumpy bay,HH,OFRA,SHH,A,,prop_exo,0.176470588
+OFRA_SB_07_A,stumpy bay,HH,OFRA,SHH,A,,degr_symb,1
+OFRA_SB_07_A,stumpy bay,HH,OFRA,SHH,A,4,gastro,1
+OFRA_SB_07_A,stumpy bay,HH,OFRA,SHH,A,,prop_exo,0.071428571
+OFRA_SB_07_A,stumpy bay,HH,OFRA,SHH,A,,degr_symb,1
+OFRA_SB_07_A,stumpy bay,HH,OFRA,SHH,A,5,gastro,1
+OFRA_SB_07_A,stumpy bay,HH,OFRA,SHH,A,,prop_exo,0
+OFRA_SB_07_A,stumpy bay,HH,OFRA,SHH,A,,degr_symb,1
+OFRA_SB_07_A,stumpy bay,HH,OFRA,SHH,A,,symb_vac,0.549608735
+OFRA_SB_07_A,stumpy bay,HH,OFRA,SHH,A,,symb_vac,0.48080505
+OFRA_SB_07_A,stumpy bay,HH,OFRA,SHH,A,,symb_vac,0.50608876
+OFRA_SB_07_A,stumpy bay,HH,OFRA,SHH,A,,symb_vac,0.383039654
+OFRA_SB_07_A,stumpy bay,HH,OFRA,SHH,A,,symb_vac,0.543897122
+OFRA_SB_07_A,stumpy bay,HH,OFRA,SHH,A,,symb_vac,0.581470614
+OFRA_SB_07_A,stumpy bay,HH,OFRA,SHH,A,,symb_vac,0.422387279
+OFRA_SB_07_A,stumpy bay,HH,OFRA,SHH,A,,symb_vac,0.479939905
+OFRA_SB_07_A,stumpy bay,HH,OFRA,SHH,A,,symb_vac,0.463052395
+OFRA_SB_07_A,stumpy bay,HH,OFRA,SHH,A,,symb_vac,0.55467376
+OFRA_SB_07_A,stumpy bay,HH,OFRA,SHH,A,,symb_vac,0.414238657
+OFRA_SB_07_A,stumpy bay,HH,OFRA,SHH,A,,symb_vac,0.549789771
+OFRA_SB_07_A,stumpy bay,HH,OFRA,SHH,A,,symb_vac,0.457642806
+OFRA_SB_07_A,stumpy bay,HH,OFRA,SHH,A,,symb_vac,0.432292113
+OFRA_SB_07_A,stumpy bay,HH,OFRA,SHH,A,,symb_vac,0.447290707
+OFRA_SB_07_A,stumpy bay,HH,OFRA,SHH,A,,min_symb,26.216
+OFRA_SB_07_A,stumpy bay,HH,OFRA,SHH,A,,max_vac,102.942
+OFRA_SB_07_A,stumpy bay,HH,OFRA,SHH,A,,avg_symb,39.7318
+OFRA_SB_07_A,stumpy bay,HH,OFRA,SHH,A,,avg_vac,82.5408
+OFRA_SB_07_B,stumpy bay,HH,OFRA,SHH,B,1,gastro,1
+OFRA_SB_07_B,stumpy bay,HH,OFRA,SHH,B,,prop_exo,0.083333333
+OFRA_SB_07_B,stumpy bay,HH,OFRA,SHH,B,,degr_symb,1
+OFRA_SB_07_B,stumpy bay,HH,OFRA,SHH,B,2,gastro,1
+OFRA_SB_07_B,stumpy bay,HH,OFRA,SHH,B,,prop_exo,0
+OFRA_SB_07_B,stumpy bay,HH,OFRA,SHH,B,,degr_symb,1
+OFRA_SB_07_B,stumpy bay,HH,OFRA,SHH,B,3,gastro,1
+OFRA_SB_07_B,stumpy bay,HH,OFRA,SHH,B,,prop_exo,0
+OFRA_SB_07_B,stumpy bay,HH,OFRA,SHH,B,,degr_symb,1
+OFRA_SB_07_B,stumpy bay,HH,OFRA,SHH,B,4,gastro,1
+OFRA_SB_07_B,stumpy bay,HH,OFRA,SHH,B,,prop_exo,0.2
+OFRA_SB_07_B,stumpy bay,HH,OFRA,SHH,B,,degr_symb,1
+OFRA_SB_07_B,stumpy bay,HH,OFRA,SHH,B,5,gastro,1
+OFRA_SB_07_B,stumpy bay,HH,OFRA,SHH,B,,prop_exo,0.272727273
+OFRA_SB_07_B,stumpy bay,HH,OFRA,SHH,B,,degr_symb,1
+OFRA_SB_07_B,stumpy bay,HH,OFRA,SHH,B,,symb_vac,0.394633581
+OFRA_SB_07_B,stumpy bay,HH,OFRA,SHH,B,,symb_vac,0.360486625
+OFRA_SB_07_B,stumpy bay,HH,OFRA,SHH,B,,symb_vac,0.441845725
+OFRA_SB_07_B,stumpy bay,HH,OFRA,SHH,B,,symb_vac,0.467331532
+OFRA_SB_07_B,stumpy bay,HH,OFRA,SHH,B,,symb_vac,0.507777163
+OFRA_SB_07_B,stumpy bay,HH,OFRA,SHH,B,,symb_vac,0.506973048
+OFRA_SB_07_B,stumpy bay,HH,OFRA,SHH,B,,symb_vac,0.434607742
+OFRA_SB_07_B,stumpy bay,HH,OFRA,SHH,B,,symb_vac,0.454331543
+OFRA_SB_07_B,stumpy bay,HH,OFRA,SHH,B,,symb_vac,0.503138923
+OFRA_SB_07_B,stumpy bay,HH,OFRA,SHH,B,,symb_vac,0.606798224
+OFRA_SB_07_B,stumpy bay,HH,OFRA,SHH,B,,symb_vac,0.407859492
+OFRA_SB_07_B,stumpy bay,HH,OFRA,SHH,B,,symb_vac,0.379847188
+OFRA_SB_07_B,stumpy bay,HH,OFRA,SHH,B,,symb_vac,0.31992802
+OFRA_SB_07_B,stumpy bay,HH,OFRA,SHH,B,,symb_vac,0.356145873
+OFRA_SB_07_B,stumpy bay,HH,OFRA,SHH,B,,symb_vac,0.396645866
+OFRA_SB_07_B,stumpy bay,HH,OFRA,SHH,B,,min_symb,23.194
+OFRA_SB_07_B,stumpy bay,HH,OFRA,SHH,B,,max_vac,98.392
+OFRA_SB_07_B,stumpy bay,HH,OFRA,SHH,B,,avg_symb,34.1522
+OFRA_SB_07_B,stumpy bay,HH,OFRA,SHH,B,,avg_vac,79.12273333
+OFRA_SR_16_B,sail rock ,HD,OFRA,SHD,B,1,gastro,1
+OFRA_SR_16_B,sail rock ,HD,OFRA,SHD,B,,prop_exo,0.285714286
+OFRA_SR_16_B,sail rock ,HD,OFRA,SHD,B,,degr_symb,1
+OFRA_SR_16_B,sail rock ,HD,OFRA,SHD,B,2,gastro,1
+OFRA_SR_16_B,sail rock ,HD,OFRA,SHD,B,,prop_exo,0.25
+OFRA_SR_16_B,sail rock ,HD,OFRA,SHD,B,,degr_symb,1
+OFRA_SR_16_B,sail rock ,HD,OFRA,SHD,B,3,gastro,1
+OFRA_SR_16_B,sail rock ,HD,OFRA,SHD,B,,prop_exo,0.588235294
+OFRA_SR_16_B,sail rock ,HD,OFRA,SHD,B,,degr_symb,1
+OFRA_SR_16_B,sail rock ,HD,OFRA,SHD,B,4,gastro,1
+OFRA_SR_16_B,sail rock ,HD,OFRA,SHD,B,,prop_exo,0.333333333
+OFRA_SR_16_B,sail rock ,HD,OFRA,SHD,B,,degr_symb,1
+OFRA_SR_16_B,sail rock ,HD,OFRA,SHD,B,5,gastro,1
+OFRA_SR_16_B,sail rock ,HD,OFRA,SHD,B,,prop_exo,0
+OFRA_SR_16_B,sail rock ,HD,OFRA,SHD,B,,degr_symb,1
+OFRA_SR_16_B,sail rock ,HD,OFRA,SHD,B,,symb_vac,0.4806376
+OFRA_SR_16_B,sail rock ,HD,OFRA,SHD,B,,symb_vac,0.361773087
+OFRA_SR_16_B,sail rock ,HD,OFRA,SHD,B,,symb_vac,0.346540587
+OFRA_SR_16_B,sail rock ,HD,OFRA,SHD,B,,symb_vac,0.472773192
+OFRA_SR_16_B,sail rock ,HD,OFRA,SHD,B,,symb_vac,0.423100402
+OFRA_SR_16_B,sail rock ,HD,OFRA,SHD,B,,symb_vac,0.412994596
+OFRA_SR_16_B,sail rock ,HD,OFRA,SHD,B,,symb_vac,0.458559073
+OFRA_SR_16_B,sail rock ,HD,OFRA,SHD,B,,symb_vac,0.541710224
+OFRA_SR_16_B,sail rock ,HD,OFRA,SHD,B,,symb_vac,0.460818033
+OFRA_SR_16_B,sail rock ,HD,OFRA,SHD,B,,symb_vac,0.378067975
+OFRA_SR_16_B,sail rock ,HD,OFRA,SHD,B,,symb_vac,0.44557495
+OFRA_SR_16_B,sail rock ,HD,OFRA,SHD,B,,symb_vac,0.562102138
+OFRA_SR_16_B,sail rock ,HD,OFRA,SHD,B,,symb_vac,0.41424165
+OFRA_SR_16_B,sail rock ,HD,OFRA,SHD,B,,symb_vac,0.531604589
+OFRA_SR_16_B,sail rock ,HD,OFRA,SHD,B,,symb_vac,0.444150904
+OFRA_SR_16_B,sail rock ,HD,OFRA,SHD,B,,min_symb,20.504
+OFRA_SR_16_B,sail rock ,HD,OFRA,SHD,B,,max_vac,94.828
+OFRA_SR_16_B,sail rock ,HD,OFRA,SHD,B,,avg_symb,30.98206667
+OFRA_SR_16_B,sail rock ,HD,OFRA,SHD,B,,avg_vac,68.37333333
+OFRA_SH_01_B,seahorse,HH,OFRA,SHH,B,1,gastro,0
+OFRA_SH_01_B,seahorse,HH,OFRA,SHH,B,,prop_exo,0
+OFRA_SH_01_B,seahorse,HH,OFRA,SHH,B,,degr_symb,1
+OFRA_SH_01_B,seahorse,HH,OFRA,SHH,B,2,gastro,1
+OFRA_SH_01_B,seahorse,HH,OFRA,SHH,B,,prop_exo,0.285714286
+OFRA_SH_01_B,seahorse,HH,OFRA,SHH,B,,degr_symb,1
+OFRA_SH_01_B,seahorse,HH,OFRA,SHH,B,3,gastro,1
+OFRA_SH_01_B,seahorse,HH,OFRA,SHH,B,,prop_exo,0.428571429
+OFRA_SH_01_B,seahorse,HH,OFRA,SHH,B,,degr_symb,1
+OFRA_SH_01_B,seahorse,HH,OFRA,SHH,B,4,gastro,1
+OFRA_SH_01_B,seahorse,HH,OFRA,SHH,B,,prop_exo,0.375
+OFRA_SH_01_B,seahorse,HH,OFRA,SHH,B,,degr_symb,1
+OFRA_SH_01_B,seahorse,HH,OFRA,SHH,B,5,gastro,1
+OFRA_SH_01_B,seahorse,HH,OFRA,SHH,B,,prop_exo,0.090909091
+OFRA_SH_01_B,seahorse,HH,OFRA,SHH,B,,degr_symb,1
+OFRA_SH_01_B,seahorse,HH,OFRA,SHH,B,,symb_vac,0.384710628
+OFRA_SH_01_B,seahorse,HH,OFRA,SHH,B,,symb_vac,0.577017115
+OFRA_SH_01_B,seahorse,HH,OFRA,SHH,B,,symb_vac,0.414147848
+OFRA_SH_01_B,seahorse,HH,OFRA,SHH,B,,symb_vac,0.33038389
+OFRA_SH_01_B,seahorse,HH,OFRA,SHH,B,,symb_vac,0.330858784
+OFRA_SH_01_B,seahorse,HH,OFRA,SHH,B,,symb_vac,0.515547185
+OFRA_SH_01_B,seahorse,HH,OFRA,SHH,B,,symb_vac,0.469628998
+OFRA_SH_01_B,seahorse,HH,OFRA,SHH,B,,symb_vac,0.539796993
+OFRA_SH_01_B,seahorse,HH,OFRA,SHH,B,,symb_vac,0.437826453
+OFRA_SH_01_B,seahorse,HH,OFRA,SHH,B,,symb_vac,0.483383641
+OFRA_SH_01_B,seahorse,HH,OFRA,SHH,B,,symb_vac,0.383610249
+OFRA_SH_01_B,seahorse,HH,OFRA,SHH,B,,symb_vac,0.408704479
+OFRA_SH_01_B,seahorse,HH,OFRA,SHH,B,,symb_vac,0.442018144
+OFRA_SH_01_B,seahorse,HH,OFRA,SHH,B,,symb_vac,0.439539024
+OFRA_SH_01_B,seahorse,HH,OFRA,SHH,B,,symb_vac,0.43318856
+OFRA_SH_01_B,seahorse,HH,OFRA,SHH,B,,min_symb,19.264
+OFRA_SH_01_B,seahorse,HH,OFRA,SHH,B,,max_vac,94.929
+OFRA_SH_01_B,seahorse,HH,OFRA,SHH,B,,avg_symb,31.4434
+OFRA_SH_01_B,seahorse,HH,OFRA,SHH,B,,avg_vac,71.73773333
+OFRA_SH_10_A,seahorse,HH,OFRA,SHH,A,1,gastro,1
+OFRA_SH_10_A,seahorse,HH,OFRA,SHH,A,,prop_exo,0.133333333
+OFRA_SH_10_A,seahorse,HH,OFRA,SHH,A,,degr_symb,1
+OFRA_SH_10_A,seahorse,HH,OFRA,SHH,A,2,gastro,1
+OFRA_SH_10_A,seahorse,HH,OFRA,SHH,A,,prop_exo,0.4
+OFRA_SH_10_A,seahorse,HH,OFRA,SHH,A,,degr_symb,1
+OFRA_SH_10_A,seahorse,HH,OFRA,SHH,A,3,gastro,1
+OFRA_SH_10_A,seahorse,HH,OFRA,SHH,A,,prop_exo,0.333333333
+OFRA_SH_10_A,seahorse,HH,OFRA,SHH,A,,degr_symb,1
+OFRA_SH_10_A,seahorse,HH,OFRA,SHH,A,4,gastro,1
+OFRA_SH_10_A,seahorse,HH,OFRA,SHH,A,,prop_exo,0.6
+OFRA_SH_10_A,seahorse,HH,OFRA,SHH,A,,degr_symb,1
+OFRA_SH_10_A,seahorse,HH,OFRA,SHH,A,5,gastro,1
+OFRA_SH_10_A,seahorse,HH,OFRA,SHH,A,,prop_exo,0.5
+OFRA_SH_10_A,seahorse,HH,OFRA,SHH,A,,degr_symb,1
+OFRA_SH_10_A,seahorse,HH,OFRA,SHH,A,,symb_vac,0.427105358
+OFRA_SH_10_A,seahorse,HH,OFRA,SHH,A,,symb_vac,0.523740571
+OFRA_SH_10_A,seahorse,HH,OFRA,SHH,A,,symb_vac,0.440364311
+OFRA_SH_10_A,seahorse,HH,OFRA,SHH,A,,symb_vac,0.5895348
+OFRA_SH_10_A,seahorse,HH,OFRA,SHH,A,,symb_vac,0.45550853
+OFRA_SH_10_A,seahorse,HH,OFRA,SHH,A,,symb_vac,0.434079259
+OFRA_SH_10_A,seahorse,HH,OFRA,SHH,A,,symb_vac,0.490332581
+OFRA_SH_10_A,seahorse,HH,OFRA,SHH,A,,symb_vac,0.589506581
+OFRA_SH_10_A,seahorse,HH,OFRA,SHH,A,,symb_vac,0.503383795
+OFRA_SH_10_A,seahorse,HH,OFRA,SHH,A,,symb_vac,0.35296876
+OFRA_SH_10_A,seahorse,HH,OFRA,SHH,A,,symb_vac,0.487338119
+OFRA_SH_10_A,seahorse,HH,OFRA,SHH,A,,symb_vac,0.589770276
+OFRA_SH_10_A,seahorse,HH,OFRA,SHH,A,,symb_vac,0.512738512
+OFRA_SH_10_A,seahorse,HH,OFRA,SHH,A,,symb_vac,0.510599435
+OFRA_SH_10_A,seahorse,HH,OFRA,SHH,A,,symb_vac,0.395334548
+OFRA_SH_10_A,seahorse,HH,OFRA,SHH,A,,min_symb,18.015
+OFRA_SH_10_A,seahorse,HH,OFRA,SHH,A,,max_vac,80.877
+OFRA_SH_10_A,seahorse,HH,OFRA,SHH,A,,avg_symb,32.9018
+OFRA_SH_10_A,seahorse,HH,OFRA,SHH,A,,avg_vac,67.44533333
+OFRA_SH_10_B,seahorse,HH,OFRA,SHH,B,1,gastro,1
+OFRA_SH_10_B,seahorse,HH,OFRA,SHH,B,,prop_exo,0.6875
+OFRA_SH_10_B,seahorse,HH,OFRA,SHH,B,,degr_symb,1
+OFRA_SH_10_B,seahorse,HH,OFRA,SHH,B,2,gastro,1
+OFRA_SH_10_B,seahorse,HH,OFRA,SHH,B,,prop_exo,0.4
+OFRA_SH_10_B,seahorse,HH,OFRA,SHH,B,,degr_symb,1
+OFRA_SH_10_B,seahorse,HH,OFRA,SHH,B,3,gastro,1
+OFRA_SH_10_B,seahorse,HH,OFRA,SHH,B,,prop_exo,0.285714286
+OFRA_SH_10_B,seahorse,HH,OFRA,SHH,B,,degr_symb,1
+OFRA_SH_10_B,seahorse,HH,OFRA,SHH,B,4,gastro,1
+OFRA_SH_10_B,seahorse,HH,OFRA,SHH,B,,prop_exo,0.5
+OFRA_SH_10_B,seahorse,HH,OFRA,SHH,B,,degr_symb,1
+OFRA_SH_10_B,seahorse,HH,OFRA,SHH,B,5,gastro,1
+OFRA_SH_10_B,seahorse,HH,OFRA,SHH,B,,prop_exo,0.136363636
+OFRA_SH_10_B,seahorse,HH,OFRA,SHH,B,,degr_symb,1
+OFRA_SH_10_B,seahorse,HH,OFRA,SHH,B,,symb_vac,0.366923248
+OFRA_SH_10_B,seahorse,HH,OFRA,SHH,B,,symb_vac,0.591393023
+OFRA_SH_10_B,seahorse,HH,OFRA,SHH,B,,symb_vac,0.437807125
+OFRA_SH_10_B,seahorse,HH,OFRA,SHH,B,,symb_vac,0.384388375
+OFRA_SH_10_B,seahorse,HH,OFRA,SHH,B,,symb_vac,0.478761823
+OFRA_SH_10_B,seahorse,HH,OFRA,SHH,B,,symb_vac,0.407542267
+OFRA_SH_10_B,seahorse,HH,OFRA,SHH,B,,symb_vac,0.426779549
+OFRA_SH_10_B,seahorse,HH,OFRA,SHH,B,,symb_vac,0.53774412
+OFRA_SH_10_B,seahorse,HH,OFRA,SHH,B,,symb_vac,0.433979625
+OFRA_SH_10_B,seahorse,HH,OFRA,SHH,B,,symb_vac,0.557888074
+OFRA_SH_10_B,seahorse,HH,OFRA,SHH,B,,symb_vac,0.45909384
+OFRA_SH_10_B,seahorse,HH,OFRA,SHH,B,,symb_vac,0.398541021
+OFRA_SH_10_B,seahorse,HH,OFRA,SHH,B,,symb_vac,0.453858219
+OFRA_SH_10_B,seahorse,HH,OFRA,SHH,B,,symb_vac,0.511692575
+OFRA_SH_10_B,seahorse,HH,OFRA,SHH,B,,symb_vac,0.383370165
+OFRA_SH_10_B,seahorse,HH,OFRA,SHH,B,,min_symb,21.403
+OFRA_SH_10_B,seahorse,HH,OFRA,SHH,B,,max_vac,91.29
+OFRA_SH_10_B,seahorse,HH,OFRA,SHH,B,,avg_symb,31.86193333
+OFRA_SH_10_B,seahorse,HH,OFRA,SHH,B,,avg_vac,69.2098
+OFRA_SH_11_A,seahorse,HH,OFRA,SHH,A,1,gastro,1
+OFRA_SH_11_A,seahorse,HH,OFRA,SHH,A,,prop_exo,0.333333333
+OFRA_SH_11_A,seahorse,HH,OFRA,SHH,A,,degr_symb,1
+OFRA_SH_11_A,seahorse,HH,OFRA,SHH,A,2,gastro,1
+OFRA_SH_11_A,seahorse,HH,OFRA,SHH,A,,prop_exo,0.428571429
+OFRA_SH_11_A,seahorse,HH,OFRA,SHH,A,,degr_symb,1
+OFRA_SH_11_A,seahorse,HH,OFRA,SHH,A,3,gastro,1
+OFRA_SH_11_A,seahorse,HH,OFRA,SHH,A,,prop_exo,0.6
+OFRA_SH_11_A,seahorse,HH,OFRA,SHH,A,,degr_symb,1
+OFRA_SH_11_A,seahorse,HH,OFRA,SHH,A,4,gastro,1
+OFRA_SH_11_A,seahorse,HH,OFRA,SHH,A,,prop_exo,0.133333333
+OFRA_SH_11_A,seahorse,HH,OFRA,SHH,A,,degr_symb,1
+OFRA_SH_11_A,seahorse,HH,OFRA,SHH,A,5,gastro,1
+OFRA_SH_11_A,seahorse,HH,OFRA,SHH,A,,prop_exo,0
+OFRA_SH_11_A,seahorse,HH,OFRA,SHH,A,,degr_symb,1
+OFRA_SH_11_A,seahorse,HH,OFRA,SHH,A,,symb_vac,0.517627359
+OFRA_SH_11_A,seahorse,HH,OFRA,SHH,A,,symb_vac,0.544495108
+OFRA_SH_11_A,seahorse,HH,OFRA,SHH,A,,symb_vac,0.496067362
+OFRA_SH_11_A,seahorse,HH,OFRA,SHH,A,,symb_vac,0.391020348
+OFRA_SH_11_A,seahorse,HH,OFRA,SHH,A,,symb_vac,0.430731401
+OFRA_SH_11_A,seahorse,HH,OFRA,SHH,A,,symb_vac,0.403499922
+OFRA_SH_11_A,seahorse,HH,OFRA,SHH,A,,symb_vac,0.470508635
+OFRA_SH_11_A,seahorse,HH,OFRA,SHH,A,,symb_vac,0.479151008
+OFRA_SH_11_A,seahorse,HH,OFRA,SHH,A,,symb_vac,0.543577113
+OFRA_SH_11_A,seahorse,HH,OFRA,SHH,A,,symb_vac,0.346848502
+OFRA_SH_11_A,seahorse,HH,OFRA,SHH,A,,symb_vac,0.435977611
+OFRA_SH_11_A,seahorse,HH,OFRA,SHH,A,,symb_vac,0.477760716
+OFRA_SH_11_A,seahorse,HH,OFRA,SHH,A,,symb_vac,0.451721316
+OFRA_SH_11_A,seahorse,HH,OFRA,SHH,A,,symb_vac,0.408133041
+OFRA_SH_11_A,seahorse,HH,OFRA,SHH,A,,symb_vac,0.478153439
+OFRA_SH_11_A,seahorse,HH,OFRA,SHH,A,,min_symb,24.543
+OFRA_SH_11_A,seahorse,HH,OFRA,SHH,A,,max_vac,90.655
+OFRA_SH_11_A,seahorse,HH,OFRA,SHH,A,,avg_symb,33.5868
+OFRA_SH_11_A,seahorse,HH,OFRA,SHH,A,,avg_vac,73.38013333
+OFRA_SH_11_B,seahorse,HH,OFRA,SHH,B,1,gastro,1
+OFRA_SH_11_B,seahorse,HH,OFRA,SHH,B,,prop_exo,0.25
+OFRA_SH_11_B,seahorse,HH,OFRA,SHH,B,,degr_symb,1
+OFRA_SH_11_B,seahorse,HH,OFRA,SHH,B,2,gastro,1
+OFRA_SH_11_B,seahorse,HH,OFRA,SHH,B,,prop_exo,0.470588235
+OFRA_SH_11_B,seahorse,HH,OFRA,SHH,B,,degr_symb,1
+OFRA_SH_11_B,seahorse,HH,OFRA,SHH,B,3,gastro,1
+OFRA_SH_11_B,seahorse,HH,OFRA,SHH,B,,prop_exo,0.571428571
+OFRA_SH_11_B,seahorse,HH,OFRA,SHH,B,,degr_symb,1
+OFRA_SH_11_B,seahorse,HH,OFRA,SHH,B,4,gastro,1
+OFRA_SH_11_B,seahorse,HH,OFRA,SHH,B,,prop_exo,0.222222222
+OFRA_SH_11_B,seahorse,HH,OFRA,SHH,B,,degr_symb,1
+OFRA_SH_11_B,seahorse,HH,OFRA,SHH,B,5,gastro,1
+OFRA_SH_11_B,seahorse,HH,OFRA,SHH,B,,prop_exo,0.428571429
+OFRA_SH_11_B,seahorse,HH,OFRA,SHH,B,,degr_symb,1
+OFRA_SH_11_B,seahorse,HH,OFRA,SHH,B,,symb_vac,0.47445612
+OFRA_SH_11_B,seahorse,HH,OFRA,SHH,B,,symb_vac,0.502235377
+OFRA_SH_11_B,seahorse,HH,OFRA,SHH,B,,symb_vac,0.330040078
+OFRA_SH_11_B,seahorse,HH,OFRA,SHH,B,,symb_vac,0.502468291
+OFRA_SH_11_B,seahorse,HH,OFRA,SHH,B,,symb_vac,0.435007069
+OFRA_SH_11_B,seahorse,HH,OFRA,SHH,B,,symb_vac,0.429330404
+OFRA_SH_11_B,seahorse,HH,OFRA,SHH,B,,symb_vac,0.363098284
+OFRA_SH_11_B,seahorse,HH,OFRA,SHH,B,,symb_vac,0.460486777
+OFRA_SH_11_B,seahorse,HH,OFRA,SHH,B,,symb_vac,0.507643086
+OFRA_SH_11_B,seahorse,HH,OFRA,SHH,B,,symb_vac,0.54228936
+OFRA_SH_11_B,seahorse,HH,OFRA,SHH,B,,symb_vac,0.497757505
+OFRA_SH_11_B,seahorse,HH,OFRA,SHH,B,,symb_vac,0.469749218
+OFRA_SH_11_B,seahorse,HH,OFRA,SHH,B,,symb_vac,0.382228045
+OFRA_SH_11_B,seahorse,HH,OFRA,SHH,B,,symb_vac,0.457249725
+OFRA_SH_11_B,seahorse,HH,OFRA,SHH,B,,symb_vac,0.4784364
+OFRA_SH_11_B,seahorse,HH,OFRA,SHH,B,,min_symb,21.246
+OFRA_SH_11_B,seahorse,HH,OFRA,SHH,B,,max_vac,107.619
+OFRA_SH_11_B,seahorse,HH,OFRA,SHH,B,,avg_symb,34.3622
+OFRA_SH_11_B,seahorse,HH,OFRA,SHH,B,,avg_vac,75.83286667
+OFRA_SH_01_A,seahorse,HH,OFRA,SHH,A,1,gastro,1
+OFRA_SH_01_A,seahorse,HH,OFRA,SHH,A,,prop_exo,0.210526316
+OFRA_SH_01_A,seahorse,HH,OFRA,SHH,A,,degr_symb,1
+OFRA_SH_01_A,seahorse,HH,OFRA,SHH,A,2,gastro,1
+OFRA_SH_01_A,seahorse,HH,OFRA,SHH,A,,prop_exo,0.076923077
+OFRA_SH_01_A,seahorse,HH,OFRA,SHH,A,,degr_symb,1
+OFRA_SH_01_A,seahorse,HH,OFRA,SHH,A,3,gastro,1
+OFRA_SH_01_A,seahorse,HH,OFRA,SHH,A,,prop_exo,0.5
+OFRA_SH_01_A,seahorse,HH,OFRA,SHH,A,,degr_symb,1
+OFRA_SH_01_A,seahorse,HH,OFRA,SHH,A,4,gastro,1
+OFRA_SH_01_A,seahorse,HH,OFRA,SHH,A,,prop_exo,0
+OFRA_SH_01_A,seahorse,HH,OFRA,SHH,A,,degr_symb,1
+OFRA_SH_01_A,seahorse,HH,OFRA,SHH,A,5,gastro,1
+OFRA_SH_01_A,seahorse,HH,OFRA,SHH,A,,prop_exo,0.2
+OFRA_SH_01_A,seahorse,HH,OFRA,SHH,A,,degr_symb,1
+OFRA_SH_01_A,seahorse,HH,OFRA,SHH,A,,symb_vac,0.409992546
+OFRA_SH_01_A,seahorse,HH,OFRA,SHH,A,,symb_vac,0.32368565
+OFRA_SH_01_A,seahorse,HH,OFRA,SHH,A,,symb_vac,0.373519143
+OFRA_SH_01_A,seahorse,HH,OFRA,SHH,A,,symb_vac,0.430093707
+OFRA_SH_01_A,seahorse,HH,OFRA,SHH,A,,symb_vac,0.51965925
+OFRA_SH_01_A,seahorse,HH,OFRA,SHH,A,,symb_vac,0.469030655
+OFRA_SH_01_A,seahorse,HH,OFRA,SHH,A,,symb_vac,0.496374885
+OFRA_SH_01_A,seahorse,HH,OFRA,SHH,A,,symb_vac,0.442699057
+OFRA_SH_01_A,seahorse,HH,OFRA,SHH,A,,symb_vac,0.409197594
+OFRA_SH_01_A,seahorse,HH,OFRA,SHH,A,,symb_vac,0.298107294
+OFRA_SH_01_A,seahorse,HH,OFRA,SHH,A,,symb_vac,0.485466504
+OFRA_SH_01_A,seahorse,HH,OFRA,SHH,A,,symb_vac,0.509459905
+OFRA_SH_01_A,seahorse,HH,OFRA,SHH,A,,symb_vac,0.417130226
+OFRA_SH_01_A,seahorse,HH,OFRA,SHH,A,,symb_vac,0.5
+OFRA_SH_01_A,seahorse,HH,OFRA,SHH,A,,symb_vac,0.521121976
+OFRA_SH_01_A,seahorse,HH,OFRA,SHH,A,,min_symb,18.341
+OFRA_SH_01_A,seahorse,HH,OFRA,SHH,A,,max_vac,164.632
+OFRA_SH_01_A,seahorse,HH,OFRA,SHH,A,,avg_symb,33.4064
+OFRA_SH_01_A,seahorse,HH,OFRA,SHH,A,,avg_vac,77.4326
+OFRA_SH_02_A,seahorse,DD,OFRA,SDD,A,1,gastro,1
+OFRA_SH_02_A,seahorse,DD,OFRA,SDD,A,,prop_exo,0.285714286
+OFRA_SH_02_A,seahorse,DD,OFRA,SDD,A,,degr_symb,1
+OFRA_SH_02_A,seahorse,DD,OFRA,SDD,A,2,gastro,1
+OFRA_SH_02_A,seahorse,DD,OFRA,SDD,A,,prop_exo,0.166666667
+OFRA_SH_02_A,seahorse,DD,OFRA,SDD,A,,degr_symb,1
+OFRA_SH_02_A,seahorse,DD,OFRA,SDD,A,3,gastro,1
+OFRA_SH_02_A,seahorse,DD,OFRA,SDD,A,,prop_exo,0.25
+OFRA_SH_02_A,seahorse,DD,OFRA,SDD,A,,degr_symb,1
+OFRA_SH_02_A,seahorse,DD,OFRA,SDD,A,4,gastro,1
+OFRA_SH_02_A,seahorse,DD,OFRA,SDD,A,,prop_exo,0.352941176
+OFRA_SH_02_A,seahorse,DD,OFRA,SDD,A,,degr_symb,1
+OFRA_SH_02_A,seahorse,DD,OFRA,SDD,A,5,gastro,1
+OFRA_SH_02_A,seahorse,DD,OFRA,SDD,A,,prop_exo,0.2
+OFRA_SH_02_A,seahorse,DD,OFRA,SDD,A,,degr_symb,1
+OFRA_SH_02_A,seahorse,DD,OFRA,SDD,A,,symb_vac,0.398185271
+OFRA_SH_02_A,seahorse,DD,OFRA,SDD,A,,symb_vac,0.26192497
+OFRA_SH_02_A,seahorse,DD,OFRA,SDD,A,,symb_vac,0.416897856
+OFRA_SH_02_A,seahorse,DD,OFRA,SDD,A,,symb_vac,0.454517318
+OFRA_SH_02_A,seahorse,DD,OFRA,SDD,A,,symb_vac,0.556715259
+OFRA_SH_02_A,seahorse,DD,OFRA,SDD,A,,symb_vac,0.451302773
+OFRA_SH_02_A,seahorse,DD,OFRA,SDD,A,,symb_vac,0.530132167
+OFRA_SH_02_A,seahorse,DD,OFRA,SDD,A,,symb_vac,0.449424729
+OFRA_SH_02_A,seahorse,DD,OFRA,SDD,A,,symb_vac,0.456714798
+OFRA_SH_02_A,seahorse,DD,OFRA,SDD,A,,symb_vac,0.334906883
+OFRA_SH_02_A,seahorse,DD,OFRA,SDD,A,,symb_vac,0.532408787
+OFRA_SH_02_A,seahorse,DD,OFRA,SDD,A,,symb_vac,0.36976194
+OFRA_SH_02_A,seahorse,DD,OFRA,SDD,A,,symb_vac,0.409559799
+OFRA_SH_02_A,seahorse,DD,OFRA,SDD,A,,symb_vac,0.331168758
+OFRA_SH_02_A,seahorse,DD,OFRA,SDD,A,,symb_vac,0.388923063
+OFRA_SH_02_A,seahorse,DD,OFRA,SDD,A,,min_symb,18.516
+OFRA_SH_02_A,seahorse,DD,OFRA,SDD,A,,max_vac,108.036
+OFRA_SH_02_A,seahorse,DD,OFRA,SDD,A,,avg_symb,32.1466
+OFRA_SH_02_A,seahorse,DD,OFRA,SDD,A,,avg_vac,77.35833333
+OFRA_SH_02_B,seahorse,HD,OFRA,SHD,B,1,gastro,1
+OFRA_SH_02_B,seahorse,HD,OFRA,SHD,B,,prop_exo,0.151515152
+OFRA_SH_02_B,seahorse,HD,OFRA,SHD,B,,degr_symb,1
+OFRA_SH_02_B,seahorse,HD,OFRA,SHD,B,2,gastro,1
+OFRA_SH_02_B,seahorse,HD,OFRA,SHD,B,,prop_exo,0.454545455
+OFRA_SH_02_B,seahorse,HD,OFRA,SHD,B,,degr_symb,1
+OFRA_SH_02_B,seahorse,HD,OFRA,SHD,B,3,gastro,1
+OFRA_SH_02_B,seahorse,HD,OFRA,SHD,B,,prop_exo,0.555555556
+OFRA_SH_02_B,seahorse,HD,OFRA,SHD,B,,degr_symb,1
+OFRA_SH_02_B,seahorse,HD,OFRA,SHD,B,4,gastro,1
+OFRA_SH_02_B,seahorse,HD,OFRA,SHD,B,,prop_exo,0.0625
+OFRA_SH_02_B,seahorse,HD,OFRA,SHD,B,,degr_symb,1
+OFRA_SH_02_B,seahorse,HD,OFRA,SHD,B,5,gastro,1
+OFRA_SH_02_B,seahorse,HD,OFRA,SHD,B,,prop_exo,0.333333333
+OFRA_SH_02_B,seahorse,HD,OFRA,SHD,B,,degr_symb,1
+OFRA_SH_02_B,seahorse,HD,OFRA,SHD,B,,symb_vac,0.426526335
+OFRA_SH_02_B,seahorse,HD,OFRA,SHD,B,,symb_vac,0.64334345
+OFRA_SH_02_B,seahorse,HD,OFRA,SHD,B,,symb_vac,0.440496471
+OFRA_SH_02_B,seahorse,HD,OFRA,SHD,B,,symb_vac,0.348547024
+OFRA_SH_02_B,seahorse,HD,OFRA,SHD,B,,symb_vac,0.418879711
+OFRA_SH_02_B,seahorse,HD,OFRA,SHD,B,,symb_vac,0.421652555
+OFRA_SH_02_B,seahorse,HD,OFRA,SHD,B,,symb_vac,0.55388634
+OFRA_SH_02_B,seahorse,HD,OFRA,SHD,B,,symb_vac,0.597324203
+OFRA_SH_02_B,seahorse,HD,OFRA,SHD,B,,symb_vac,0.338524346
+OFRA_SH_02_B,seahorse,HD,OFRA,SHD,B,,symb_vac,0.513639257
+OFRA_SH_02_B,seahorse,HD,OFRA,SHD,B,,symb_vac,0.395984875
+OFRA_SH_02_B,seahorse,HD,OFRA,SHD,B,,symb_vac,0.463723079
+OFRA_SH_02_B,seahorse,HD,OFRA,SHD,B,,symb_vac,0.446749237
+OFRA_SH_02_B,seahorse,HD,OFRA,SHD,B,,symb_vac,0.481865834
+OFRA_SH_02_B,seahorse,HD,OFRA,SHD,B,,symb_vac,0.46797031
+OFRA_SH_02_B,seahorse,HD,OFRA,SHD,B,,min_symb,14.76
+OFRA_SH_02_B,seahorse,HD,OFRA,SHD,B,,max_vac,78.855
+OFRA_SH_02_B,seahorse,HD,OFRA,SHD,B,,avg_symb,29.29746667
+OFRA_SH_02_B,seahorse,HD,OFRA,SHD,B,,avg_vac,62.27646667
+OFRA_SH_04_A,seahorse,HH,OFRA,SHH,A,1,gastro,1
+OFRA_SH_04_A,seahorse,HH,OFRA,SHH,A,,prop_exo,0.384615385
+OFRA_SH_04_A,seahorse,HH,OFRA,SHH,A,,degr_symb,1
+OFRA_SH_04_A,seahorse,HH,OFRA,SHH,A,2,gastro,1
+OFRA_SH_04_A,seahorse,HH,OFRA,SHH,A,,prop_exo,0
+OFRA_SH_04_A,seahorse,HH,OFRA,SHH,A,,degr_symb,1
+OFRA_SH_04_A,seahorse,HH,OFRA,SHH,A,3,gastro,1
+OFRA_SH_04_A,seahorse,HH,OFRA,SHH,A,,prop_exo,0.5
+OFRA_SH_04_A,seahorse,HH,OFRA,SHH,A,,degr_symb,1
+OFRA_SH_04_A,seahorse,HH,OFRA,SHH,A,4,gastro,1
+OFRA_SH_04_A,seahorse,HH,OFRA,SHH,A,,prop_exo,0.333333333
+OFRA_SH_04_A,seahorse,HH,OFRA,SHH,A,,degr_symb,1
+OFRA_SH_04_A,seahorse,HH,OFRA,SHH,A,5,gastro,1
+OFRA_SH_04_A,seahorse,HH,OFRA,SHH,A,,prop_exo,0.333333333
+OFRA_SH_04_A,seahorse,HH,OFRA,SHH,A,,degr_symb,1
+OFRA_SH_04_A,seahorse,HH,OFRA,SHH,A,,symb_vac,0.615709527
+OFRA_SH_04_A,seahorse,HH,OFRA,SHH,A,,symb_vac,0.476403902
+OFRA_SH_04_A,seahorse,HH,OFRA,SHH,A,,symb_vac,0.422751565
+OFRA_SH_04_A,seahorse,HH,OFRA,SHH,A,,symb_vac,0.341166314
+OFRA_SH_04_A,seahorse,HH,OFRA,SHH,A,,symb_vac,0.356318344
+OFRA_SH_04_A,seahorse,HH,OFRA,SHH,A,,symb_vac,0.282325064
+OFRA_SH_04_A,seahorse,HH,OFRA,SHH,A,,symb_vac,0.448955114
+OFRA_SH_04_A,seahorse,HH,OFRA,SHH,A,,symb_vac,0.399491787
+OFRA_SH_04_A,seahorse,HH,OFRA,SHH,A,,symb_vac,0.532029224
+OFRA_SH_04_A,seahorse,HH,OFRA,SHH,A,,symb_vac,0.418243553
+OFRA_SH_04_A,seahorse,HH,OFRA,SHH,A,,symb_vac,0.530599911
+OFRA_SH_04_A,seahorse,HH,OFRA,SHH,A,,symb_vac,0.451280412
+OFRA_SH_04_A,seahorse,HH,OFRA,SHH,A,,symb_vac,0.454324882
+OFRA_SH_04_A,seahorse,HH,OFRA,SHH,A,,symb_vac,0.383478774
+OFRA_SH_04_A,seahorse,HH,OFRA,SHH,A,,symb_vac,0.391790812
+OFRA_SH_04_A,seahorse,HH,OFRA,SHH,A,,min_symb,22.01
+OFRA_SH_04_A,seahorse,HH,OFRA,SHH,A,,max_vac,104.238
+OFRA_SH_04_A,seahorse,HH,OFRA,SHH,A,,avg_symb,31.4702
+OFRA_SH_04_A,seahorse,HH,OFRA,SHH,A,,avg_vac,73.8134
+OFRA_SH_04_B,seahorse,HH,OFRA,SHH,B,1,gastro,1
+OFRA_SH_04_B,seahorse,HH,OFRA,SHH,B,,prop_exo,0.142857143
+OFRA_SH_04_B,seahorse,HH,OFRA,SHH,B,,degr_symb,1
+OFRA_SH_04_B,seahorse,HH,OFRA,SHH,B,2,gastro,1
+OFRA_SH_04_B,seahorse,HH,OFRA,SHH,B,,prop_exo,0.615384615
+OFRA_SH_04_B,seahorse,HH,OFRA,SHH,B,,degr_symb,1
+OFRA_SH_04_B,seahorse,HH,OFRA,SHH,B,3,gastro,1
+OFRA_SH_04_B,seahorse,HH,OFRA,SHH,B,,prop_exo,0
+OFRA_SH_04_B,seahorse,HH,OFRA,SHH,B,,degr_symb,1
+OFRA_SH_04_B,seahorse,HH,OFRA,SHH,B,4,gastro,1
+OFRA_SH_04_B,seahorse,HH,OFRA,SHH,B,,prop_exo,0.4
+OFRA_SH_04_B,seahorse,HH,OFRA,SHH,B,,degr_symb,1
+OFRA_SH_04_B,seahorse,HH,OFRA,SHH,B,5,gastro,1
+OFRA_SH_04_B,seahorse,HH,OFRA,SHH,B,,prop_exo,0.5
+OFRA_SH_04_B,seahorse,HH,OFRA,SHH,B,,degr_symb,1
+OFRA_SH_04_B,seahorse,HH,OFRA,SHH,B,,symb_vac,0.541555758
+OFRA_SH_04_B,seahorse,HH,OFRA,SHH,B,,symb_vac,0.458076581
+OFRA_SH_04_B,seahorse,HH,OFRA,SHH,B,,symb_vac,0.461258352
+OFRA_SH_04_B,seahorse,HH,OFRA,SHH,B,,symb_vac,0.418827854
+OFRA_SH_04_B,seahorse,HH,OFRA,SHH,B,,symb_vac,0.58269132
+OFRA_SH_04_B,seahorse,HH,OFRA,SHH,B,,symb_vac,0.423895679
+OFRA_SH_04_B,seahorse,HH,OFRA,SHH,B,,symb_vac,0.44075293
+OFRA_SH_04_B,seahorse,HH,OFRA,SHH,B,,symb_vac,0.367243632
+OFRA_SH_04_B,seahorse,HH,OFRA,SHH,B,,symb_vac,0.435738878
+OFRA_SH_04_B,seahorse,HH,OFRA,SHH,B,,symb_vac,0.371076958
+OFRA_SH_04_B,seahorse,HH,OFRA,SHH,B,,symb_vac,0.450067219
+OFRA_SH_04_B,seahorse,HH,OFRA,SHH,B,,symb_vac,0.462952134
+OFRA_SH_04_B,seahorse,HH,OFRA,SHH,B,,symb_vac,0.36804806
+OFRA_SH_04_B,seahorse,HH,OFRA,SHH,B,,symb_vac,0.400029964
+OFRA_SH_04_B,seahorse,HH,OFRA,SHH,B,,symb_vac,0.569927688
+OFRA_SH_04_B,seahorse,HH,OFRA,SHH,B,,min_symb,19.237
+OFRA_SH_04_B,seahorse,HH,OFRA,SHH,B,,max_vac,86.771
+OFRA_SH_04_B,seahorse,HH,OFRA,SHH,B,,avg_symb,29.19986667
+OFRA_SH_04_B,seahorse,HH,OFRA,SHH,B,,avg_vac,65.0646
+OFRA_SH_06_A,seahorse,DD,OFRA,SDD,A,1,gastro,1
+OFRA_SH_06_A,seahorse,DD,OFRA,SDD,A,,prop_exo,0
+OFRA_SH_06_A,seahorse,DD,OFRA,SDD,A,,degr_symb,1
+OFRA_SH_06_A,seahorse,DD,OFRA,SDD,A,2,gastro,1
+OFRA_SH_06_A,seahorse,DD,OFRA,SDD,A,,prop_exo,0.6
+OFRA_SH_06_A,seahorse,DD,OFRA,SDD,A,,degr_symb,1
+OFRA_SH_06_A,seahorse,DD,OFRA,SDD,A,3,gastro,1
+OFRA_SH_06_A,seahorse,DD,OFRA,SDD,A,,prop_exo,0.375
+OFRA_SH_06_A,seahorse,DD,OFRA,SDD,A,,degr_symb,1
+OFRA_SH_06_A,seahorse,DD,OFRA,SDD,A,4,gastro,1
+OFRA_SH_06_A,seahorse,DD,OFRA,SDD,A,,prop_exo,0.066666667
+OFRA_SH_06_A,seahorse,DD,OFRA,SDD,A,,degr_symb,1
+OFRA_SH_06_A,seahorse,DD,OFRA,SDD,A,5,gastro,1
+OFRA_SH_06_A,seahorse,DD,OFRA,SDD,A,,prop_exo,0.111111111
+OFRA_SH_06_A,seahorse,DD,OFRA,SDD,A,,degr_symb,1
+OFRA_SH_06_A,seahorse,DD,OFRA,SDD,A,,symb_vac,0.365771394
+OFRA_SH_06_A,seahorse,DD,OFRA,SDD,A,,symb_vac,0.420031884
+OFRA_SH_06_A,seahorse,DD,OFRA,SDD,A,,symb_vac,0.341750781
+OFRA_SH_06_A,seahorse,DD,OFRA,SDD,A,,symb_vac,0.497517409
+OFRA_SH_06_A,seahorse,DD,OFRA,SDD,A,,symb_vac,0.455594182
+OFRA_SH_06_A,seahorse,DD,OFRA,SDD,A,,symb_vac,0.437458763
+OFRA_SH_06_A,seahorse,DD,OFRA,SDD,A,,symb_vac,0.5174565
+OFRA_SH_06_A,seahorse,DD,OFRA,SDD,A,,symb_vac,0.469233353
+OFRA_SH_06_A,seahorse,DD,OFRA,SDD,A,,symb_vac,0.471431335
+OFRA_SH_06_A,seahorse,DD,OFRA,SDD,A,,symb_vac,0.485494933
+OFRA_SH_06_A,seahorse,DD,OFRA,SDD,A,,symb_vac,0.432336826
+OFRA_SH_06_A,seahorse,DD,OFRA,SDD,A,,symb_vac,0.391214251
+OFRA_SH_06_A,seahorse,DD,OFRA,SDD,A,,symb_vac,0.412775533
+OFRA_SH_06_A,seahorse,DD,OFRA,SDD,A,,symb_vac,0.48612668
+OFRA_SH_06_A,seahorse,DD,OFRA,SDD,A,,symb_vac,0.595393601
+OFRA_SH_06_A,seahorse,DD,OFRA,SDD,A,,min_symb,19.028
+OFRA_SH_06_A,seahorse,DD,OFRA,SDD,A,,max_vac,88.353
+OFRA_SH_06_A,seahorse,DD,OFRA,SDD,A,,avg_symb,31.57133333
+OFRA_SH_06_A,seahorse,DD,OFRA,SDD,A,,avg_vac,69.97926667
+OFRA_SB_09_A,stumpy bay,HH,OFRA,SHH,A,1,gastro,1
+OFRA_SB_09_A,stumpy bay,HH,OFRA,SHH,A,,prop_exo,0.315789474
+OFRA_SB_09_A,stumpy bay,HH,OFRA,SHH,A,,degr_symb,1
+OFRA_SB_09_A,stumpy bay,HH,OFRA,SHH,A,2,gastro,1
+OFRA_SB_09_A,stumpy bay,HH,OFRA,SHH,A,,prop_exo,0.222222222
+OFRA_SB_09_A,stumpy bay,HH,OFRA,SHH,A,,degr_symb,1
+OFRA_SB_09_A,stumpy bay,HH,OFRA,SHH,A,3,gastro,1
+OFRA_SB_09_A,stumpy bay,HH,OFRA,SHH,A,,prop_exo,0.111111111
+OFRA_SB_09_A,stumpy bay,HH,OFRA,SHH,A,,degr_symb,1
+OFRA_SB_09_A,stumpy bay,HH,OFRA,SHH,A,4,gastro,1
+OFRA_SB_09_A,stumpy bay,HH,OFRA,SHH,A,,prop_exo,0.133333333
+OFRA_SB_09_A,stumpy bay,HH,OFRA,SHH,A,,degr_symb,1
+OFRA_SB_09_A,stumpy bay,HH,OFRA,SHH,A,5,gastro,1
+OFRA_SB_09_A,stumpy bay,HH,OFRA,SHH,A,,prop_exo,0.222222222
+OFRA_SB_09_A,stumpy bay,HH,OFRA,SHH,A,,degr_symb,1
+OFRA_SB_09_A,stumpy bay,HH,OFRA,SHH,A,,symb_vac,0.580944543
+OFRA_SB_09_A,stumpy bay,HH,OFRA,SHH,A,,symb_vac,0.376632441
+OFRA_SB_09_A,stumpy bay,HH,OFRA,SHH,A,,symb_vac,0.495142941
+OFRA_SB_09_A,stumpy bay,HH,OFRA,SHH,A,,symb_vac,0.467024643
+OFRA_SB_09_A,stumpy bay,HH,OFRA,SHH,A,,symb_vac,0.494413143
+OFRA_SB_09_A,stumpy bay,HH,OFRA,SHH,A,,symb_vac,0.441018062
+OFRA_SB_09_A,stumpy bay,HH,OFRA,SHH,A,,symb_vac,0.468056025
+OFRA_SB_09_A,stumpy bay,HH,OFRA,SHH,A,,symb_vac,0.462172575
+OFRA_SB_09_A,stumpy bay,HH,OFRA,SHH,A,,symb_vac,0.598566879
+OFRA_SB_09_A,stumpy bay,HH,OFRA,SHH,A,,symb_vac,0.524944215
+OFRA_SB_09_A,stumpy bay,HH,OFRA,SHH,A,,symb_vac,0.579971515
+OFRA_SB_09_A,stumpy bay,HH,OFRA,SHH,A,,symb_vac,0.531356147
+OFRA_SB_09_A,stumpy bay,HH,OFRA,SHH,A,,symb_vac,0.475249059
+OFRA_SB_09_A,stumpy bay,HH,OFRA,SHH,A,,symb_vac,0.496964728
+OFRA_SB_09_A,stumpy bay,HH,OFRA,SHH,A,,symb_vac,0.520764981
+OFRA_SB_09_A,stumpy bay,HH,OFRA,SHH,A,,min_symb,20.505
+OFRA_SB_09_A,stumpy bay,HH,OFRA,SHH,A,,max_vac,78.9
+OFRA_SB_09_A,stumpy bay,HH,OFRA,SHH,A,,avg_symb,31.24326667
+OFRA_SB_09_A,stumpy bay,HH,OFRA,SHH,A,,avg_vac,62.02786667
+OFRA_SB_102_A,stumpy bay,HH,OFRA,SHH,A,1,gastro,0
+OFRA_SB_102_A,stumpy bay,HH,OFRA,SHH,A,,prop_exo,0.111111111
+OFRA_SB_102_A,stumpy bay,HH,OFRA,SHH,A,,degr_symb,1
+OFRA_SB_102_A,stumpy bay,HH,OFRA,SHH,A,2,gastro,1
+OFRA_SB_102_A,stumpy bay,HH,OFRA,SHH,A,,prop_exo,0.5
+OFRA_SB_102_A,stumpy bay,HH,OFRA,SHH,A,,degr_symb,1
+OFRA_SB_102_A,stumpy bay,HH,OFRA,SHH,A,3,gastro,1
+OFRA_SB_102_A,stumpy bay,HH,OFRA,SHH,A,,prop_exo,0.1
+OFRA_SB_102_A,stumpy bay,HH,OFRA,SHH,A,,degr_symb,1
+OFRA_SB_102_A,stumpy bay,HH,OFRA,SHH,A,4,gastro,1
+OFRA_SB_102_A,stumpy bay,HH,OFRA,SHH,A,,prop_exo,0
+OFRA_SB_102_A,stumpy bay,HH,OFRA,SHH,A,,degr_symb,1
+OFRA_SB_102_A,stumpy bay,HH,OFRA,SHH,A,5,gastro,1
+OFRA_SB_102_A,stumpy bay,HH,OFRA,SHH,A,,prop_exo,0
+OFRA_SB_102_A,stumpy bay,HH,OFRA,SHH,A,,degr_symb,1
+OFRA_SB_102_A,stumpy bay,HH,OFRA,SHH,A,,symb_vac,0.441948602
+OFRA_SB_102_A,stumpy bay,HH,OFRA,SHH,A,,symb_vac,0.563805154
+OFRA_SB_102_A,stumpy bay,HH,OFRA,SHH,A,,symb_vac,0.453064366
+OFRA_SB_102_A,stumpy bay,HH,OFRA,SHH,A,,symb_vac,0.500284284
+OFRA_SB_102_A,stumpy bay,HH,OFRA,SHH,A,,symb_vac,0.434898619
+OFRA_SB_102_A,stumpy bay,HH,OFRA,SHH,A,,symb_vac,0.502014034
+OFRA_SB_102_A,stumpy bay,HH,OFRA,SHH,A,,symb_vac,0.433145531
+OFRA_SB_102_A,stumpy bay,HH,OFRA,SHH,A,,symb_vac,0.405756093
+OFRA_SB_102_A,stumpy bay,HH,OFRA,SHH,A,,symb_vac,0.535682108
+OFRA_SB_102_A,stumpy bay,HH,OFRA,SHH,A,,symb_vac,0.412565977
+OFRA_SB_102_A,stumpy bay,HH,OFRA,SHH,A,,symb_vac,0.402587318
+OFRA_SB_102_A,stumpy bay,HH,OFRA,SHH,A,,symb_vac,0.411595547
+OFRA_SB_102_A,stumpy bay,HH,OFRA,SHH,A,,symb_vac,0.608053125
+OFRA_SB_102_A,stumpy bay,HH,OFRA,SHH,A,,symb_vac,0.447442125
+OFRA_SB_102_A,stumpy bay,HH,OFRA,SHH,A,,symb_vac,0.480537586
+OFRA_SB_102_A,stumpy bay,HH,OFRA,SHH,A,,min_symb,24.367
+OFRA_SB_102_A,stumpy bay,HH,OFRA,SHH,A,,max_vac,93.543
+OFRA_SB_102_A,stumpy bay,HH,OFRA,SHH,A,,avg_symb,31.42106667
+OFRA_SB_102_A,stumpy bay,HH,OFRA,SHH,A,,avg_vac,67.95946667
+OFRA_SB_102_B,stumpy bay,HH,OFRA,SHH,B,1,gastro,1
+OFRA_SB_102_B,stumpy bay,HH,OFRA,SHH,B,,prop_exo,0.055555556
+OFRA_SB_102_B,stumpy bay,HH,OFRA,SHH,B,,degr_symb,1
+OFRA_SB_102_B,stumpy bay,HH,OFRA,SHH,B,2,gastro,1
+OFRA_SB_102_B,stumpy bay,HH,OFRA,SHH,B,,prop_exo,0.25
+OFRA_SB_102_B,stumpy bay,HH,OFRA,SHH,B,,degr_symb,1
+OFRA_SB_102_B,stumpy bay,HH,OFRA,SHH,B,3,gastro,1
+OFRA_SB_102_B,stumpy bay,HH,OFRA,SHH,B,,prop_exo,0.363636364
+OFRA_SB_102_B,stumpy bay,HH,OFRA,SHH,B,,degr_symb,1
+OFRA_SB_102_B,stumpy bay,HH,OFRA,SHH,B,4,gastro,1
+OFRA_SB_102_B,stumpy bay,HH,OFRA,SHH,B,,prop_exo,0.157894737
+OFRA_SB_102_B,stumpy bay,HH,OFRA,SHH,B,,degr_symb,1
+OFRA_SB_102_B,stumpy bay,HH,OFRA,SHH,B,5,gastro,1
+OFRA_SB_102_B,stumpy bay,HH,OFRA,SHH,B,,prop_exo,0.125
+OFRA_SB_102_B,stumpy bay,HH,OFRA,SHH,B,,degr_symb,1
+OFRA_SB_102_B,stumpy bay,HH,OFRA,SHH,B,,symb_vac,0.577710883
+OFRA_SB_102_B,stumpy bay,HH,OFRA,SHH,B,,symb_vac,0.486739884
+OFRA_SB_102_B,stumpy bay,HH,OFRA,SHH,B,,symb_vac,0.410036282
+OFRA_SB_102_B,stumpy bay,HH,OFRA,SHH,B,,symb_vac,0.50808612
+OFRA_SB_102_B,stumpy bay,HH,OFRA,SHH,B,,symb_vac,0.387598472
+OFRA_SB_102_B,stumpy bay,HH,OFRA,SHH,B,,symb_vac,0.352116526
+OFRA_SB_102_B,stumpy bay,HH,OFRA,SHH,B,,symb_vac,0.477875815
+OFRA_SB_102_B,stumpy bay,HH,OFRA,SHH,B,,symb_vac,0.490623811
+OFRA_SB_102_B,stumpy bay,HH,OFRA,SHH,B,,symb_vac,0.575424744
+OFRA_SB_102_B,stumpy bay,HH,OFRA,SHH,B,,symb_vac,0.510418311
+OFRA_SB_102_B,stumpy bay,HH,OFRA,SHH,B,,symb_vac,0.48641063
+OFRA_SB_102_B,stumpy bay,HH,OFRA,SHH,B,,symb_vac,0.467377622
+OFRA_SB_102_B,stumpy bay,HH,OFRA,SHH,B,,symb_vac,0.560878721
+OFRA_SB_102_B,stumpy bay,HH,OFRA,SHH,B,,symb_vac,0.344149508
+OFRA_SB_102_B,stumpy bay,HH,OFRA,SHH,B,,symb_vac,0.430971099
+OFRA_SB_102_B,stumpy bay,HH,OFRA,SHH,B,,min_symb,16.048
+OFRA_SB_102_B,stumpy bay,HH,OFRA,SHH,B,,max_vac,91.122
+OFRA_SB_102_B,stumpy bay,HH,OFRA,SHH,B,,avg_symb,32.3532
+OFRA_SB_102_B,stumpy bay,HH,OFRA,SHH,B,,avg_vac,68.8558
+OFRA_SH_06_B,seahorse,HD,OFRA,SHD,B,1,gastro,1
+OFRA_SH_06_B,seahorse,HD,OFRA,SHD,B,,prop_exo,0.363636364
+OFRA_SH_06_B,seahorse,HD,OFRA,SHD,B,,degr_symb,1
+OFRA_SH_06_B,seahorse,HD,OFRA,SHD,B,2,gastro,1
+OFRA_SH_06_B,seahorse,HD,OFRA,SHD,B,,prop_exo,0.222222222
+OFRA_SH_06_B,seahorse,HD,OFRA,SHD,B,,degr_symb,1
+OFRA_SH_06_B,seahorse,HD,OFRA,SHD,B,3,gastro,1
+OFRA_SH_06_B,seahorse,HD,OFRA,SHD,B,,prop_exo,0
+OFRA_SH_06_B,seahorse,HD,OFRA,SHD,B,,degr_symb,1
+OFRA_SH_06_B,seahorse,HD,OFRA,SHD,B,4,gastro,1
+OFRA_SH_06_B,seahorse,HD,OFRA,SHD,B,,prop_exo,0.5
+OFRA_SH_06_B,seahorse,HD,OFRA,SHD,B,,degr_symb,1
+OFRA_SH_06_B,seahorse,HD,OFRA,SHD,B,5,gastro,1
+OFRA_SH_06_B,seahorse,HD,OFRA,SHD,B,,prop_exo,0.1
+OFRA_SH_06_B,seahorse,HD,OFRA,SHD,B,,degr_symb,1
+OFRA_SH_06_B,seahorse,HD,OFRA,SHD,B,,symb_vac,0.369393588
+OFRA_SH_06_B,seahorse,HD,OFRA,SHD,B,,symb_vac,0.430028141
+OFRA_SH_06_B,seahorse,HD,OFRA,SHD,B,,symb_vac,0.41211644
+OFRA_SH_06_B,seahorse,HD,OFRA,SHD,B,,symb_vac,0.41926803
+OFRA_SH_06_B,seahorse,HD,OFRA,SHD,B,,symb_vac,0.391042362
+OFRA_SH_06_B,seahorse,HD,OFRA,SHD,B,,symb_vac,0.430254887
+OFRA_SH_06_B,seahorse,HD,OFRA,SHD,B,,symb_vac,0.480299203
+OFRA_SH_06_B,seahorse,HD,OFRA,SHD,B,,symb_vac,0.468557904
+OFRA_SH_06_B,seahorse,HD,OFRA,SHD,B,,symb_vac,0.566626367
+OFRA_SH_06_B,seahorse,HD,OFRA,SHD,B,,symb_vac,0.375242134
+OFRA_SH_06_B,seahorse,HD,OFRA,SHD,B,,symb_vac,0.481573026
+OFRA_SH_06_B,seahorse,HD,OFRA,SHD,B,,symb_vac,0.386250266
+OFRA_SH_06_B,seahorse,HD,OFRA,SHD,B,,symb_vac,0.490907842
+OFRA_SH_06_B,seahorse,HD,OFRA,SHD,B,,symb_vac,0.498798693
+OFRA_SH_06_B,seahorse,HD,OFRA,SHD,B,,symb_vac,0.47075988
+OFRA_SH_06_B,seahorse,HD,OFRA,SHD,B,,min_symb,18.119
+OFRA_SH_06_B,seahorse,HD,OFRA,SHD,B,,max_vac,105.874
+OFRA_SH_06_B,seahorse,HD,OFRA,SHD,B,,avg_symb,31.1546
+OFRA_SH_06_B,seahorse,HD,OFRA,SHD,B,,avg_vac,68.91
+OFRA_SH_13_B,seahorse,HH,OFRA,SHH,B,1,gastro,1
+OFRA_SH_13_B,seahorse,HH,OFRA,SHH,B,,prop_exo,0.222222222
+OFRA_SH_13_B,seahorse,HH,OFRA,SHH,B,,degr_symb,1
+OFRA_SH_13_B,seahorse,HH,OFRA,SHH,B,2,gastro,1
+OFRA_SH_13_B,seahorse,HH,OFRA,SHH,B,,prop_exo,0.222222222
+OFRA_SH_13_B,seahorse,HH,OFRA,SHH,B,,degr_symb,1
+OFRA_SH_13_B,seahorse,HH,OFRA,SHH,B,3,gastro,1
+OFRA_SH_13_B,seahorse,HH,OFRA,SHH,B,,prop_exo,0.375
+OFRA_SH_13_B,seahorse,HH,OFRA,SHH,B,,degr_symb,1
+OFRA_SH_13_B,seahorse,HH,OFRA,SHH,B,4,gastro,1
+OFRA_SH_13_B,seahorse,HH,OFRA,SHH,B,,prop_exo,0
+OFRA_SH_13_B,seahorse,HH,OFRA,SHH,B,,degr_symb,1
+OFRA_SH_13_B,seahorse,HH,OFRA,SHH,B,5,gastro,1
+OFRA_SH_13_B,seahorse,HH,OFRA,SHH,B,,prop_exo,0.25
+OFRA_SH_13_B,seahorse,HH,OFRA,SHH,B,,degr_symb,1
+OFRA_SH_13_B,seahorse,HH,OFRA,SHH,B,,symb_vac,0.479480575
+OFRA_SH_13_B,seahorse,HH,OFRA,SHH,B,,symb_vac,0.50660355
+OFRA_SH_13_B,seahorse,HH,OFRA,SHH,B,,symb_vac,0.502831605
+OFRA_SH_13_B,seahorse,HH,OFRA,SHH,B,,symb_vac,0.495592155
+OFRA_SH_13_B,seahorse,HH,OFRA,SHH,B,,symb_vac,0.470782928
+OFRA_SH_13_B,seahorse,HH,OFRA,SHH,B,,symb_vac,0.486655793
+OFRA_SH_13_B,seahorse,HH,OFRA,SHH,B,,symb_vac,0.434153284
+OFRA_SH_13_B,seahorse,HH,OFRA,SHH,B,,symb_vac,0.585976985
+OFRA_SH_13_B,seahorse,HH,OFRA,SHH,B,,symb_vac,0.529493508
+OFRA_SH_13_B,seahorse,HH,OFRA,SHH,B,,symb_vac,0.507431903
+OFRA_SH_13_B,seahorse,HH,OFRA,SHH,B,,symb_vac,0.480275391
+OFRA_SH_13_B,seahorse,HH,OFRA,SHH,B,,symb_vac,0.498739307
+OFRA_SH_13_B,seahorse,HH,OFRA,SHH,B,,symb_vac,0.509124227
+OFRA_SH_13_B,seahorse,HH,OFRA,SHH,B,,symb_vac,0.435269597
+OFRA_SH_13_B,seahorse,HH,OFRA,SHH,B,,symb_vac,0.528831245
+OFRA_SH_13_B,seahorse,HH,OFRA,SHH,B,,min_symb,25.687
+OFRA_SH_13_B,seahorse,HH,OFRA,SHH,B,,max_vac,88.513
+OFRA_SH_13_B,seahorse,HH,OFRA,SHH,B,,avg_symb,33.9814
+OFRA_SH_13_B,seahorse,HH,OFRA,SHH,B,,avg_vac,68.66873333
+OFRA_SC_02_A,south capella ,DD,OFRA,SDD,A,1,gastro,1
+OFRA_SC_02_A,south capella ,DD,OFRA,SDD,A,,prop_exo,0.272727273
+OFRA_SC_02_A,south capella ,DD,OFRA,SDD,A,,degr_symb,1
+OFRA_SC_02_A,south capella ,DD,OFRA,SDD,A,2,gastro,1
+OFRA_SC_02_A,south capella ,DD,OFRA,SDD,A,,prop_exo,0.375
+OFRA_SC_02_A,south capella ,DD,OFRA,SDD,A,,degr_symb,1
+OFRA_SC_02_A,south capella ,DD,OFRA,SDD,A,3,gastro,1
+OFRA_SC_02_A,south capella ,DD,OFRA,SDD,A,,prop_exo,0.222222222
+OFRA_SC_02_A,south capella ,DD,OFRA,SDD,A,,degr_symb,1
+OFRA_SC_02_A,south capella ,DD,OFRA,SDD,A,4,gastro,1
+OFRA_SC_02_A,south capella ,DD,OFRA,SDD,A,,prop_exo,0.615384615
+OFRA_SC_02_A,south capella ,DD,OFRA,SDD,A,,degr_symb,1
+OFRA_SC_02_A,south capella ,DD,OFRA,SDD,A,5,gastro,1
+OFRA_SC_02_A,south capella ,DD,OFRA,SDD,A,,prop_exo,0.333333333
+OFRA_SC_02_A,south capella ,DD,OFRA,SDD,A,,degr_symb,1
+OFRA_SC_02_A,south capella ,DD,OFRA,SDD,A,,symb_vac,0.473352735
+OFRA_SC_02_A,south capella ,DD,OFRA,SDD,A,,symb_vac,0.510160203
+OFRA_SC_02_A,south capella ,DD,OFRA,SDD,A,,symb_vac,0.514165703
+OFRA_SC_02_A,south capella ,DD,OFRA,SDD,A,,symb_vac,0.299612216
+OFRA_SC_02_A,south capella ,DD,OFRA,SDD,A,,symb_vac,0.458934255
+OFRA_SC_02_A,south capella ,DD,OFRA,SDD,A,,symb_vac,0.521444066
+OFRA_SC_02_A,south capella ,DD,OFRA,SDD,A,,symb_vac,0.455249053
+OFRA_SC_02_A,south capella ,DD,OFRA,SDD,A,,symb_vac,0.494056464
+OFRA_SC_02_A,south capella ,DD,OFRA,SDD,A,,symb_vac,0.400506507
+OFRA_SC_02_A,south capella ,DD,OFRA,SDD,A,,symb_vac,0.295628242
+OFRA_SC_02_A,south capella ,DD,OFRA,SDD,A,,symb_vac,0.496136037
+OFRA_SC_02_A,south capella ,DD,OFRA,SDD,A,,symb_vac,0.347697095
+OFRA_SC_02_A,south capella ,DD,OFRA,SDD,A,,symb_vac,0.480049672
+OFRA_SC_02_A,south capella ,DD,OFRA,SDD,A,,symb_vac,0.440291187
+OFRA_SC_02_A,south capella ,DD,OFRA,SDD,A,,symb_vac,0.455822329
+OFRA_SC_02_A,south capella ,DD,OFRA,SDD,A,,min_symb,13.964
+OFRA_SC_02_A,south capella ,DD,OFRA,SDD,A,,max_vac,71.338
+OFRA_SC_02_A,south capella ,DD,OFRA,SDD,A,,avg_symb,26.238
+OFRA_SC_02_A,south capella ,DD,OFRA,SDD,A,,avg_vac,58.65626667
+OFRA_SH_07_A,seahorse,DD,OFRA,SDD,A,1,gastro,1
+OFRA_SH_07_A,seahorse,DD,OFRA,SDD,A,,prop_exo,0.375
+OFRA_SH_07_A,seahorse,DD,OFRA,SDD,A,,degr_symb,1
+OFRA_SH_07_A,seahorse,DD,OFRA,SDD,A,2,gastro,1
+OFRA_SH_07_A,seahorse,DD,OFRA,SDD,A,,prop_exo,0.111111111
+OFRA_SH_07_A,seahorse,DD,OFRA,SDD,A,,degr_symb,1
+OFRA_SH_07_A,seahorse,DD,OFRA,SDD,A,3,gastro,0
+OFRA_SH_07_A,seahorse,DD,OFRA,SDD,A,,prop_exo,0.176470588
+OFRA_SH_07_A,seahorse,DD,OFRA,SDD,A,,degr_symb,1
+OFRA_SH_07_A,seahorse,DD,OFRA,SDD,A,4,gastro,1
+OFRA_SH_07_A,seahorse,DD,OFRA,SDD,A,,prop_exo,0.142857143
+OFRA_SH_07_A,seahorse,DD,OFRA,SDD,A,,degr_symb,1
+OFRA_SH_07_A,seahorse,DD,OFRA,SDD,A,5,gastro,0
+OFRA_SH_07_A,seahorse,DD,OFRA,SDD,A,,prop_exo,0
+OFRA_SH_07_A,seahorse,DD,OFRA,SDD,A,,degr_symb,0
+OFRA_SH_07_A,seahorse,DD,OFRA,SDD,A,,symb_vac,0.585391276
+OFRA_SH_07_A,seahorse,DD,OFRA,SDD,A,,symb_vac,0.385708127
+OFRA_SH_07_A,seahorse,DD,OFRA,SDD,A,,symb_vac,0.438340122
+OFRA_SH_07_A,seahorse,DD,OFRA,SDD,A,,symb_vac,0.498138132
+OFRA_SH_07_A,seahorse,DD,OFRA,SDD,A,,symb_vac,0.530490496
+OFRA_SH_07_A,seahorse,DD,OFRA,SDD,A,,symb_vac,0.395010395
+OFRA_SH_07_A,seahorse,DD,OFRA,SDD,A,,symb_vac,0.509401257
+OFRA_SH_07_A,seahorse,DD,OFRA,SDD,A,,symb_vac,0.464721712
+OFRA_SH_07_A,seahorse,DD,OFRA,SDD,A,,symb_vac,0.551764604
+OFRA_SH_07_A,seahorse,DD,OFRA,SDD,A,,symb_vac,0.568355674
+OFRA_SH_07_A,seahorse,DD,OFRA,SDD,A,,symb_vac,0.498038475
+OFRA_SH_07_A,seahorse,DD,OFRA,SDD,A,,symb_vac,0.404001768
+OFRA_SH_07_A,seahorse,DD,OFRA,SDD,A,,symb_vac,0.444012841
+OFRA_SH_07_A,seahorse,DD,OFRA,SDD,A,,symb_vac,0.481890051
+OFRA_SH_07_A,seahorse,DD,OFRA,SDD,A,,symb_vac,0.458348262
+OFRA_SH_07_A,seahorse,DD,OFRA,SDD,A,,min_symb,17.218
+OFRA_SH_07_A,seahorse,DD,OFRA,SDD,A,,max_vac,72.291
+OFRA_SH_07_A,seahorse,DD,OFRA,SDD,A,,avg_symb,28.85546667
+OFRA_SH_07_A,seahorse,DD,OFRA,SDD,A,,avg_vac,59.36793333
+OFRA_SR_12_B,sail rock ,HH,OFRA,SHH,B,1,gastro,1
+OFRA_SR_12_B,sail rock ,HH,OFRA,SHH,B,,prop_exo,0.235294118
+OFRA_SR_12_B,sail rock ,HH,OFRA,SHH,B,,degr_symb,1
+OFRA_SR_12_B,sail rock ,HH,OFRA,SHH,B,2,gastro,1
+OFRA_SR_12_B,sail rock ,HH,OFRA,SHH,B,,prop_exo,0.375
+OFRA_SR_12_B,sail rock ,HH,OFRA,SHH,B,,degr_symb,1
+OFRA_SR_12_B,sail rock ,HH,OFRA,SHH,B,3,gastro,1
+OFRA_SR_12_B,sail rock ,HH,OFRA,SHH,B,,prop_exo,0.125
+OFRA_SR_12_B,sail rock ,HH,OFRA,SHH,B,,degr_symb,1
+OFRA_SR_12_B,sail rock ,HH,OFRA,SHH,B,4,gastro,1
+OFRA_SR_12_B,sail rock ,HH,OFRA,SHH,B,,prop_exo,0.533333333
+OFRA_SR_12_B,sail rock ,HH,OFRA,SHH,B,,degr_symb,1
+OFRA_SR_12_B,sail rock ,HH,OFRA,SHH,B,5,gastro,1
+OFRA_SR_12_B,sail rock ,HH,OFRA,SHH,B,,prop_exo,0.333333333
+OFRA_SR_12_B,sail rock ,HH,OFRA,SHH,B,,degr_symb,1
+OFRA_SR_12_B,sail rock ,HH,OFRA,SHH,B,,symb_vac,0.411641687
+OFRA_SR_12_B,sail rock ,HH,OFRA,SHH,B,,symb_vac,0.552342714
+OFRA_SR_12_B,sail rock ,HH,OFRA,SHH,B,,symb_vac,0.39144842
+OFRA_SR_12_B,sail rock ,HH,OFRA,SHH,B,,symb_vac,0.458588868
+OFRA_SR_12_B,sail rock ,HH,OFRA,SHH,B,,symb_vac,0.369682079
+OFRA_SR_12_B,sail rock ,HH,OFRA,SHH,B,,symb_vac,0.42353358
+OFRA_SR_12_B,sail rock ,HH,OFRA,SHH,B,,symb_vac,0.558451501
+OFRA_SR_12_B,sail rock ,HH,OFRA,SHH,B,,symb_vac,0.488783855
+OFRA_SR_12_B,sail rock ,HH,OFRA,SHH,B,,symb_vac,0.50585152
+OFRA_SR_12_B,sail rock ,HH,OFRA,SHH,B,,symb_vac,0.414484037
+OFRA_SR_12_B,sail rock ,HH,OFRA,SHH,B,,symb_vac,0.33155911
+OFRA_SR_12_B,sail rock ,HH,OFRA,SHH,B,,symb_vac,0.44236461
+OFRA_SR_12_B,sail rock ,HH,OFRA,SHH,B,,symb_vac,0.444932948
+OFRA_SR_12_B,sail rock ,HH,OFRA,SHH,B,,symb_vac,0.39336952
+OFRA_SR_12_B,sail rock ,HH,OFRA,SHH,B,,symb_vac,0.541044096
+OFRA_SR_12_B,sail rock ,HH,OFRA,SHH,B,,min_symb,21.524
+OFRA_SR_12_B,sail rock ,HH,OFRA,SHH,B,,max_vac,98.795
+OFRA_SR_12_B,sail rock ,HH,OFRA,SHH,B,,avg_symb,30.69953333
+OFRA_SR_12_B,sail rock ,HH,OFRA,SHH,B,,avg_vac,68.8156
+OFRA_SC_07_B,south capella,HD,OFRA,SHD,B,1,gastro,1
+OFRA_SC_07_B,south capella,HD,OFRA,SHD,B,,prop_exo,0
+OFRA_SC_07_B,south capella,HD,OFRA,SHD,B,,degr_symb,1
+OFRA_SC_07_B,south capella,HD,OFRA,SHD,B,2,gastro,1
+OFRA_SC_07_B,south capella,HD,OFRA,SHD,B,,prop_exo,0.333333333
+OFRA_SC_07_B,south capella,HD,OFRA,SHD,B,,degr_symb,1
+OFRA_SC_07_B,south capella,HD,OFRA,SHD,B,3,gastro,1
+OFRA_SC_07_B,south capella,HD,OFRA,SHD,B,,prop_exo,0.2
+OFRA_SC_07_B,south capella,HD,OFRA,SHD,B,,degr_symb,1
+OFRA_SC_07_B,south capella,HD,OFRA,SHD,B,4,gastro,1
+OFRA_SC_07_B,south capella,HD,OFRA,SHD,B,,prop_exo,0.157894737
+OFRA_SC_07_B,south capella,HD,OFRA,SHD,B,,degr_symb,1
+OFRA_SC_07_B,south capella,HD,OFRA,SHD,B,5,gastro,1
+OFRA_SC_07_B,south capella,HD,OFRA,SHD,B,,prop_exo,0.285714286
+OFRA_SC_07_B,south capella,HD,OFRA,SHD,B,,degr_symb,1
+OFRA_SC_07_B,south capella,HD,OFRA,SHD,B,,symb_vac,0.3678506
+OFRA_SC_07_B,south capella,HD,OFRA,SHD,B,,symb_vac,0.440052969
+OFRA_SC_07_B,south capella,HD,OFRA,SHD,B,,symb_vac,0.361522868
+OFRA_SC_07_B,south capella,HD,OFRA,SHD,B,,symb_vac,0.36205038
+OFRA_SC_07_B,south capella,HD,OFRA,SHD,B,,symb_vac,0.601420858
+OFRA_SC_07_B,south capella,HD,OFRA,SHD,B,,symb_vac,0.504860711
+OFRA_SC_07_B,south capella,HD,OFRA,SHD,B,,symb_vac,0.334255649
+OFRA_SC_07_B,south capella,HD,OFRA,SHD,B,,symb_vac,0.493124481
+OFRA_SC_07_B,south capella,HD,OFRA,SHD,B,,symb_vac,0.416211549
+OFRA_SC_07_B,south capella,HD,OFRA,SHD,B,,symb_vac,0.383025931
+OFRA_SC_07_B,south capella,HD,OFRA,SHD,B,,symb_vac,0.410655989
+OFRA_SC_07_B,south capella,HD,OFRA,SHD,B,,symb_vac,0.349810355
+OFRA_SC_07_B,south capella,HD,OFRA,SHD,B,,symb_vac,0.444732208
+OFRA_SC_07_B,south capella,HD,OFRA,SHD,B,,symb_vac,0.303554391
+OFRA_SC_07_B,south capella,HD,OFRA,SHD,B,,symb_vac,0.504503816
+OFRA_SC_07_B,south capella,HD,OFRA,SHD,B,,min_symb,15.946
+OFRA_SC_07_B,south capella,HD,OFRA,SHD,B,,max_vac,104.689
+OFRA_SC_07_B,south capella,HD,OFRA,SHD,B,,avg_symb,26.611
+OFRA_SC_07_B,south capella,HD,OFRA,SHD,B,,avg_vac,62.96646667
+OFRA_SH_03_A,seahorse,HH,OFRA,SHH,A,1,gastro,1
+OFRA_SH_03_A,seahorse,HH,OFRA,SHH,A,,prop_exo,0.076923077
+OFRA_SH_03_A,seahorse,HH,OFRA,SHH,A,,degr_symb,1
+OFRA_SH_03_A,seahorse,HH,OFRA,SHH,A,2,gastro,1
+OFRA_SH_03_A,seahorse,HH,OFRA,SHH,A,,prop_exo,0
+OFRA_SH_03_A,seahorse,HH,OFRA,SHH,A,,degr_symb,1
+OFRA_SH_03_A,seahorse,HH,OFRA,SHH,A,3,gastro,1
+OFRA_SH_03_A,seahorse,HH,OFRA,SHH,A,,prop_exo,0.307692308
+OFRA_SH_03_A,seahorse,HH,OFRA,SHH,A,,degr_symb,1
+OFRA_SH_03_A,seahorse,HH,OFRA,SHH,A,4,gastro,1
+OFRA_SH_03_A,seahorse,HH,OFRA,SHH,A,,prop_exo,0.428571429
+OFRA_SH_03_A,seahorse,HH,OFRA,SHH,A,,degr_symb,1
+OFRA_SH_03_A,seahorse,HH,OFRA,SHH,A,5,gastro,0
+OFRA_SH_03_A,seahorse,HH,OFRA,SHH,A,,prop_exo,0.133333333
+OFRA_SH_03_A,seahorse,HH,OFRA,SHH,A,,degr_symb,1
+OFRA_SH_03_A,seahorse,HH,OFRA,SHH,A,,symb_vac,0.300819346
+OFRA_SH_03_A,seahorse,HH,OFRA,SHH,A,,symb_vac,0.52605591
+OFRA_SH_03_A,seahorse,HH,OFRA,SHH,A,,symb_vac,0.491930445
+OFRA_SH_03_A,seahorse,HH,OFRA,SHH,A,,symb_vac,0.466872459
+OFRA_SH_03_A,seahorse,HH,OFRA,SHH,A,,symb_vac,0.502822894
+OFRA_SH_03_A,seahorse,HH,OFRA,SHH,A,,symb_vac,0.433075643
+OFRA_SH_03_A,seahorse,HH,OFRA,SHH,A,,symb_vac,0.458762816
+OFRA_SH_03_A,seahorse,HH,OFRA,SHH,A,,symb_vac,0.378867681
+OFRA_SH_03_A,seahorse,HH,OFRA,SHH,A,,symb_vac,0.432912319
+OFRA_SH_03_A,seahorse,HH,OFRA,SHH,A,,symb_vac,0.420785805
+OFRA_SH_03_A,seahorse,HH,OFRA,SHH,A,,symb_vac,0.393516558
+OFRA_SH_03_A,seahorse,HH,OFRA,SHH,A,,symb_vac,0.410413904
+OFRA_SH_03_A,seahorse,HH,OFRA,SHH,A,,symb_vac,0.499510631
+OFRA_SH_03_A,seahorse,HH,OFRA,SHH,A,,symb_vac,0.439754534
+OFRA_SH_03_A,seahorse,HH,OFRA,SHH,A,,symb_vac,0.378787879
+OFRA_SH_03_A,seahorse,HH,OFRA,SHH,A,,min_symb,17.366
+OFRA_SH_03_A,seahorse,HH,OFRA,SHH,A,,max_vac,72.859
+OFRA_SH_03_A,seahorse,HH,OFRA,SHH,A,,avg_symb,25.5384
+OFRA_SH_03_A,seahorse,HH,OFRA,SHH,A,,avg_vac,58.58926667
+OFRA_SR_10_B,sail rock ,HD,OFRA,SHD,B,1,gastro,1
+OFRA_SR_10_B,sail rock ,HD,OFRA,SHD,B,,prop_exo,0.066666667
+OFRA_SR_10_B,sail rock ,HD,OFRA,SHD,B,,degr_symb,1
+OFRA_SR_10_B,sail rock ,HD,OFRA,SHD,B,2,gastro,1
+OFRA_SR_10_B,sail rock ,HD,OFRA,SHD,B,,prop_exo,0.5
+OFRA_SR_10_B,sail rock ,HD,OFRA,SHD,B,,degr_symb,1
+OFRA_SR_10_B,sail rock ,HD,OFRA,SHD,B,3,gastro,1
+OFRA_SR_10_B,sail rock ,HD,OFRA,SHD,B,,prop_exo,0.2
+OFRA_SR_10_B,sail rock ,HD,OFRA,SHD,B,,degr_symb,1
+OFRA_SR_10_B,sail rock ,HD,OFRA,SHD,B,4,gastro,1
+OFRA_SR_10_B,sail rock ,HD,OFRA,SHD,B,,prop_exo,0.19047619
+OFRA_SR_10_B,sail rock ,HD,OFRA,SHD,B,,degr_symb,1
+OFRA_SR_10_B,sail rock ,HD,OFRA,SHD,B,5,gastro,1
+OFRA_SR_10_B,sail rock ,HD,OFRA,SHD,B,,prop_exo,0
+OFRA_SR_10_B,sail rock ,HD,OFRA,SHD,B,,degr_symb,1
+OFRA_SR_10_B,sail rock ,HD,OFRA,SHD,B,,symb_vac,0.439628806
+OFRA_SR_10_B,sail rock ,HD,OFRA,SHD,B,,symb_vac,0.543156001
+OFRA_SR_10_B,sail rock ,HD,OFRA,SHD,B,,symb_vac,0.381420765
+OFRA_SR_10_B,sail rock ,HD,OFRA,SHD,B,,symb_vac,0.443724762
+OFRA_SR_10_B,sail rock ,HD,OFRA,SHD,B,,symb_vac,0.433164417
+OFRA_SR_10_B,sail rock ,HD,OFRA,SHD,B,,symb_vac,0.493938258
+OFRA_SR_10_B,sail rock ,HD,OFRA,SHD,B,,symb_vac,0.452757057
+OFRA_SR_10_B,sail rock ,HD,OFRA,SHD,B,,symb_vac,0.542277495
+OFRA_SR_10_B,sail rock ,HD,OFRA,SHD,B,,symb_vac,0.33045531
+OFRA_SR_10_B,sail rock ,HD,OFRA,SHD,B,,symb_vac,0.448091313
+OFRA_SR_10_B,sail rock ,HD,OFRA,SHD,B,,symb_vac,0.385056611
+OFRA_SR_10_B,sail rock ,HD,OFRA,SHD,B,,symb_vac,0.505039556
+OFRA_SR_10_B,sail rock ,HD,OFRA,SHD,B,,symb_vac,0.452972259
+OFRA_SR_10_B,sail rock ,HD,OFRA,SHD,B,,symb_vac,0.421802484
+OFRA_SR_10_B,sail rock ,HD,OFRA,SHD,B,,symb_vac,0.49664465
+OFRA_SR_10_B,sail rock ,HD,OFRA,SHD,B,,min_symb,20.344
+OFRA_SR_10_B,sail rock ,HD,OFRA,SHD,B,,max_vac,93.998
+OFRA_SR_10_B,sail rock ,HD,OFRA,SHD,B,,avg_symb,29.8394
+OFRA_SR_10_B,sail rock ,HD,OFRA,SHD,B,,avg_vac,65.7996

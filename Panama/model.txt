@@ -1,0 +1,61 @@
+
+    model {
+    
+    # Likelihood: 
+    # Level-1 of the model
+    for (i in 1:n){ 
+    y[i] ~ dbin(p[i],1)				# distributional assumption
+    p[i] <- exp(lp[i])/(1 + exp(lp[i])) # logit link function
+    lp[i] <- alpha[group[i]] + beta1[group[i]] * x1[i] + beta2[group[i]] * x2[i] + beta3[group[i]] * x3[i] + beta4[group[i]] * x4[i]	+ beta5[group[i]] * x5[i]# linear predictor    
+    } 
+    
+    # Level-2 of the model
+    for(j in 1:J){
+    alpha[j] <- BB[j,1]
+    beta1[j] <- BB[j,2] # Exo
+    beta2[j] <- BB[j,3] # Gastro
+    beta3[j] <- BB[j,4] # Zoox
+    beta4[j] <- BB[j,5] # symb size
+    beta5[j] <- BB[j,6] # degraded symb
+    
+    BB[j,1:K] ~ dmnorm(BB.hat[j,], Tau.B[,]) # bivariate normal
+    
+    BB.hat[j,1] <- mu.alpha
+	  BB.hat[j,2] <- mu.beta1
+	  BB.hat[j,3] <- mu.beta2
+	  BB.hat[j,4] <- mu.beta3
+	  BB.hat[j,5] <- mu.beta4
+	  BB.hat[j,6] <- mu.beta5
+	  # Use below for 2nd-level of model
+    #BB.hat[j,1] <- mu.alpha + gamma0b * z1[j] + gamma0b2 * z2[j] + gamma0b3 * z3[j] 
+    #BB.hat[j,2] <- mu.beta + gamma1b * z1[j] + gamma1b2 * z2[j] + gamma1b3 * z3[j] 
+    }
+    
+    mu.alpha ~ dnorm(0, 0.0001)
+    mu.beta1 ~ dnorm(0, 0.0001)
+    mu.beta2 ~ dnorm(0, 0.0001)
+    mu.beta3 ~ dnorm(0, 0.0001)
+    mu.beta4 ~ dnorm(0, 0.0001)
+    mu.beta5 ~ dnorm(0, 0.0001)
+    #gamma0b ~ dnorm(0, 0.0001)
+    #gamma0b2 ~ dnorm(0, 0.0001)
+    #gamma0b3 ~ dnorm(0, 0.0001)
+
+    #gamma1b ~ dnorm(0, 0.0001)
+    #gamma1b2 ~ dnorm(0, 0.0001)
+    #gamma1b3 ~ dnorm(0, 0.0001)
+ 
+    ### Model variance-covariance
+    Tau.B[1:K,1:K] ~ dwish(W[,], df)
+    df <- K+1
+    Sigma.B[1:K,1:K] <- inverse(Tau.B[,])
+    for (k in 1:K){
+    for (k.prime in 1:K){
+    rho.B[k,k.prime] <- Sigma.B[k,k.prime]/
+    sqrt(Sigma.B[k,k]*Sigma.B[k.prime,k.prime])
+    }
+    sigma.B[k] <- sqrt(Sigma.B[k,k])
+    }
+    
+    } # end model
+    
