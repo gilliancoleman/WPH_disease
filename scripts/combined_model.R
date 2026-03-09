@@ -73,7 +73,7 @@ FGB <- FGB %>%
     )
   ))
 
-#rename columns so I can join sets
+
 #rename health state & gastro/symb columns 
 WPH <- WPH %>%
   rename(health_state = `Sample_Health_State`)

@@ -338,7 +338,7 @@ head(cv_acc$evaluation_log)
 # test_error_mean  ≈ 0.42
 #train error is decreasing and test error is increasing -> overfitting probably due to a small sample size 
 table(SCTLD_subset_bin_clean$health_binary)
-#CV accuracy ≈ 50–58%--> alos consistent with RF OOB 57%; Test error unstable (high std ~0.21–0.24)
+#CV accuracy ≈ 50–58%--> also consistent with RF OOB 57%; Test error unstable (high std ~0.21–0.24)
 
 ##############
 #We could say: 
