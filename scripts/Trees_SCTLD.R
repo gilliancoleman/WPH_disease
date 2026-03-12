@@ -436,16 +436,55 @@ rf_SCTLD <- randomForest(
 
 print(rf_SCTLD)
 # Call:
-#   randomForest(formula = worded_health ~ ., data = SCTLD_clean,      importance = TRUE, ntree = 1000) 
+#   randomForest(x = SCTLD_clean[, predictor_vars], y = as.factor(SCTLD_clean$worded_health),      ntree = 1000, importance = TRUE) 
 # Type of random forest: classification
 # Number of trees: 1000
 # No. of variables tried at each split: 3
 # 
-# OOB estimate of  error rate: 39.2%
+# OOB estimate of  error rate: 39.77%
 # Confusion matrix:
 #   Diseased Healthy class.error
-# Diseased       93      18   0.1621622
-# Healthy        51      14   0.7846154
+# Diseased       91      20   0.1801802
+# Healthy        50      15   0.7692308
 
 
 varImpPlot(rf_SCTLD)
+
+################################################################################
+#Interpret
+#this model has ~60% accuracy which is better than before! 
+#Diseased Sample: 91 correct, 20 incorrect -> 91 / (91+20) = 82%
+#Healthy Samples: 15 correct, 50 incorrect -> 15 / (15+50) = 23% 
+#not so good on the healthy samples 
+#Diseased = 111, Healthy = 65 -> total sample count so model is favoring disease 
+#model is really good at detecting disease which could be good for combined model
+################################################################################
+
+##############################
+#Now let's try balancing the classes to force the model to use the same number of healthy & diseased samples
+##############################
+
+set.seed(123)
+
+rf_SCTLD_bal <- randomForest(
+  x = SCTLD_clean[, predictor_vars],
+  y = SCTLD_clean$worded_health,
+  ntree = 1000,
+  importance = TRUE,
+  sampsize = c(65, 65)   # equal samples from each class
+)
+
+# Call:
+#   randomForest(x = SCTLD_clean[, predictor_vars], y = SCTLD_clean$worded_health,      ntree = 1000, sampsize = c(65, 65), importance = TRUE) 
+# Type of random forest: classification
+# Number of trees: 1000
+# No. of variables tried at each split: 3
+# 
+# OOB estimate of  error rate: 41.48%
+# Confusion matrix:
+#   Diseased Healthy class.error
+# Diseased       77      34   0.3063063
+# Healthy        39      26   0.6000000
+
+print(rf_SCTLD_bal)
+varImpPlot(rf_SCTLD_bal)
