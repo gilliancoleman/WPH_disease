@@ -346,3 +346,106 @@ table(SCTLD_subset_bin_clean$health_binary)
 
 ################
 #so can we combine with total dataset if it doesn't clearly distinguish SCTLD from healthy......yes? maybe if the question is "Is there a shared histological signature of disease"
+
+################################################################################
+#Now we're going to add in DRTO samples to up sample size and see if that helps
+#03/10/2026
+################################################################################
+
+DRTO <- read_csv("./data/DRTO_histoscore.csv")
+ 
+
+#Rename columns to match existing SCTLD dataset
+DRTO <- DRTO %>%
+  rename(
+    Sample_Health_State = `sample health state`,
+    gastro_sep_c = `gastro sep_C`,
+    degraded_symb_c = `degraded symb_C`,
+    gastro_sep_i = `gastro sep_I`,
+    degraded_symb_i = `degraded symb_I`,
+    exocytosis_i = `exocytosis_I`,
+    vacuolization_i = `vacuolization_I`,
+    necrosis_i =`necrosis_I`,
+    necrosis_c = `necrosis_C`,
+    vacuolization_c = `vacuolization_C`,
+    exocytosis_c = `exocytosis_C`
+    
+  )
+
+#check
+colnames(SCTLD)
+colnames(DRTO)
+
+#keep only common columns 
+common_cols <- intersect(names(SCTLD), names(DRTO))
+
+DRTO <- DRTO[, common_cols]
+SCTLD <- SCTLD[, common_cols]
+
+#combine datasets
+SCTLD <- bind_rows(SCTLD, DRTO)
+
+#check class balance 
+table(SCTLD$worded_health)
+
+#make species column
+SCTLD$species <- substr(SCTLD$Individual, 1, 4) #pulls out the first 4 letters since they all use 4 letter species code 
+
+#make all health cases in worded_health match 
+SCTLD <- SCTLD %>%
+  mutate(
+    worded_health = case_when(
+      worded_health %in% c("HH", "naive") ~ "Healthy",
+      worded_health %in% c("DD", "HD", "H_exposed") ~ "Diseased",
+      TRUE ~ worded_health
+    )
+  )
+
+#convert to factor
+SCTLD$worded_health <- as.factor(SCTLD$worded_health)
+table(SCTLD$worded_health) #114 diseased & 65 healthy
+
+
+#######################################################
+#now that everything is combined let's rerun the model
+#######################################################
+SCTLD <- SCTLD %>%
+  rename(fungus_sponge = `fungus/sponge`)
+
+predictor_vars <- c(
+  "necrosis_c","vacuolization_c","exocytosis_c","gastro_sep_c",
+  "degraded_symb_c","necrosis_i","vacuolization_i","exocytosis_i",
+  "gastro_sep_i","degraded_symb_i",
+  "fungus_sponge","blown_out_gastro","amoebocytes",
+  "loss_of_eosin","loss_of_structure"
+)
+
+#remove NAs
+SCTLD_clean <- na.omit(SCTLD[, c("worded_health", predictor_vars)]) #lost 3 
+
+#Random forest model
+
+set.seed(123)
+
+rf_SCTLD <- randomForest(
+  x = SCTLD_clean[, predictor_vars],
+  y = as.factor(SCTLD_clean$worded_health),
+  ntree = 1000,
+  importance = TRUE
+)
+
+print(rf_SCTLD)
+# Call:
+#   randomForest(formula = worded_health ~ ., data = SCTLD_clean,      importance = TRUE, ntree = 1000) 
+# Type of random forest: classification
+# Number of trees: 1000
+# No. of variables tried at each split: 3
+# 
+# OOB estimate of  error rate: 39.2%
+# Confusion matrix:
+#   Diseased Healthy class.error
+# Diseased       93      18   0.1621622
+# Healthy        51      14   0.7846154
+
+
+varImpPlot(rf_SCTLD)
