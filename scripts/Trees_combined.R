@@ -18,7 +18,7 @@ library(randomForest)
 library(xgboost)
 library(caret)
 library(data.table)
-library(Ckmeans.1d.dp)
+
 
 ############################################################
 #First we need to combine :WPH dataset + SCTLD dataset
@@ -26,6 +26,7 @@ library(Ckmeans.1d.dp)
 
 WPH <- read_csv("./data/WPH_HistoScore.csv")
 SCTLD <- read_csv("./data/Serial_HistoScore.csv")
+DRTO <- read_csv("./data/DRTO_histoscore.csv")
 FGB <- read_csv("./data/FGB_histo_score.csv")
 
 str(FGB)
@@ -36,6 +37,57 @@ str(SCTLD)
 WPH$health_state <- WPH$Sample_Health_State
 SCTLD$health_state <- SCTLD$worded_health
 FGB$health_state <- FGB$'health state'
+
+#combine DRTO & SCTLD
+DRTO <- DRTO %>%
+  rename(
+    Sample_Health_State = `sample health state`,
+    gastro_sep_c = `gastro sep_C`,
+    degraded_symb_c = `degraded symb_C`,
+    gastro_sep_i = `gastro sep_I`,
+    degraded_symb_i = `degraded symb_I`,
+    exocytosis_i = `exocytosis_I`,
+    vacuolization_i = `vacuolization_I`,
+    necrosis_i =`necrosis_I`,
+    necrosis_c = `necrosis_C`,
+    vacuolization_c = `vacuolization_C`,
+    exocytosis_c = `exocytosis_C`
+    
+  )
+
+#check
+colnames(SCTLD)
+colnames(DRTO)
+
+#keep only common columns 
+common_cols <- intersect(names(SCTLD), names(DRTO))
+
+DRTO <- DRTO[, common_cols]
+SCTLD <- SCTLD[, common_cols]
+
+#combine datasets
+SCTLD <- bind_rows(SCTLD, DRTO)
+
+#check class balance 
+table(SCTLD$worded_health)
+
+#make species column
+SCTLD$species <- substr(SCTLD$Individual, 1, 4) #pulls out the first 4 letters since they all use 4 letter species code 
+
+#make all health cases in worded_health match 
+SCTLD <- SCTLD %>%
+  mutate(
+    worded_health = case_when(
+      worded_health %in% c("HH", "naive") ~ "Healthy",
+      worded_health %in% c("DD", "HD", "H_exposed") ~ "Diseased",
+      TRUE ~ worded_health
+    )
+  )
+
+#convert to factor
+SCTLD$worded_health <- as.factor(SCTLD$worded_health)
+table(SCTLD$worded_health) #114 diseased & 65 healthy
+
 
 #rename columns to match
 FGB <- FGB %>%
@@ -54,6 +106,12 @@ FGB <- FGB %>%
 FGB <- FGB %>%
   rename( degraded_symb_I = `degraded symb_I`)
 
+FGB <- FGB %>%
+  rename( health_state = `health state`)
+
+WPH <- WPH %>%
+  rename( health_state = `Sample_Health_State`)
+
 ordinal_vars <- c(
   "necrosis_C", "vacuolization_C", "exocytosis_C", "gastro_sep_C",
   "degraded_symb_C", "necrosis_I", "vacuolization_I", "exocytosis_I",
@@ -68,7 +126,7 @@ binary_vars <- c(
   "loss_of_structure"
 )
 
-#redo LMH to be 123
+#redo LMH to be 123 for FGB
 
 FGB <- FGB %>%
   mutate(across(
@@ -107,11 +165,9 @@ WPH$class <- ifelse(WPH$health_state == "HH",
 
 SCTLD$dataset <- "SCTLD"
 
-SCTLD$class <- ifelse(SCTLD$health_state == "HH",
-                      "Healthy",
-                      "SCTLD")
+SCTLD$class <- ifelse(SCTLD$worded_health == "Healthy", "Healthy", "SCTLD")
 
-#rename SCTLD columns to match WPH: 
+ #rename SCTLD columns to match WPH: 
 SCTLD <- SCTLD %>%
   rename( gastro_sep_C = `gastro_sep_c`)
 
@@ -141,9 +197,11 @@ SCTLD <- SCTLD %>%
 
 SCTLD <- SCTLD %>%
   rename( exocytosis_I = `exocytosis_i`)
+
 ####################################################################################################
 #First we need to combine WPH & SCTLD to build training dataset *FGB* will not be included in training 
 ####################################################################################################
+
 
 
 #theres some different columns but not really ones that matter just extra so
@@ -162,520 +220,290 @@ training_data$class <- as.factor(training_data$class)
 #check it out
 dim(training_data)
 table(training_data$class)
+# Healthy   SCTLD     WPH 
+# 80     114      18 
 
 #assign predictor variables; there's more than not so we'll just say which not to include 
 predictor_vars <- training_data |>
-  select(-class, -health_state, -Individual, -health_state, -Site, -Initials, -Sample_Health_State, -date_completed, -Sample_Date, -Pics_taken, -score, -measurements, -Notes, -DONE, -dataset) |>
+  select(-class, -Individual, -Initials, -date_completed,  -Pics_taken,  -measurements, -dataset, -DONE,-Notes, -score) |>
   colnames()
 
 #lets check/ Should be 15
 predictor_vars #checks out 
 
+#remove Nas
+training_data <- training_data %>%
+  drop_na(all_of(predictor_vars)) #only lost 3 
 
-#now for the model:
+#recheck everything 
+dim(training_data)
+table(training_data$class) #lost the 3 from SCTLD
+# Healthy   SCTLD     WPH 
+# 80     111      18 
 
-set.seed(123)
+##########################################################################
+#Now let's build the final model based on the SCTLD and WPH only models
+##########################################################################
+
+#we'll use the top 7 predictors from the SCTLD dataset 
+#we may change this after we get more WPH samples and top 7 may be different or more predictors may be necessary
+
+top7_vars <- c(
+  "loss_of_structure",
+  "vacuolization_I",
+  "gastro_sep_C",
+  "loss_of_eosin",
+  "amoebocytes",
+  "degraded_symb_C",
+  "degraded_symb_I"
+)
+
+#train the model
 
 rf_model <- randomForest(
-  x = training_data[, predictor_vars],
+  x = training_data[, top7_vars],
   y = training_data$class,
   ntree = 1000,
   importance = TRUE
 )
 
-print(rf_model)
-# Call:
-#   randomForest(x = training_data[, predictor_vars], y = training_data$class,      ntree = 1000, importance = TRUE) 
-# Type of random forest: classification
-# Number of trees: 1000
-# No. of variables tried at each split: 3
-# 
-# OOB estimate of  error rate: 51.22%
-# Confusion matrix:
-#   Healthy SCTLD WPH class.error
-# Healthy      35     4   5   0.2045455
-# SCTLD        13     5   2   0.7500000
-# WPH          14     4   0   1.0000000
+#Now apply model to FGB
+FGB_clean <- FGB %>%
+  drop_na(all_of(top7_vars)) #only lost 1 
 
-##############################################################
-#lets break it down now because I know I'll forget if I don't 
-# OOB error = 51.22%
-# Accuracy ≈ 48.8%
+#predict
+pred <- predict(rf_model, FGB_clean[, top7_vars])
 
-#This is a 3 class model so random guessing would be ~33.33%
-# so the model is predicting but the signal is weak 
+#attach predictions
+FGB_clean$predicted_class <- pred
 
-#the model does recognize healthy histo really well! : Out of the Health ones 35 were predicted correctly so it has 80% accuracy (100%-20% error)
+#ahhh lets see 
+table(FGB_clean$predicted_class)
 
-#most SCTLD samples are predicted as healthy (only 5/20 correct)
+# Healthy   SCTLD     WPH 
+# 64      96       1 
 
-#model never gets WPH right 
+#model is favoring SCTLD because the sample size is so small 
+#so we'll run a model that balances classes and see how much better we get 
 
-#could either mean that WPH overlaps with Healthy or SCTLD a lot or that sample size is too small (it is kind of small and that could also explain why SCTLD accuracy is lower too)
-
-#Earlier results hinted at this: WPH binary model → moderate signal & SCTLD binary model → weak signal and now we're trying to add a class with only ~80 total samples with a huge class bias towards healthy
-
-##############################################################
-
-#look at which variables are important 
-varImpPlot(rf_model)
-
-##############################################################
-#on the brightside the first 5 predictors are the same on these plots
-
-#If the same predictors appear in both, it means those variables consistently carry signal. Those are likely our key histological indicators.
-#############################################################
-
-#before we just pull those 5 predictors out, since we have such a large class imbalance lets run a. model with WPH & SCTLD combined and see if it can pick between healthy and diseased --> and then see if the two diseases can be separated 
-
-#create 2 step class columns
-
-# Keep only common columns & make combined & not training dataset
-
-#add a species column to SCTLD 
-
-SCTLD$species <- "OFRA"
-
-# Numeric mapping for histology scores
-score_cols <- c("necrosis_C","vacuolization_C","exocytosis_C","gastro_sep_C",
-                "degraded_symb_C","necrosis_I","vacuolization_I","exocytosis_I",
-                "gastro_sep_I","degraded_symb_I")
-
-# Binary mapping for presence/absence columns
-bin_cols <- c("fungus_sponge", "blown_out_gastro", "amoebocytes", 
-              "loss_of_eosin", "loss_of_structure")
-
-
-common_cols <- c("health_state", score_cols, bin_cols, "species")
-combined <- bind_rows(
-  WPH[, intersect(common_cols, names(WPH))],
-  SCTLD[, intersect(common_cols, names(SCTLD))],
-  FGB[, intersect(common_cols, names(FGB))]
-)
-
-# Remove rows with NA
-combined <- na.omit(combined)
-
-# Step 1: Binary classification (Healthy vs Diseased)
-combined <- combined %>%
-  mutate(class_bin = ifelse(health_state %in% c("HH"), "Healthy", "Diseased") %>% factor())
-
-# Step 2: Diseased subclass (only for diseased samples)
-diseased_subset <- combined %>%
-  filter(class_bin == "Diseased") %>%
-  mutate(class_disease = species %>% factor())  # WPH vs SCTLD vs FGB diseased
-
-#define predictor variables
-predictor_vars <- c(score_cols, bin_cols)
-
-
-#now run bunary rf model (healthy vs diseased)
-
-set.seed(123)
-rf_bin <- randomForest(
-  x = combined[, predictor_vars],
-  y = combined$class_bin,
+#retrain model
+rf_model <- randomForest(
+  x = training_data[, top7_vars],
+  y = training_data$class,
   ntree = 1000,
-  importance = TRUE
+  importance = TRUE,
+  classwt = c(
+    Healthy = 1,
+    SCTLD = 1,
+    WPH = 4 #start with 4 and see how that goes 
+  )
 )
 
-print(rf_bin)
-varImpPlot(rf_bin)
+#check predictions
+pred <- predict(rf_model, training_data[, top7_vars])
 
-# Call:
-#   randomForest(x = combined[, predictor_vars], y = combined$class_bin,      ntree = 1000, importance = TRUE) 
-# Type of random forest: classification
-# Number of trees: 1000
-# No. of variables tried at each split: 3
+table(pred)
+#pred
+# Healthy   SCTLD     WPH 
+# 50      75      84 
+
+#now lets check model performance
+confusionMatrix(pred, training_data$class)
+
+#Confusion Matrix and Statistics
+
+# Reference
+# Prediction Healthy SCTLD WPH
+# Healthy      37    13   0
+# SCTLD        11    64   0
+# WPH          32    34  18
 # 
-# OOB estimate of  error rate: 31.68%
-# Confusion matrix:
-#   Diseased Healthy class.error
-# Diseased       92      15   0.1401869
-# Healthy        36      18   0.6666667
-
-######################
-#interpret
-#model misclassifies ~32% (OOB = 32%)
-#about 86% of disease is predicted correctly 
-#about 33% correct for healthy
-
-#The model is biased toward predicting Diseased because there are more diseased samples (92+15=107 vs 36+18=54).
-
-######################
-
-#let's see if it's the same variables driving these differences as last time 
-varImpPlot(rf_bin) #spoiler...it's not 
-
-#the next option: You could improve accuracy for Healthy by: Using class weights in Random Forest or XGBoost or Possibly undersampling Diseased or oversampling Healthy during training.
-
-#let's try weighting classes 
-
-#XGB model accounting for the class imbalance observed in RF.
-
-#make pred vars
-predictor_vars <- c(
-  "necrosis_C", "vacuolization_C", "exocytosis_C", "gastro_sep_C",
-  "degraded_symb_C", "necrosis_I", "vacuolization_I", "exocytosis_I",
-  "gastro_sep_I", "degraded_symb_I",
-  "fungus_sponge", "blown_out_gastro", "amoebocytes",
-  "loss_of_eosin", "loss_of_structure"
-)
-
-#Make sure combined is a data.table
-combined <- as.data.table(combined)
-
-#build x matrix and label vector
-X_bin <- as.matrix(combined[, ..predictor_vars])
-y_bin <- as.integer(combined$class_bin) - 1  # 0 = Healthy, 1 = Diseased
-
-#create d matrix
-dtrain_bin <- xgb.DMatrix(data = X, label = y)
-
-#Handle class imbalance
-# Calculate scale_pos_weight = #Healthy / #Diseased
-num_healthy <- sum(y == 0)
-num_diseased <- sum(y == 1)
-scale_pos_weight <- num_healthy / num_diseased
-
-#Define parameters
-params_bin <- list(
-  objective = "binary:logistic",
-  eval_metric = "error",
-  max_depth = 3,
-  eta = 0.1,
-  scale_pos_weight = scale_pos_weight
-)
-
-
-# Run cross-validation to choose nrounds
-cv_results <- xgb.cv(
-  params = params,
-  data = dtrain,
-  nrounds = 500,
-  nfold = 5,
-  verbose = 1,
-  early_stopping_rounds = 20,
-  maximize = FALSE
-)
-
-# Get the best number of rounds safely
-best_round <- cv_results$best_iteration
-if (is.null(best_round) || length(best_round) == 0) {
-  best_round <- 100  # fallback if xgb.cv didn't find a best iteration
-}
-
-# Train final model using best_round
-xgb_bin <- xgb.train(
-  params = params,
-  data = dtrain,
-  nrounds = best_round,
-  verbose = 0
-)
-
-# Feature importance
-imp_bin <- xgb.importance(feature_names = predictor_vars, model = xgb_bin)
-print(imp_bin)
-
-# Feature       Gain      Cover  Frequency
-# <char>      <num>      <num>      <num>
-#   1: loss_of_structure 0.11394933 0.05932323 0.06914894
-# 2:   vacuolization_I 0.11301053 0.11905036 0.08865248
-# 3:      gastro_sep_C 0.10429409 0.13082603 0.11347518
-# 4:     loss_of_eosin 0.09451132 0.07697404 0.11879433
-# 5:       amoebocytes 0.08898916 0.10047277 0.06205674
-# 6:   degraded_symb_C 0.08312436 0.06761663 0.04787234
-# 7:   degraded_symb_I 0.07334368 0.03873052 0.07446809
-# 8:        necrosis_C 0.06655113 0.09073689 0.07092199
-# 9:   vacuolization_C 0.06196558 0.04377976 0.07092199
-# 10:      exocytosis_I 0.05465647 0.06513089 0.11347518
-# 11:  blown_out_gastro 0.05107706 0.03181488 0.03723404
-# 12:     fungus_sponge 0.03000836 0.06923258 0.03723404
-# 13:      gastro_sep_I 0.02824084 0.05617114 0.04432624
-# 14:        necrosis_I 0.02037157 0.01724840 0.03014184
-# 15:      exocytosis_C 0.01590652 0.03289189 0.02127660
-
-################################
-#Interpretation:
-#loss_of_structure, vacuolization_I, gastro_sep_C, and loss_of_eosin are the strongest predictors for distinguishing Healthy vs Diseased in combined dataset.
-
-#This roughly matches what the Random Forest OOB suggested: the top histology predictors are consistent.
-################################
-xgb.plot.importance(imp_bin)
-
-
-#now do the rf multipstep (disease type only)
-set.seed(123)
-rf_disease <- randomForest(
-  x = diseased_subset[, predictor_vars],
-  y = diseased_subset$class_disease,
-  ntree = 1000,
-  importance = TRUE
-)
-
-print(rf_disease)
-#Call:
-# randomForest(x = diseased_subset[, predictor_vars], y = diseased_subset$class_disease,      ntree = 1000, importance = TRUE) 
-# Type of random forest: classification
-# Number of trees: 1000
-# No. of variables tried at each split: 3
+# Overall Statistics
 # 
-# OOB estimate of  error rate: 47.66%
-# Confusion matrix:
-#   CNAT OFAV OFRA PAST PSTR class.error
-# CNAT    7    3    0    3    9   0.6818182
-# OFAV    5   12    2    0    3   0.4545455
-# OFRA    0    7    2    0    2   0.8181818
-# PAST    3    0    0    6    1   0.4000000
-# PSTR    5    6    0    2   29   0.3095238
-
-#############################
-#Interpretation:
-#OOB error is 48% which is kind of high and means the model is only correct close to half the time & is having a hard time separating the disease types
-
-#OFRA has the highest error (~82%) — the model struggles to correctly classify OFRA diseased samples.
-
-#PSTR is the easiest to classify (~31% error). 
-
-#############################
-
-varImpPlot(rf_disease)
-
-#now XGB multiclass
-
-X_d <- as.matrix(diseased_subset[, predictor_vars])
-y_d <- as.integer(diseased_subset$class_disease) - 1
-
-dtrain_d <- xgb.DMatrix(data = X_d, label = y_d)
-
-params_d <- list(
-  objective = "multi:softprob",
-  num_class = length(levels(diseased_subset$class_disease)),
-  eval_metric = "mlogloss",
-  max_depth = 3,
-  eta = 0.1
-)
-
-cv_results_d <- xgb.cv(
-  params = params_d,
-  data = dtrain_d,
-  nrounds = 500,
-  nfold = 5,
-  verbose = 1,
-  early_stopping_rounds = 20,
-  maximize = FALSE
-)
-
-best_round_d <- cv_results_d$best_iteration
-if (is.null(best_round_d) || length(best_round_d) == 0) best_round_d <- 100
-
-xgb_d <- xgb.train(
-  params = params_d,
-  data = dtrain_d,
-  nrounds = best_round,
-  verbose = 1
-)
-
-
-imp_d <- xgb.importance(feature_names = predictor_vars, model = xgb_d)
-print(imp_d)
-
-#            Feature       Gain       Cover  Frequency
-# <char>      <num>       <num>      <num>
-#   1:   vacuolization_C 0.21901938 0.196944674 0.14250513
-# 2:        necrosis_C 0.14313239 0.091479434 0.07761807
-# 3:      gastro_sep_C 0.12425191 0.069555312 0.11129363
-# 4:        necrosis_I 0.10026344 0.109431477 0.13223819
-# 5:   degraded_symb_C 0.07667869 0.084602020 0.07022587
-# 6:      exocytosis_C 0.06616761 0.047786332 0.07843943
-# 7:      gastro_sep_I 0.05445591 0.080949834 0.06570842
-# 8:   vacuolization_I 0.04660307 0.070082428 0.07433265
-# 9:       amoebocytes 0.04515793 0.062843166 0.04928131
-# 10: loss_of_structure 0.04104962 0.054955833 0.05420945
-# 11:   degraded_symb_I 0.02865992 0.050745197 0.06242300
-# 12:      exocytosis_I 0.01950295 0.028358556 0.04024641
-# 13:     loss_of_eosin 0.01879559 0.043814344 0.02505133
-# 14:  blown_out_gastro 0.01626161 0.008451392 0.01642710
-
-#############################
-#Interpretation:
-#vacuolization_C and necrosis_C are the strongest predictors for separating the diseased types.
-#Most of the top 5 predictors are consistent with the binary Healthy/Diseased XGB. This is expected because the same histology features are informative for both binary and multiclass distinctions.
-#############################
-xgb.plot.importance(imp_d)
-
-##################################
-#BIG PIC
-#The XGBoost and Random Forest models are highlighting similar histology features, which reinforces that these are key disease markers.
-
-#Binary model (Healthy vs Diseased):
-  #OOB error ~32% (from previous step)
-  #Most important predictors: loss_of_structure, vacuolization_I, gastro_sep_C, loss_of_eosin
-
-#Diseased-only model (WPH vs SCTLD):
-  #OOB error ~48%
-  #Top predictors: vacuolization_C, necrosis_C, gastro_sep_C, necrosis_I
-  #Classes with fewer samples (OFRA) are hardest to predict
-
-#Feature consistency:
-  #Both RF and XGBoost agree on the top histology predictors.
-  #Variables with low gain/frequency could be candidates to drop in future model simplifications.
-
-#Class imbalance:
-  # handled it in XGB with scale_pos_weight for binary. For multiclass, might consider sampling techniques or weight adjustments if we want to improve accuracy for rarer disease classes.
-
-##################################
-
-###################################################################################
-#I think maybe now we should try keeping the top 5 predictors and running a model
-#this will potentially increase accuracy if low-importance features were causing overfitting
-###################################################################################
-
-#we're going to do this binary again and look at healthy vs diseased first
-
-#for binary XGB (healthy vs diseased)
-
-
-#Define top 5 predictors
-
-top5_vars <- c("loss_of_structure", "vacuolization_I", "gastro_sep_C", 
-               "loss_of_eosin", "amoebocytes")
-
-
-#Binary model: Healthy vs Diseased
-
-# Prepare data
-X_bin <- as.matrix(combined[, ..top5_vars])
-y_bin <- as.integer(combined$class_bin) - 1  # 0 = Healthy, 1 = Diseased
-dtrain_bin <- xgb.DMatrix(data = X_bin, label = y_bin)
-
-# Handle class imbalance
-num_healthy <- sum(y_bin == 0)
-num_diseased <- sum(y_bin == 1)
-scale_pos_weight <- num_healthy / num_diseased
-
-# XGBoost parameters
-params_bin <- list(
-  objective = "binary:logistic",
-  eval_metric = "error",
-  max_depth = 3,
-  eta = 0.1,
-  scale_pos_weight = scale_pos_weight
-)
-
-# Cross-validation for nrounds
-cv_bin <- xgb.cv(
-  params = params_bin,
-  data = dtrain_bin,
-  nrounds = 500,
-  nfold = 5,
-  verbose = 1,
-  early_stopping_rounds = 20,
-  maximize = FALSE
-)
-
-best_round_bin <- cv_bin$best_iteration
-if (is.null(best_round_bin) || length(best_round_bin) == 0) best_round_bin <- 100
-
-# Train final binary XGBoost model
-xgb_bin <- xgb.train(
-  params = params_bin,
-  data = dtrain_bin,
-  nrounds = best_round_bin,
-  verbose = 1
-)
-
-# Feature importance
-imp_bin <- xgb.importance(feature_names = top5_vars, model = xgb_bin)
-
-print(imp_bin)
-#             Feature      Gain     Cover Frequency
-#<char>     <num>     <num>     <num>
-#  1: loss_of_structure 0.2856236 0.1590569 0.2030568
-#2:     loss_of_eosin 0.2315248 0.1321076 0.2314410
-#3:      gastro_sep_C 0.1998020 0.2075365 0.1943231
-#4:       amoebocytes 0.1615393 0.2125325 0.1462882
-#5:   vacuolization_I 0.1215103 0.2887666 0.2248908
-
-xgb.plot.importance(imp_bin)
-
-# Random Forest for binary
-rf_bin <- randomForest(
-  x = combined[, ..top5_vars],
-  y = combined$class_bin,
-  ntree = 1000,
-  importance = TRUE
-)
-
-print(rf_bin)
-# Call:
-#   randomForest(x = combined[, ..top5_vars], y = combined$class_bin,      ntree = 1000, importance = TRUE) 
-# Type of random forest: classification
-# Number of trees: 1000
-# No. of variables tried at each split: 2
+# Accuracy : 0.5694          
+# 95% CI : (0.4993, 0.6375)
+# No Information Rate : 0.5311          
+# P-Value [Acc > NIR] : 0.1492          
 # 
-# OOB estimate of  error rate: 34.16%
-# Confusion matrix:
-#   Diseased Healthy class.error
-# Diseased       90      17   0.1588785
-# Healthy        38      16   0.7037037
+# Kappa : 0.3697          
+# 
+# Mcnemar's Test P-Value : 2.823e-14       
+# 
+# Statistics by Class:
+# 
+#                      Class: Healthy Class: SCTLD Class: WPH
+# Sensitivity                  0.4625       0.5766    1.00000
+# Specificity                  0.8992       0.8878    0.65445
+# Pos Pred Value               0.7400       0.8533    0.21429
+# Neg Pred Value               0.7296       0.6493    1.00000
+# Prevalence                   0.3828       0.5311    0.08612
+# Detection Rate               0.1770       0.3062    0.08612
+# Detection Prevalence         0.2392       0.3589    0.40191
+# Balanced Accuracy            0.6809       0.7322    0.82723
 
-varImpPlot(rf_bin)
+
+###########################################################
+#Interpretation
+#model is actively predicting WPH. So the weighting did its job.
+#Problem: The model predicts WPH for many Healthy and SCTLD samples.
+#Sensitivity/Specificity/Precision show -> The model finds all WPH samples -> But it over-predicts WPH -> happens because the class weight forces the model to prefer WPH predictions.
+#WPH histology overlaps strongly with both Healthy and SCTLD features.
+#Balanced Accuracy: means the model does detect WPH signals, but they are not unique.
+###########################################################
 
 
+###############################################################################
+#So we'll keep the weight but reduce them to balance sensitivity and precision
+###############################################################################
 
-#Diseased-only model: classify WPH vs SCTLD
-
-# Subset only diseased samples
-diseased_subset <- combined[class_bin == "Diseased"]
-
-# XGBoost multiclass
-X_d <- as.matrix(diseased_subset[, ..top5_vars])
-y_d <- as.integer(diseased_subset$class_disease) - 1
-dtrain_d <- xgb.DMatrix(data = X_d, label = y_d)
-
-`params_d <- list(
-  objective = "multi:softprob",
-  num_class = length(levels(diseased_subset$class_disease)),
-  eval_metric = "mlogloss",
-  max_depth = 3,
-  eta = 0.1
-)
-
-# CV for best nrounds
-cv_d <- xgb.cv(
-  params = params_d,
-  data = dtrain_d,
-  nrounds = 500,
-  nfold = 5,
-  verbose = 1,
-  early_stopping_rounds = 20,
-  maximize = FALSE
-)
-
-best_round_d <- cv_d$best_iteration
-if (is.null(best_round_d) || length(best_round_d) == 0) best_round_d <- 100
-
-# Train final XGBoost diseased model
-xgb_d <- xgb.train(
-  params = params_d,
-  data = dtrain_d,
-  nrounds = best_round_d,
-  verbose = 1
-)
-
-# Feature importance for diseased
-imp_d <- xgb.importance(feature_names = top5_vars, model = xgb_d)
-print(imp_d)
-xgb.plot.importance(imp_d)
-
-# Random Forest for diseased-only
-rf_disease <- randomForest(
-  x = diseased_subset[, ..top5_vars],
-  y = diseased_subset$class_disease,
+#retrain model
+rf_model <- randomForest(
+  x = training_data[, top7_vars],
+  y = training_data$class,
   ntree = 1000,
-  importance = TRUE
+  importance = TRUE,
+  classwt = c(Healthy = 1, SCTLD = 1, WPH = 2)
 )
 
-print(rf_disease)
-varImpPlot(rf_disease)
+#check predictions
+pred <- predict(rf_model, training_data[, top7_vars])
+
+table(pred)
+
+# pred
+# Healthy   SCTLD     WPH 
+# 63      77      69 
+
+#now lets check model performance
+confusionMatrix(pred, training_data$class)
+
+# Confusion Matrix and Statistics
+# 
+# Reference
+# Prediction Healthy SCTLD WPH
+# Healthy      45    18   0
+# SCTLD        11    66   0
+# WPH          24    27  18
+# 
+# Overall Statistics
+# 
+# Accuracy : 0.6172          
+# 95% CI : (0.5476, 0.6834)
+# No Information Rate : 0.5311          
+# P-Value [Acc > NIR] : 0.007391        
+# 
+# Kappa : 0.4205          
+# 
+# Mcnemar's Test P-Value : 2.135e-11       
+# 
+# Statistics by Class:
+# 
+#                      Class: Healthy Class: SCTLD Class: WPH
+# Sensitivity                  0.5625       0.5946    1.00000
+# Specificity                  0.8605       0.8878    0.73298
+# Pos Pred Value               0.7143       0.8571    0.26087
+# Neg Pred Value               0.7603       0.6591    1.00000
+# Prevalence                   0.3828       0.5311    0.08612
+# Detection Rate               0.2153       0.3158    0.08612
+# Detection Prevalence         0.3014       0.3684    0.33014
+# Balanced Accuracy            0.7115       0.7412    0.86649
+
+###########################################################
+#Interpretation
+#This is better! -> we improved healthy & SCTLD sensitivity but still predict all WPH samples 
+# #True class	Predicted WPH
+# Healthy	24
+# SCTLD	27
+# WPH	18
+#so it misclassified 24 healthy and 27 SCTLD but in the big pic that's not too many 
+#still means WPH histology overlaps strongly with both healthy and SCTLD features
+###########################################################
+
+#lets make a plot now 
+
+#run a PCA
+
+
+X <- training_data[, top7_vars]
+
+pca <- prcomp(X, scale. = TRUE)
+pca_df <- data.frame(pca$x)
+
+pca_df$class <- training_data$class
+
+#plot PCA
+ggplot(pca_df, aes(PC1, PC2, color = class)) +
+  geom_point(size = 3, alpha = 0.8) +
+  theme_minimal() +
+  labs(
+    title = "Histological Feature Space",
+    x = "PC1",
+    y = "PC2"
+  )
+
+#lots of overlap!
+
+#now lets add FGB samples to PCA and see where they fall
+
+#first we have to run on training data only 
+
+
+X_train <- training_data[, top7_vars]
+
+pca <- prcomp(X_train, scale. = TRUE)
+
+pca_train <- as.data.frame(pca$x)
+pca_train$class <- training_data$class
+pca_train$type <- "Training"
+
+#project FGB samples on PCA plot
+X_fgb <- FGB_clean[, top7_vars]
+
+pca_fgb <- predict(pca, newdata = X_fgb)
+
+pca_fgb <- as.data.frame(pca_fgb)
+pca_fgb$class <- "FGB"
+pca_fgb$type <- "FGB"
+
+#combine 
+pca_all <- bind_rows(pca_train, pca_fgb)
+
+#plot
+ggplot() +
+  geom_point(
+    data = pca_train,
+    aes(PC1, PC2, color = class),
+    shape = 16,
+    alpha = 0.4,
+    size = 2
+  ) +
+  geom_point(
+    data = pca_fgb,
+    aes(PC1, PC2),
+    color = "black",
+    shape = 17,
+    size = 4
+  ) +
+  stat_ellipse(
+    data = pca_train,
+    aes(PC1, PC2, color = class),
+    level = 0.95,
+    linewidth = 1
+  ) +
+  theme_minimal() +
+  labs(
+    title = "PCA of Histological Predictors",
+    subtitle = "Black triangles = FGB samples",
+    x = "PC1",
+    y = "PC2"
+  )
+######################################################################
+#PCA matches rf showing that all samples overlap (Accuracy 0.62 for rf model)
+#if we squint: Many FGB points sit within the SCTLD ellipse, some fall toward the WPH region, few sit strongly in the healthy-only region
+#FGB lesions look more diseased than healthy, but do not strongly match a single disease type
+######################################################################
+
+
+
+
+#Histological predictors show substantial overlap between SCTLD, WPH, and healthy samples. FGB lesions occupy the same feature space and do not form a distinct cluster, suggesting that FGB histology shares characteristics with both disease states rather than representing a clearly separable pathology.
